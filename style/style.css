@@ -1,0 +1,196 @@
+/*	 ESTILOS GENERALES	*/
+:root {
+    --green: #56af31;
+    --greyHigh: #868992;
+    --greyMed: #a5abb8;
+    --greyLow: #b8c1cf;
+    --textHover: #DDDDDD;
+    --whitteSolid: #FFF;
+    --blackSolid:  #000000;
+    --degrayBlack:  #000000d4;
+    --textFocus:  #000000;
+}
+
+body{
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	display: contents;
+	overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../image/homeSlider.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.backImg{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contLogo{
+    background: var(--degrayBlack);
+    width: 100%;
+    height: 300px;
+}
+
+.logoEsc{
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.botonMenu{
+	display: flex;
+  	justify-content: center;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.logoImg{
+	border: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+	height: 130px;
+}
+
+.boton {
+    max-width: 200px;
+    padding: 15px 30px;
+	padding: 10px;
+	margin: 10px;
+	color: var(--whitteSolid);
+	border-radius: 2px;
+}
+
+
+.btn1{
+	margin-right: 30px;
+	background-color: var(--green);
+}
+.btn1:hover{
+		background-color: var(--textFocus);
+		color:  var(--textHover);
+}
+
+.btn2{
+	background-color: var(--greyHigh);
+	margin-left: 30px;
+}
+.btn2:hover{
+	background-color: var(--textFocus);
+			color:  var(--textHover);
+}
+
+.btn3{
+	background-color: var(--greyHigh);
+	    width: 250px;
+}
+.btn3:hover{
+	background-color: var(--green);
+	color:  var(--textHover);
+}
+
+a, a:link, a:hover, a:visited {
+	text-decoration: none !important;
+
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.btnInformes{
+    z-index: 9999;
+    position: fixed;
+    float: right;
+    top: 0px;
+    right: 0px;
+    top: -10px;
+
+}
+
+#contentHeader{
+	width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-color: red;
+}
+.contentMenu{
+	text-align:center;
+    display: flex;
+    background: var(--blackSolid);
+    width: 100%;
+    height: 100px;
+}
+.menus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+.logoH{
+    justify-content: center;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    -webkit-transform: translateX(0%);
+}
+
+
+.logoImgH{
+    width: 100%;
+}
+
+.contLogoH{
+    width: 20%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    -webkit-transform: translateX(10%);
+    -moz-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    -o-transform: translateX(10%);
+    transform: translateX(10%);
+}
+.contLogoMenus{
+    width: 80%;   
+    height: 100%;
+}
+
+.contPano{
+	width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../image/pano.jpg) center no-repeat;
+    background-size: cover;
+}
