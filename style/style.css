@@ -132,7 +132,7 @@ a, a:link, a:hover, a:visited {
     top: -10px;
 
 }
-
+/*          INICIA el HEADER MENU DE DEMAS*/
 #contentHeader{
 	width: 100%;
     position: relative;
@@ -226,7 +226,7 @@ a, a:link, a:hover, a:visited {
     color: var(--whitteSolid);
     width: 100%;
 }
-
+/*     INICIOA EL PROYECTO     */
 #contentProyect{
     padding-top: 10%;
     padding-bottom: 10%;
@@ -266,9 +266,10 @@ a, a:link, a:hover, a:visited {
 .contentDescription:hover .iconLogoC{
     background: url(../icons/edificio.png) center no-repeat;
     background-size: 60%;
+        border: white solid 5px;
 }
  .contentDescription:hover .backIconLogoC{
-    margin-top: -6.5%;
+    margin-top: -7%;
     position: absolute;
     display: inline-flex;
     height: 100px;
@@ -296,6 +297,7 @@ a, a:link, a:hover, a:visited {
 }
 
 .contenCaract{
+    margin-top: 5%;
     width: 100%;
     height: 50%;
     display: flex;
@@ -315,7 +317,7 @@ a, a:link, a:hover, a:visited {
     background-position: 50%;
     border-radius: 50%;
     align-items: center;
-    border: white solid 5px;
+    border: var(--green) solid 5px;
     background: url(../icons/edificioG.png) center no-repeat;
     background-size: 60%;
 }
@@ -333,8 +335,126 @@ a, a:link, a:hover, a:visited {
     font-size: 100%;
 }
 .txtDesc{
-    font-size: 95%;
+    font-size: 100%;
+    padding: 10px;
 }
 
+/*    INICIA EL CONTENDEROR DE DEPTOS  */
 
 
+#contentDeptos{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--greyLow);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleDeptos{
+    display: inline-flex;
+    width: 60%;
+    height: 10vh;
+    float: right;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.tittle{
+    padding-left: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--whitteSolid);
+    text-align: left;
+}
+
+.subtittle{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: .9em;
+    color: var(--whitteSolid);
+    text-align: left;
+}
+
+.trianguloTittle{
+    width: auto;
+    height: 60px;
+}
+
+.trianguloImg{
+    height: 60px;
+}
+.contTituloSubtitulo{
+    width: 80%;
+    height: 60px;
+    background: var(--greyHigh);
+}
+
+.contGralDeptosBox{
+    width: 100%;
+    height: 90vh;
+    background-color: #9e9e9e59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.boxDepto{
+    border: 1px solid #4CAF50;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxFront, .boxBack{
+    width: 80%;
+    height: 80%;
+    background-color: var(--greyHigh);
+}
+
+.boxBackIMG{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    background: url(../image/dep.png) center no-repeat;
+    background-size: cover;
+}
+.boxDescDepto{
+    width: 100%;
+    height: 30%;
+    background-color: grey;
+}
+
+.iconsDescDepto{
+    display: flex;
+        justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: seagreen;
+}
+
+.txtDescDepto{
+    padding-left: 10px;
+}
+
+.txtBoxFormat{
+    text-align: center;
+    color: coral;
+}
+.iconDepto{
+        padding-left: 10px;
+    width: 20%;
+}

@@ -35,10 +35,10 @@
 					</div>
 					<div class="contLogoMenus">
 						<div class="menus">
-							<a href="#"class="boton bTri btn3">ARQUITECTURA</a>
-							<a href="" class="boton bTri btn3">DEPARTAMENTOS</a>
+							<a href="#contentProyect"class="boton bTri btn3">ARQUITECTURA</a>
+							<a href="#contentDeptos" class="boton bTri btn3">DEPARTAMENTOS</a>
 							<a href="#"class="boton bTri btn3">ESTILO DE VIDA</a>
-							<a href="" class="boton bTri btn3">UBICACIÓN</a>
+							<a href="#" class="boton bTri btn3">UBICACIÓN</a>
 						</div>
 					</div>
 				</div>
@@ -68,11 +68,8 @@
 						<div class="contentDescription">
 							<div class="banderaText">
 								<div class="backIconLogoC">
-									
 								</div>
 								<div class="iconLogoC">
-									<!--
-									<img class="iconoDesc" src="icons/edificio.png">-->
 								</div>
 								<h2 class="tDesc">PERFECTO</h2>
 								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
@@ -85,14 +82,11 @@
 							<div class="bandera">
 							</div>
 						</div>	
-										<div class="contentDescription">
+						<div class="contentDescription">
 							<div class="banderaText">
 								<div class="backIconLogoC">
-									
 								</div>
 								<div class="iconLogoC">
-									<!--
-									<img class="iconoDesc" src="icons/edificio.png">-->
 								</div>
 								<h2 class="tDesc">PERFECTO</h2>
 								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
@@ -105,14 +99,11 @@
 							<div class="bandera">
 							</div>
 						</div>	
-												<div class="contentDescription">
+						<div class="contentDescription">
 							<div class="banderaText">
 								<div class="backIconLogoC">
-									
 								</div>
 								<div class="iconLogoC">
-									<!--
-									<img class="iconoDesc" src="icons/edificio.png">-->
 								</div>
 								<h2 class="tDesc">PERFECTO</h2>
 								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
@@ -125,14 +116,11 @@
 							<div class="bandera">
 							</div>
 						</div>	
-												<div class="contentDescription">
+						<div class="contentDescription">
 							<div class="banderaText">
 								<div class="backIconLogoC">
-									
 								</div>
 								<div class="iconLogoC">
-									<!--
-									<img class="iconoDesc" src="icons/edificio.png">-->
 								</div>
 								<h2 class="tDesc">PERFECTO</h2>
 								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
@@ -147,6 +135,58 @@
 						</div>	
 				</div>
 			</div>
+
+			<div id="contentDeptos">
+				<div class="titleDeptos">
+					<div class="trianguloTittle">
+						<img class="trianguloImg" src="icons/tiitletriangulo.png">
+					</div>
+					<div class="contTituloSubtitulo">
+						<div class="subtittle">
+							CONOZCA NUESTROS
+						</div>
+						<div class="tittle">
+							DEPARTAMENTOS
+						</div>
+					</div>
+				</div>
+				<div class="contGralDeptosBox">
+					<div class="boxDepto">
+						<div class="boxFront">
+							<div class="boxBackIMG">
+							</div>
+							<div class="boxDescDepto">
+								<div class="txtDescDepto">
+									<div class="subtittle">
+										DEPARTAMENTO
+									</div>
+									<div class="tittle">
+										TIPO A MODELO CMYK
+									</div>
+									<hr class="lineaBandera">
+										<p class="txtDesc txtBoxFormat">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+										</p>
+								</div>
+							</div>
+							<div class="iconsDescDepto">
+								<div><img class="iconDepto" src="icons/edificio.png" alt="">95 m2</div>
+								<div><img class="iconDepto" src="icons/edificio.png" alt="">3</div>
+								<div><img class="iconDepto" src="icons/edificio.png" alt="">2</div>
+								<div><img class="iconDepto" src="icons/edificio.png" alt="">2</div>
+							</div>
+						</div>
+					</div>
+					<div class="boxDepto">
+						<div class="boxFront">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</content>
 		<footer>
 			
