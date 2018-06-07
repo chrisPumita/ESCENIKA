@@ -1,460 +1,738 @@
-/*	 ESTILOS GENERALES	*/
-:root {
-    --green: #56af31;
-    --greyHigh: #868992;
-    --greyMed: #a5abb8;
-    --greyLow: #b8c1cf;
-    --textHover: #DDDDDD;
-    --whitteSolid: #FFF;
-    --blackSolid:  #000000;
-    --degrayBlack:  #000000d4;
-    --textFocus:  #000000;
-}
+    /*	 ESTILOS GENERALES	*/
+    :root {
+        --grey:  #2f3033;
+        --green: #56af31;
+        --greyHigh: #868992;
+        --greyMed: #a5abb8;
+        --greyLow: #b8c1cf;
+        --textHover: #DDDDDD;
+        --whitteSolid: #FFF;
+        --blackSolid:  #000000;
+        --degrayBlack:  #000000d4;
+        --textFocus:  #000000;
+        --degrayBlackLow:  #0000007d;
+    }
 
-body{
-	width: 100%;
-	font-family: 'Montserrat', sans-serif;
-	display: contents;
-	overflow-x: hidden;
-    background-color: var(--green);
-}
+    body{
+    	width: 100%;
+    	font-family: 'Montserrat', sans-serif;
+    	display: contents;
+    	overflow-x: hidden;
+        background-color: var(--green);
+    }
 
-.header{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: url(../image/homeSlider.jpg) center no-repeat;
-    background-size: cover;
-}
+    .header{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background: url(../image/homeSlider.jpg) center no-repeat;
+        background-size: cover;
+    }
 
-.backImg{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .backImg{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.contLogo{
-    background: var(--degrayBlack);
-    width: 100%;
-    height: 300px;
-}
+    .contLogo{
+        background: var(--degrayBlack);
+        width: 100%;
+        height: 300px;
+    }
 
-.logoEsc{
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    position: relative;
-    top: 10%;
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
-}
+    .logoEsc{
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        top: 10%;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
 
-.botonMenu{
-	display: flex;
-  	justify-content: center;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    position: relative;
-    top: 10%;
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
-}
+    .botonMenu{
+    	display: flex;
+      	justify-content: center;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        top: 10%;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
 
-.logoImg{
-	border: 0px;
-    margin: 0px;
-    margin-top: 10px;
-    padding: 0px;
-	height: 130px;
-}
+    .logoImg{
+    	border: 0px;
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+    	height: 130px;
+    }
 
-.boton {
-    max-width: 200px;
-    padding: 15px 30px;
-	padding: 10px;
-	margin: 10px;
-	color: var(--whitteSolid);
-	border-radius: 2px;
-}
-
-
-.btn1{
-	margin-right: 30px;
-	background-color: var(--green);
-}
-.btn1:hover{
-		background-color: var(--textFocus);
-		color:  var(--textHover);
-}
-
-.btn2{
-	background-color: var(--greyHigh);
-	margin-left: 30px;
-}
-.btn2:hover{
-	background-color: var(--textFocus);
-			color:  var(--textHover);
-}
-
-.btn3{
-	background-color: var(--greyHigh);
-	    width: 150px;
-}
-.btn3:hover{
-	background-color: var(--green);
-	color:  var(--textHover);
-}
-
-a, a:link, a:hover, a:visited {
-	text-decoration: none !important;
-
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-
-.btnInformes{
-    z-index: 9999;
-    position: fixed;
-    float: right;
-    top: 0px;
-    right: 0px;
-    top: -10px;
-
-}
-/*          INICIA el HEADER MENU DE DEMAS*/
-#contentHeader{
-	width: 100%;
-    position: relative;
-    background-size: cover;
-    background: url(../image/pano.jpg) no-repeat fixed center;
-}
-.contentMenu{
-    text-align: center;
-    display: flex;
-    background: var(--blackSolid);
-    width: 100%;
-    height: 100px;
-}
-.menus{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
-    text-align: center;
-    position: relative;
-    top: 15%;
-}
-.logoH{
-    justify-content: center;
-    z-index: 1;
-    text-align: center;
-    position: relative;
-    top: 10%;
-    -webkit-transform: translateX(0%);
-}
+    .boton {
+        max-width: 200px;
+        padding: 15px 30px;
+    	padding: 10px;
+    	margin: 10px;
+    	color: var(--whitteSolid);
+    	border-radius: 2px;
+    }
 
 
-.logoImgH{
-    width: 100%;
-}
+    .btn1{
+    	margin-right: 30px;
+    	background-color: var(--green);
+    }
+    .btn1:hover{
+    		background-color: var(--textFocus);
+    		color:  var(--textHover);
+    }
 
-.contLogoH{
-    width: 20%;
-    height: 100%;
-    z-index: 1;
-    text-align: center;
-    position: relative;
-    top: 15%;
-    -webkit-transform: translateX(10%);
-    -moz-transform: translateX(10%);
-    -ms-transform: translateX(10%);
-    -o-transform: translateX(10%);
-    transform: translateX(10%);
-}
-.contLogoMenus{
-    width: 80%;   
-    height: 100%;
-}
+    .btn2{
+    	background-color: var(--greyHigh);
+    	margin-left: 30px;
+    }
+    .btn2:hover{
+    	background-color: var(--textFocus);
+    			color:  var(--textHover);
+    }
 
-.contPano{
-    width: 100%;
-    height: 100vh;
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-.contMjeAbout{
-    background: var(--degrayBlack);
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
-}
+    .btn3{
+    	background-color: var(--greyHigh);
+    	    width: 150px;
+    }
+    .btn3:hover{
+    	background-color: var(--green);
+    	color:  var(--textHover);
+    }
 
-.positionContMje{
-    padding-left: 20%;
-    padding-right: 20%;
-}
+    a, a:link, a:hover, a:visited {
+    	text-decoration: none !important;
 
-.tittleNosotros{
-    padding-bottom: 15px;
-    border-bottom: var(--green) solid 3px;
-    font-size: 1.5em;
-}
+    	-webkit-transition: all 0.3s ease-out;
+    	-moz-transition: all 0.3s ease-out;
+    	-ms-transition: all 0.3s ease-out;
+    	-o-transition: all 0.3s ease-out;
+    	transition: all 0.3s ease-out;
+    }
 
-.contentNosotros{
-    font-size: 1em;
-}
+    .btnInformes{
+        z-index: 9999;
+        position: fixed;
+        float: right;
+        top: 0px;
+        right: 0px;
+        top: -10px;
 
-.txtAbout{
-    color: var(--whitteSolid);
-    width: 100%;
-}
-/*     INICIOA EL PROYECTO     */
-#contentProyect{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-color: var(--whitteSolid);
-    text-align: center;
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
-}
+    }
+    /*          INICIA el HEADER MENU DE DEMAS*/
+    #contentHeader{
+    	width: 100%;
+        position: relative;
+        background-size: cover;
+        background: url(../image/pano.jpg) no-repeat fixed center;
+    }
+    .contentMenu{
+        text-align: center;
+        display: flex;
+        background: var(--blackSolid);
+        width: 100%;
+        height: 100px;
+    }
+    .menus{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        top: 15%;
+    }
+    .logoH{
+        justify-content: center;
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        top: 10%;
+        -webkit-transform: translateX(0%);
+    }
 
-.contentDescription{
-    width: 20%;
-    height: 80%;
-    margin: 20px;
-    padding: 10px;
-}
 
-.banderaText{
-    padding-bottom: 50px;
-    color:  var(--greyHigh);
-    background-color: var(--whitteSolid);
-}
+    .logoImgH{
+        width: 100%;
+    }
 
-.contentDescription:hover .banderaText{
-    background-color: var(--greyHigh);
-    color: var(--whitteSolid);
-}
+    .contLogoH{
+        width: 20%;
+        height: 100%;
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        top: 15%;
+        -webkit-transform: translateX(10%);
+        -moz-transform: translateX(10%);
+        -ms-transform: translateX(10%);
+        -o-transform: translateX(10%);
+        transform: translateX(10%);
+    }
+    .contLogoMenus{
+        width: 80%;   
+        height: 100%;
+    }
 
-.contentDescription:hover .bandera {
-    background: url(../icons/baseTraingulo.png) no-repeat;
-    width: 100%;
-    height: 100px;
-    background-size: 100%; 
-}
-.contentDescription:hover .iconLogoC{
-    background: url(../icons/edificio.png) center no-repeat;
-    background-size: 60%;
+    .contPano{
+        width: 100%;
+        height: 100vh;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .contMjeAbout{
+        background: var(--degrayBlackLow);
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    .positionContMje{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .tittleNosotros{
+        padding-bottom: 15px;
+        border-bottom: var(--green) solid 3px;
+        font-size: 1.5em;
+    }
+
+    .contentNosotros{
+        font-size: 1em;
+    }
+
+    .txtAbout{
+        color: var(--whitteSolid);
+        width: 100%;
+    }
+    /*     INICIOA EL PROYECTO     */
+    #contentProyect{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color: var(--whitteSolid);
+        text-align: center;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    .contentDescription{
+        width: 20%;
+        height: 80%;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .banderaText{
+        padding-bottom: 50px;
+        color:  var(--greyHigh);
+        background-color: var(--whitteSolid);
+    }
+
+    .contentDescription:hover .banderaText{
+        background-color: var(--greyHigh);
+        color: var(--whitteSolid);
+    }
+
+    .contentDescription:hover .bandera {
+        background: url(../icons/baseTraingulo.png) no-repeat;
+        width: 100%;
+        height: 100px;
+        background-size: 100%; 
+    }
+    .contentDescription:hover .iconLogoC{
+        background: url(../icons/edificio.png) center no-repeat;
+        background-size: 60%;
+            border: white solid 5px;
+    }
+     .contentDescription:hover .backIconLogoC{
+        margin-top: -7%;
+        position: absolute;
+        display: inline-flex;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: var(--green);
         border: white solid 5px;
-}
- .contentDescription:hover .backIconLogoC{
-    margin-top: -7%;
-    position: absolute;
+     }
+
+     .lineaBandera{
+      height: 1px;
+      background-color: var(--greyLow);
+       width: 70%;
+     }
+
+    .backIconLogoC{
+        display: none;
+    }
+
+    .bandera{
+        width: 100%;
+        height: 100px;
+        background: url(../icons/baseTrainguloSimple.png) no-repeat;
+        background-size: 100%; 
+    }
+
+    .contenCaract{
+        margin-top: 5%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .iconLogoC {
+        position: relative;
+        margin-top: -35%;
+        display: inline-block;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        align-items: center;
+        border: var(--green) solid 5px;
+        background: url(../icons/edificioG.png) center no-repeat;
+        background-size: 60%;
+    }
+
+    .iconoDesc{
+        width: 60px;
+        height: auto;
+        padding-top: 25px;
+    }
+
+    .tDesc{
+        font-size: 200%;
+    }
+    .stDesc{
+        font-size: 100%;
+    }
+    .txtDesc{
+        font-size: 100%;
+        padding: 10px;
+    }
+
+    /*    INICIA EL CONTENDEROR DE DEPTOS  */
+
+
+    #contentDeptos{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--greyLow);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titleDeptos{
+        display: inline-flex;
+        width: 60%;
+        float: right;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    .tittle{
+        padding-left: 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: var(--whitteSolid);
+        text-align: left;
+    }
+
+    .subtittle{
+        padding-left: 15px;
+        padding-top: 5px;
+        font-size: .9em;
+        color: var(--whitteSolid);
+        text-align: left;
+    }
+
+    .trianguloTittle{
+        width: auto;
+        height: 60px;
+    }
+
+    .trianguloImg{
+        height: 60px;
+    }
+    .contTituloSubtitulo{
+        width: 80%;
+        height: 60px;
+        background: var(--greyHigh);
+    }
+
+    .contGralDeptosBox{
+        width: 100%;
+        height: 90vh;
+        background-color: #9e9e9e59;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .boxDepto{
+        width: 50%;
+        height: 100%;
+        background-color: var(--greyLow);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxFront, .boxBack{
+        width: 80%;
+        height: 80%;
+        background-color: var(--greyHigh);
+    }
+
+    .boxBackIMG{
+        width: 100%;
+        height: 60%;
+        position: relative;
+        background: url(../image/dep.png) center no-repeat;
+        background-size: cover;
+    }
+    .boxBackIMG2{
+        width: 100%;
+        height: 60%;
+        position: relative;
+        background: url(../image/deptoInterior.png) center no-repeat;
+        background-size: cover;
+    }
+    .boxDescDepto{
+        width: 100%;
+        height: 30%;
+        background-color: var(--grey);
+    }
+
+    .iconsDescDepto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+        background-color: var(--green);
+    }
+
+    .txtDescDepto{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .txtBoxFormat{
+        font-size: 1.2em;
+        text-align: center;
+        color: var(--textHover);
+    }
+    .iconDepto{
+        padding-left: 10px;
+        width: 20%;
+    }
+
+    .txtDataDepto{
+        font-size: 18px;
+        color: var(--textHover);
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    /* ESTILO DE VIDA SECCION */
+
+    #contentEstilo{
+        width: 100%;
+        height: auto;
+        background-color: var(--grey);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divEstilo{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--grey);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div1Estilo{
+        background-color: coral;
+        position: relative;
+        background: url(../image/family.png) center no-repeat;
+        background-size: cover;
+    }
+
+    .div2Estilo{
+        background-color: var(--whitteSolid);
+    }
+
+    .tiitle2{
+        text-align: right;
+        padding-right: 10px;
+    }
+     
+     .titleDeptos2{
+        float: left;
+     }
+
+     .trianguloTittle2 {
+        position: absolute;
+        margin-left: 80%;
+    }
+
+    .contTituloSubtitulo2 {
+        width: 80%;
+        height: 60px;
+        background: var(--greyHigh);
+        display: inline-grid;
+    }
+
+    .ContimagePinMAP{
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgMap{
+        width: 100%;
+        position: relative;
+    }
+.contPinBoxes1{
+    position: fixed;
     display: inline-flex;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: var(--green);
-    border: white solid 5px;
- }
-
- .lineaBandera{
-  height: 1px;
-  background-color: var(--greyLow);
-   width: 70%;
- }
-
-.backIconLogoC{
-    display: none;
+    top: 20%;
+    left: 20%;
+    width: 18%;
+    height: 6%;
 }
 
-.bandera{
+.contPinBoxes2{
+    position: fixed;
+    display: inline-flex;
+    top: 55%;
+    left: 45%;
+    width: 18%;
+    height: 6%;
+}
+
+.contPinBoxes3{
+    position: fixed;
+    display: inline-flex;
+    top: 25%;
+    left: 75%;
+    width: 18%;
+    height: 6%;
+}
+
+    .imgPin{
+        width: 25px;
+        height: 50px;
+        position: relative;
+        cursor: copy;
+        z-index: 3;
+    }
+
+    .boxPin{
+        margin-left: 20px;
+        color: var(--whitteSolid);
+        text-align: center;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        cursor: copy;
+        background-color: var(--degrayBlackLow);
+    }
+/*  ESTILOS DE LA SECCION DE CONTACTO    */
+    #contentContacto{
+        width: 100%;
+        height: auto;
+        background-color: var(--grey);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentContact{
+        width: 100%;
+        height: auto;
+        background-color: var(--whitteSolid);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentAsesores{
+        width: 100%;
+        height: 50vh;
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .contentMapa{
+        width: 100%;
+        height: 100vh;
+        background-color: darkgreen;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .contInstruccions{
+        width: 100%;
+        height: 7%;
+        background-color: red;
+
+    }
+
+    .contMapaGoogle{
+        width: 99.6%;
+        height: 92%;
+    }
+
+    .moveAgente{
+        width: 5%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.moveAgente:hover{
+    background-color: var(--green) ;
+    background: var(--green); /* For browsers that do not support gradients */
+    background: linear-gradient(#2f303359, var(--grey),#2f303359); /* Standard syntax (must be last) */
+}
+    .contAgentePerson{
+        margin: 10px;
+        width: 20%;
+        height: 80%;
+        background-color: var(--greyLow);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            border-bottom: var(--green) solid 3px;
+    }
+
+    .boxFrontAgent{
+        width: 100%;
+        height: 100%;
+        background-color: var(--greyHigh);
+}
+
+.imagenAjustada{
+    height: 100%;
     width: 100%;
-    height: 100px;
-    background: url(../icons/baseTrainguloSimple.png) no-repeat;
-    background-size: 100%; 
+    object-fit: cover;
+    object-position: center center;
 }
 
-.contenCaract{
-    margin-top: 5%;
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-}
-
-.iconLogoC {
-    position: relative;
-    margin-top: -35%;
-    display: inline-block;
+.txtContactoAgente {
     text-align: center;
-    height: 100px;
-    width: 100px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    align-items: center;
-    border: var(--green) solid 5px;
-    background: url(../icons/edificioG.png) center no-repeat;
-    background-size: 60%;
 }
 
-.iconoDesc{
-    width: 60px;
-    height: auto;
-    padding-top: 25px;
-}
-
-.tDesc{
-    font-size: 200%;
-}
-.stDesc{
-    font-size: 100%;
-}
-.txtDesc{
-    font-size: 100%;
-    padding: 10px;
-}
-
-/*    INICIA EL CONTENDEROR DE DEPTOS  */
-
-
-#contentDeptos{
+.boxontactoAgente {
     width: 100%;
-    height: 100vh;
-    background-color: var(--greyLow);
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
-    display: block;
-    justify-content: center;
-    align-items: center;
+    height: 40%;
+    background-color: var(--greyHigh);
 }
 
-.titleDeptos{
-    display: inline-flex;
-    width: 60%;
-    height: 10vh;
-    float: right;
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
+.boxontactoAgente:hover {
+    background-color: var(--grey);
 }
 
-.tittle{
-    padding-left: 15px;
+.nameAgente {
+    padding-top: 15px;
     font-size: 1.5em;
     font-weight: bold;
     color: var(--whitteSolid);
-    text-align: left;
 }
 
-.subtittle{
-    padding-left: 15px;
-    padding-top: 5px;
-    font-size: .9em;
-    color: var(--whitteSolid);
-    text-align: left;
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
 }
 
-.trianguloTittle{
-    width: auto;
-    height: 60px;
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index: 99;
 }
 
-.trianguloImg{
-    height: 60px;
-}
-.contTituloSubtitulo{
-    width: 80%;
-    height: 60px;
-    background: var(--greyHigh);
+
+.btnContactAgente{
+    background-color: var(--green) !important; 
 }
 
-.contGralDeptosBox{
-    width: 100%;
-    height: 90vh;
-    background-color: #9e9e9e59;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-}
 
-.boxDepto{
-    border: 1px solid #4CAF50;
-    width: 50%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.boxFront, .boxBack{
-    width: 80%;
-    height: 80%;
-    background-color: var(--greyHigh);
-}
 
-.boxBackIMG{
-    width: 100%;
-    height: 60%;
-    position: relative;
-    background: url(../image/dep.png) center no-repeat;
-    background-size: cover;
-}
-.boxDescDepto{
-    width: 100%;
-    height: 30%;
-    background-color: grey;
-}
 
-.iconsDescDepto{
-    display: flex;
-        justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 10%;
-    background-color: seagreen;
-}
-
-.txtDescDepto{
-    padding-left: 10px;
-}
-
-.txtBoxFormat{
-    text-align: center;
-    color: coral;
-}
-.iconDepto{
-        padding-left: 10px;
-    width: 20%;
-}
