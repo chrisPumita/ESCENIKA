@@ -6,6 +6,7 @@
 	<title>ESCENIKA HOME</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.css">
+
 </head>
 	<body>
 		<header id="header" class="header">
@@ -19,7 +20,7 @@
 					</div>
 					<div class="botonMenu">
 						<a href="#content" id="btnStart" class="boton bTri btn1">INICIAR</a>
-						<a href="" id="btnContact" class="boton bTri btn2">MODELOS</a>
+						<a href="#contentDeptos" id="btnContact" class="boton bTri btn2">MODELOS</a>
 					</div>	
 				</div>
 			</div>
@@ -38,7 +39,7 @@
 							<a href="#contentProyect"class="boton bTri btn3">ARQUITECTURA</a>
 							<a href="#contentDeptos" class="boton bTri btn3">DEPARTAMENTOS</a>
 							<a href="#contentEstilo"class="boton bTri btn3">ESTILO DE VIDA</a>
-							<a href="#" class="boton bTri btn3">UBICACIÓN</a>
+							<a href="#locationGoo" class="boton bTri btn3">UBICACIÓN</a>
 						</div>
 					</div>
 				</div>
@@ -62,6 +63,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div id="contentProyect">
 				<div class="contenCaract">
 
@@ -225,10 +227,8 @@
 					</div>
 				</div>
 			</div>
-
 			<div id="contentEstilo">
 				<div class="divEstilo div1Estilo">
-					
 				</div>
 				<div class="divEstilo div2Estilo">
 					<div class="titleDeptos titleDeptos2">
@@ -267,7 +267,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div id="contentContacto">
 				<div class="contentContact">
 					<div class="titleDeptos">
@@ -306,8 +305,6 @@
 									</div>
 								</div>
 							</div>
-
-
 						</div>
 						<div class="contAgentePerson">
 														<!-- 	AGENTE 1 DATA -->
@@ -328,8 +325,6 @@
 									</div>
 								</div>
 							</div>
-
-
 						</div>
 						<div class="contAgentePerson">
 														<!-- 	AGENTE 1 DATA -->
@@ -350,8 +345,6 @@
 									</div>
 								</div>
 							</div>
-
-
 						</div>
 						<div class="contAgentePerson">
 														<!-- 	AGENTE 1 DATA -->
@@ -372,30 +365,82 @@
 									</div>
 								</div>
 							</div>
-
-
 						</div>
 						<div class="moveAgente">
-							
 							&#x25BA;
 						</div>
 					</div>
 				</div>
-				<div class="contentMapa">
+				<div  id="locationGoo" class="contentMapa">
 					<div class="contInstruccions">
-						<p>
-							Utiliza el mapa que se presenta para visualizar todos los servicios relacionados en la zona de influencia de este desarrollo, <br>Da clic en el icono y selecciona del menú desplegable las diferentes capas.
+						<p class="instructions">
+							Utiliza el mapa que se presenta para visualizar todos los servicios relacionados en la zona de influencia de este desarrollo,
+							<blockquote>
+								<p class="flechaInst"><img id="pelota" class="iconArrow" src="icons/row.png">Da clic en el icono y selecciona del menú desplegable las diferentes capas.</p>
+							</blockquote>
 						</p>
 					</div>
 					<div class="contMapaGoogle">
-						<iframe src="https://www.google.com/maps/d/embed?mid=1u73tudK45NK7YBdSfxLBW64RvHFWfqYB" width="100%" height="100%"></iframe>
+						<iframe class="googleMap" src="https://www.google.com/maps/d/embed?mid=1u73tudK45NK7YBdSfxLBW64RvHFWfqYB" width="100%" height="100%">
+						</iframe>
+							<div class="ContInfoInsideMap">
+								<div class="contactVisitTittle">
+									VISÍTANOS
+									<hr class="lineContact">
+								</div>
+								<div class="contentDataContact">
+									<div class="boxDataContact">
+										<img class="iconContact" src="icons/pinter.png">
+										<p class="txtAdreess">
+											Av. Hacienda de Lindavista S/N, Esq. Hacienda de la Gavia, <br>
+											Col. Hacienda del parque 2da Sección, Cuautitlán Izcalli, <br>
+											CP 54769, Edo de Méx.
+										</p>
+									</div>
+									<div class="boxDataContact">
+										<img class="iconContact" src="icons/pinter.png">
+										<p class="txtAdreess">
+											<strong>
+												Horarios de Atención: <br>
+											</strong>
+											Lun-Vie 10:00 - 20:00 hrs.<br>  
+											Sab 10:00 - 18:00 hrs. y Dom 11:00 - 17:00 hrs.
+										</p>
+									</div>
+								</div>
+							</div>
 					</div>
 				</div>
 			</div>
-
 		</content>
 		<footer>
-			
+			<div class="contentFooter">
+				<div class="footer1">
+					<p class="proyectAuthors">UN PROYECTO DE</p>
+					<img class="iconAuthors" src="icons/dcmLogo.png">
+					<img class="iconAuthors" src="icons/GMIcon.png">
+				</div>
+				<div class="footer2">
+					<p class="txtContactElectronic">
+						<span class="CONTACTO">CONTACTO</span><br>
+						<span class="TELEFONO">1106-2678</span><br>
+						<span class="CORREO">contacto@escenika.com.mx <br></span>
+					</p>
+				</div>
+				<div class="footer3">
+					<img class="iconSocial" src="icons/face.png">
+					<img class="iconSocial" src="icons/face.png">
+				</div>
+			</div>
+			<div class="autorized">
+				<p class="txtAutorixed">
+					Autorizado mediante gaceta de Gobierno del Estado de México tomo CCIV números 34 y 35 de fecha 17 y 18 de Agosto de 2017.
+				</p>
+			</div>
+			<div class="contenedorArriba">
+				<div class="arrow"></div>
+				<a href="#" class="to-top">Ir arriba</a>
+			</div>	
 		</footer>
 	</body>
 </html>
