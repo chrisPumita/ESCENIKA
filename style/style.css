@@ -36,6 +36,9 @@
         align-items: center;
     }
 
+
+
+
     .contLogo{
         background: var(--degrayBlack);
         width: 100%;
@@ -79,12 +82,12 @@
     }
 
     .boton {
-        max-width: 200px;
-        padding: 15px 30px;
-    	padding: 10px;
-    	margin: 10px;
-    	color: var(--whitteSolid);
-    	border-radius: 2px;
+    width: 100px;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+    color: var(--whitteSolid);
+    border-radius: 2px;
     }
 
 
@@ -171,7 +174,7 @@
 
 
     .logoImgH{
-        width: 100%;
+        width: 85%;
     }
 
     .contLogoH{
@@ -268,11 +271,32 @@
         height: 100px;
         background-size: 100%; 
     }
-    .contentDescription:hover .iconLogoC{
+/*  HOVER EN LOS ELEMENtOS DE DESCRIPCION */
+    .contentDescription:hover .iconPerfect{
         background: url(../icons/edificio.png) center no-repeat;
         background-size: 60%;
-            border: white solid 5px;
+        border: white solid 4px;
     }
+
+    .contentDescription:hover .iconVista{
+        background: url(../icons/vista.png) center no-repeat;
+        background-size: 60%;
+        border: white solid 4px;
+    }
+
+    .contentDescription:hover .iconParque{
+        background: url(../icons/parque.png) center no-repeat;
+        background-size: 60%;
+        border: white solid 4px;
+    }
+
+    .contentDescription:hover .iconCalentador{
+        background: url(../icons/calentador.png) center no-repeat;
+        background-size: 60%;
+        border: white solid 4px;
+    }
+
+
      .contentDescription:hover .backIconLogoC{
         margin-top: -7%;
         position: absolute;
@@ -327,7 +351,27 @@
         border-radius: 50%;
         align-items: center;
         border: var(--green) solid 5px;
-        background: url(../icons/edificioG.png) center no-repeat;
+
+    }
+
+/*  IMAGENES ICONOS DE LAS CARACTERISTICAS    */
+    .iconPerfect{
+        background: url(../icons/edificioG.png) center no-repeat; 
+        background-size: 60%;
+    }
+
+    .iconVista{
+        background: url(../icons/vistaG.png) center no-repeat; 
+        background-size: 60%;
+    }
+
+    .iconParque{
+        background: url(../icons/parqueG.png) center no-repeat; 
+        background-size: 60%;
+    }
+
+    .iconCalentador{
+        background: url(../icons/calentadorG.png) center no-repeat; 
         background-size: 60%;
     }
 
@@ -409,7 +453,6 @@
     .contGralDeptosBox{
         width: 100%;
         height: 90vh;
-        background-color: #9e9e9e59;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -447,15 +490,48 @@
         width: 100%;
         height: 60%;
         position: relative;
-        background: url(../image/dep.png) center no-repeat;
+        background: url(../image/deptoInterior.png) center no-repeat;
         background-size: cover;
     }
-    .boxBackIMG2{
+
+    .boxBackPlano {
+        width: 100%;
+        height: 75%;
+        position: relative;
+        background: url(../image/A-1.jpg) center no-repeat;
+        background-size: cover;
+    }
+
+    .boxBackDepto2{
         width: 100%;
         height: 60%;
         position: relative;
-        background: url(../image/deptoInterior.png) center no-repeat;
+        background: url(../image/depto1.jpg) center no-repeat;
         background-size: cover;
+    }
+
+    .boxBackPlano2 {
+        width: 100%;
+        height: 75%;
+        position: relative;
+        background: url(../image/A-2.jpg) center no-repeat;
+        background-size: cover;
+    }
+
+.boxDescPlano {
+    padding-top: 30px;
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color: var(--grey);
+    font-size: 100%;
+    display: flex;
+}
+
+    .boxBackIMG2{
+        width: 100%;
+        height: 50%;
+        position: relative;
     }
     .boxDescDepto{
         width: 100%;
@@ -465,7 +541,6 @@
 
     .iconsDescDepto{
         display: flex;
-        justify-content: center;
         align-items: center;
         width: 100%;
         height: 10%;
@@ -479,27 +554,27 @@
     }
 
     .txtBoxFormat{
-        font-size: 1.2em;
+        font-size: 85%;
         text-align: center;
         color: var(--textHover);
     }
     .iconDepto{
-        padding-left: 10px;
-        width: 20%;
+        margin: 10px;
+        height: 20px;
+         vertical-align: middle;
     }
 
     .txtDataDepto{
+        margin-left: 30px;
         font-size: 18px;
         color: var(--textHover);
-        text-align: center;
-        padding-left: 15px;
     }
 
     /* ESTILO DE VIDA SECCION */
 
     #contentEstilo{
         width: 100%;
-        height: auto;
+        height: 100%;
         background-color: var(--grey);
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -526,10 +601,15 @@
     }
 
     .div1Estilo{
-        background-color: coral;
+        background-color: black;
         position: relative;
-        background: url(../image/family.png) center no-repeat;
+        /* background: url(../image/family.png) center no-repeat; */
         background-size: cover;
+    }
+
+    .mySlides{
+        width: 100%;
+        height: 100vh;
     }
 
     .div2Estilo{
@@ -628,30 +708,27 @@
 
     .contentContact{
         width: 100%;
-        height: auto;
+        height: 100vh;
         background-color: var(--whitteSolid);
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
         -ms-transform: translateX(0%);
         -o-transform: translateX(0%);
         transform: translateX(0%);
-        display: block;
         justify-content: center;
         align-items: center;
     }
 
     .contentAsesores{
-        width: 100%;
-        height: 50vh;
-        -moz-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-        -o-transform: translateX(0%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
+    width: 100%;
+    height: 80%;
+    position: relative;
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
     .contentMapa{
@@ -676,6 +753,7 @@
     }
 
     .contMapaGoogle{
+        width: 100vw;
         position: relative;
         height: 93%;
         display: block;
@@ -687,22 +765,19 @@
     display: flex;
     border: var(--green) solid 1px;
 }
-.ContInfoInsideMap{
-    top: 68vh;
+
+.ContInfoInsideMap {
+    top: 70vh;
     position: relative;
-    width: auto;
-    height: 180px;
+    width: 80%;
+    height: 150px;
     background-color: var(--degrayBlack);
-    margin-right: 15%;
-    margin-left: 15%;
-    display: block;
-    justify-content: center;
-    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
     -webkit-box-shadow: 0px 0px 96px -1px rgba(0,0,0,1);
     -moz-box-shadow: 0px 0px 96px -1px rgba(0,0,0,1);
     box-shadow: 0px 0px 96px -1px rgba(0,0,0,1);
 }
-
 
 
 .googleMap:hover{
@@ -710,20 +785,17 @@
 }
 
 .lineContact{
-    height: 1px;
-    width: 60%;
     border-style: inset;
     border-top: 1px solid var(--green);
     border-bottom: 1px solid var(--green);
-    height: 0;
+    height: 0px;
     box-sizing: border-box;
-    max-width: 42rem;
+    max-width: 70%;
 }
 
 .contactVisitTittle{
     padding-top: 1%;
-    padding-left: 15px;
-    font-size: 2em;
+    font-size: 150%;
     font-weight: bold;
     color: var(--whitteSolid);
     text-align: center;
@@ -737,8 +809,6 @@
 .boxDataContact{
     width: 50%;
     height: auto;
-    padding-top: 1%;
-    vertical-align: middle;
     display: flex;
     justify-content: center;
 }
@@ -769,25 +839,26 @@
     background: var(--green);
     background: linear-gradient(#2f303359, var(--grey),#2f303359);
 }
-    .contAgentePerson{
-        margin: 10px;
-        width: 20%;
-        height: 80%;
-        background-color: var(--greyLow);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-bottom: var(--green) solid 3px;
 
-        -webkit-box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.68);
-        -moz-box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.68);
-        box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.68);
-    }
+.contAgentePerson {
+    margin: 10px;
+    width: 20%;
+    height: 60%;
+    background-color: var(--greyLow);
+    display: flex;
+    border-bottom: var(--green) solid 3px;
+    -webkit-box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.68);
+    -moz-box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.68);
+    box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.68);
+}
 
 .boxFrontAgent{
     width: 100%;
     height: 100%;
     background-color: var(--greyHigh);
+}
+.boxFrontAgent:hover {
+        border: var(--green) solid 3px;
 }
 
 .imagenAjustada{
@@ -807,13 +878,10 @@
     background-color: var(--greyHigh);
 }
 
-.boxontactoAgente:hover {
-    background-color: var(--grey);
-}
 
 .nameAgente {
     padding-top: 15px;
-    font-size: 1.5em;
+    font-size: 150%;
     font-weight: bold;
     color: var(--whitteSolid);
 }
@@ -835,8 +903,8 @@
 
 blockquote{
     margin: 0px;
-    display: inline-flex;
     margin-left: 50px;
+    padding-bottom: 10px;
 }
 
 .iconArrow{
@@ -847,13 +915,13 @@ blockquote{
 }
 
 .instructions{
-        display: block;
+    display: block;
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-        margin-top: 10px;
-        margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 
 .flechaInst{
@@ -879,11 +947,14 @@ blockquote{
   }
 }
 
+
+
+
+
 /*  EFECTOS*/
 
 /*  FLECHAS*/
 /*
-
 .arrow,
 .arrow:before {
   position: absolute;
@@ -926,7 +997,6 @@ blockquote{
     transform: translate(-10px, -10px);
   }
 }
-
 
  */
 .to-top{
@@ -1052,3 +1122,53 @@ text-align: center;
 }
 
 /* END FLECHAS       vertical-align: middle;*/
+
+
+/*    ALL EFECTS  */
+
+
+.containerBoxCaract {
+    margin: 3%;
+    perspective: 796px;
+    width: 40%;
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    background-attachment: scroll;
+}
+
+.card {
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.containerBoxCaract:hover .card {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.front {
+  background-color: maroon;
+  z-index: 2;
+}
+
+.back {
+    z-index: 1;
+    background-color: var(--grey);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}

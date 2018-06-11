@@ -7,6 +7,30 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.css">
 
+	<style>
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+</style>
+
+
+
 </head>
 	<body>
 		<header id="header" class="header">
@@ -66,12 +90,11 @@
 
 			<div id="contentProyect">
 				<div class="contenCaract">
-
 						<div class="contentDescription">
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
-								<div class="iconLogoC">
+								<div class="iconLogoC iconPerfect">
 								</div>
 								<h2 class="tDesc">PERFECTO</h2>
 								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
@@ -88,10 +111,10 @@
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
-								<div class="iconLogoC">
+								<div class="iconLogoC iconVista">
 								</div>
-								<h2 class="tDesc">PERFECTO</h2>
-								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
+								<h2 class="tDesc">VISTA</h2>
+								<h3 class="stDesc">PANORÁMICA</h3>							
 								<hr class="lineaBandera">
 							<p class="txtDesc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -105,10 +128,10 @@
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
-								<div class="iconLogoC">
+								<div class="iconLogoC iconParque">
 								</div>
 								<h2 class="tDesc">AMPLIAS</h2>
-								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
+								<h3 class="stDesc">ÁREAS VERDES</h3>							
 								<hr class="lineaBandera">
 							<p class="txtDesc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -122,10 +145,10 @@
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
-								<div class="iconLogoC">
+								<div class="iconLogoC iconCalentador">
 								</div>
 								<h2 class="tDesc">CALENTADOR</h2>
-								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
+								<h3 class="stDesc">SOLAR DE AGUA</h3>							
 								<hr class="lineaBandera">
 							<p class="txtDesc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -137,6 +160,9 @@
 						</div>	
 				</div>
 			</div>
+
+
+
 
 			<div id="contentDeptos">
 				<div class="titleDeptos">
@@ -153,8 +179,9 @@
 					</div>
 				</div>
 				<div class="contGralDeptosBox">
-					<div class="boxDepto">
-						<div class="boxFront">
+					<div class="containerBoxCaract">
+					  <div class="card">
+					    <div class="front boxFront">
 							<div class="boxBackIMG">
 							</div>
 							<div class="boxDescDepto">
@@ -175,23 +202,61 @@
 							</div>
 							<div class="iconsDescDepto">
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/edificio.png" alt=""> 95 m2
+									<img class="iconDepto" src="icons/rule.png" alt=""> 95 m2
 								</div>
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/edificio.png" alt=""> 3
+									<img class="iconDepto" src="icons/bed.png" alt=""> 3
 								</div>
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/edificio.png" alt=""> 2
+									<img class="iconDepto" src="icons/car.png" alt=""> 2
 								</div>
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/edificio.png" alt=""> 2
+									<img class="iconDepto" src="icons/ducha.png" alt=""> 2
 								</div>
 							</div>
-						</div>
+					    </div>
+					    <div class="back boxBack">
+					    						   			 <!--
+					   			 	FRONT BACK
+					   			 	-->
+					   		<div class="boxBackPlano">
+							</div>
+							<div class="boxDescPlano">
+								<div class="listPlano">
+									<ul>
+										<li>Modelo de 65 m2</li>
+										<li>3 recamaras</li>
+										<li>2 baños completos</li>
+										<li>Family room</li>
+										<li>2 cajones de estacionamiento</li>
+									</ul>
+								</div>
+								<div class="tittlePlano">
+									<div class="subtittle">
+										DEPARTAMENTO
+									</div>
+									<div class="tittle">
+										TIPO A MODELO CMYK <br>
+									</div>
+									<div>
+										<br>
+										<a href="#content" id="btnStart" class="boton bTri btn1">RECORRIDO FOTOGRAFICO</a>
+										
+									</div>
+										
+								</div>
+							</div>
+					    </div>
+					  </div>
 					</div>
-					<div class="boxDepto">
-						<div class="boxFront">
-							<div class="boxBackIMG">
+
+
+
+
+					<div class="containerBoxCaract">
+					  <div class="card">
+					    <div class="front boxFront">
+							<div class="boxBackDepto2">
 							</div>
 							<div class="boxDescDepto">
 								<div class="txtDescDepto">
@@ -211,24 +276,76 @@
 							</div>
 							<div class="iconsDescDepto">
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/edificio.png" alt=""> 95 m2
+									<img class="iconDepto" src="icons/rule.png" alt=""> 95 m2
 								</div>
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/edificio.png" alt=""> 3
+									<img class="iconDepto" src="icons/bed.png" alt=""> 3
 								</div>
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/edificio.png" alt=""> 2
+									<img class="iconDepto" src="icons/car.png" alt=""> 2
 								</div>
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/edificio.png" alt=""> 2
+									<img class="iconDepto" src="icons/ducha.png" alt=""> 2
 								</div>
 							</div>
-						</div>
+					    </div>
+					    <div class="back boxBack">
+					    						   			 <!--
+					   			 	FRONT BACK
+					   			 	-->
+					   		<div class="boxBackPlano2">
+							</div>
+							<div class="boxDescPlano">
+								<div class="listPlano">
+									<ul>
+										<li>Modelo de 65 m2</li>
+										<li>3 recamaras</li>
+										<li>2 baños completos</li>
+										<li>Family room</li>
+										<li>2 cajones de estacionamiento</li>
+									</ul>
+								</div>
+								<div class="tittlePlano">
+									<div class="subtittle">
+										DEPARTAMENTO
+									</div>
+									<div class="tittle">
+										TIPO A MODELO CMYK <br>
+									</div>
+									<div>
+										<br>
+										<a href="#content" id="btnStart" class="boton bTri btn1">RECORRIDO FOTOGRAFICO</a>
+										
+									</div>
+										
+								</div>
+							</div>
+					    </div>
+					  </div>
 					</div>
+
+
+
 				</div>
 			</div>
 			<div id="contentEstilo">
 				<div class="divEstilo div1Estilo">
+
+					<div class="mySlides fade">
+					  <img  class="imagenAjustada" src="image/family0.png">
+					</div>
+
+					<div class="mySlides fade">
+					  <img  class="imagenAjustada" src="image/family1.jpg">
+					</div>
+
+					<div class="mySlides fade">
+					  <img class="imagenAjustada" src="image/family2.jpg">
+					</div>
+
+					<div class="mySlides fade">
+					  <img  class="imagenAjustada" src="image/family4.jpg">
+					</div>
 				</div>
 				<div class="divEstilo div2Estilo">
 					<div class="titleDeptos titleDeptos2">
@@ -289,7 +406,7 @@
 						<div class="contAgentePerson">
 							<!-- 	AGENTE 1 DATA -->
 							<div class="boxFrontAgent zoom">
-								<div class="boxBackIMG">
+								<div class="boxBackIMG2">
 									<img class="imagenAjustada" src="image/vendedor2.png">
 								</div>
 								<div class="boxontactoAgente">
@@ -309,7 +426,7 @@
 						<div class="contAgentePerson">
 														<!-- 	AGENTE 1 DATA -->
 							<div class="boxFrontAgent zoom">
-								<div class="boxBackIMG">
+								<div class="boxBackIMG2">
 									<img class="imagenAjustada" src="image/vendedor2.png">
 								</div>
 								<div class="boxontactoAgente">
@@ -329,7 +446,7 @@
 						<div class="contAgentePerson">
 														<!-- 	AGENTE 1 DATA -->
 							<div class="boxFrontAgent zoom">
-								<div class="boxBackIMG">
+								<div class="boxBackIMG2">
 									<img class="imagenAjustada" src="image/vendedor2.png">
 								</div>
 								<div class="boxontactoAgente">
@@ -349,7 +466,7 @@
 						<div class="contAgentePerson">
 														<!-- 	AGENTE 1 DATA -->
 							<div class="boxFrontAgent zoom">
-								<div class="boxBackIMG">
+								<div class="boxBackIMG2">
 									<img class="imagenAjustada" src="image/vendedor2.png">
 								</div>
 								<div class="boxontactoAgente">
@@ -385,7 +502,7 @@
 						</iframe>
 							<div class="ContInfoInsideMap">
 								<div class="contactVisitTittle">
-									VISÍTANOS
+									VISITA NUESTRO SHOWROOM
 									<hr class="lineContact">
 								</div>
 								<div class="contentDataContact">
@@ -442,5 +559,24 @@
 				<a href="#" class="to-top">Ir arriba</a>
 			</div>	
 		</footer>
+ <!-- SCRIPTS -->
+		 <script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		    var i;
+		    var slides = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < slides.length; i++) {
+		       slides[i].style.display = "none";  
+		    }
+		    slideIndex++;
+		    if (slideIndex > slides.length) {slideIndex = 1}   
+		    slides[slideIndex-1].style.display = "block";  
+		    setTimeout(showSlides, 4000); // Change image every 2 seconds
+		}
+		</script>
+
+
 	</body>
 </html>
