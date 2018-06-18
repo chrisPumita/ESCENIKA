@@ -1,18 +1,19 @@
+/* *************************** IMAGENES SLIDER QUE CAMBIAN AMENIDADES ESTILO DE VIDA  ************************************ */
 var slideIndex = 0;
-			showSlides();
+showSlides();
 
-			function showSlides() {
-			    var i;
-			    var slides = document.getElementsByClassName("mySlides");
-			    for (i = 0; i < slides.length; i++) {
-			       slides[i].style.display = "none";  
-			    }
-			    slideIndex++;
-			    if (slideIndex > slides.length) {slideIndex = 1}   
-			    slides[slideIndex-1].style.display = "block";  
-			    setTimeout(showSlides, 4000); // Change image every 2 seconds
-			}
-/* ******************** */
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}   
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+/* ************************ MODAL 1: MODELO 1 DEPTO ************************************** */
 // Get the modalPhotoVirtual
 var modalPhotoVirtual = document.getElementById('myModalPhotoVirtual');
 
@@ -20,7 +21,7 @@ var modalPhotoVirtual = document.getElementById('myModalPhotoVirtual');
 var btn = document.getElementById("btnVirtual");
 
 // Get the <span> element that closeBtnPhotos the modalPhotoVirtual
-var span2 = document.getElementsByClassName("closeBtnPhoto")[0];
+var span = document.getElementsByClassName("closeBtnPhoto")[0];
 
 // When the user clicks the button, open the modalPhotoVirtual 
 btn.onclick = function() {
@@ -28,7 +29,7 @@ btn.onclick = function() {
 }
 
 // When the user clicks on <span> (x), closeBtnPhoto the modalPhotoVirtual
-span2.onclick = function() {
+span.onclick = function() {
     modalPhotoVirtual.style.display = "none";
 }
 
@@ -38,23 +39,23 @@ window.onclick = function(event) {
         modalPhotoVirtual.style.display = "none";
     }
 }
-/* ******************** */
-// Get the modalPhotoVirtual
+/* ********************************** MODAL 1: MODELO 1 DEPTO ************************************** */
+// Get the modalPhotoVirtual2
 var modalPhotoVirtual2 = document.getElementById('myModalPhotoVirtual2');
 
 // Get the button that opens the modalPhotoVirtual2
 var btn2 = document.getElementById("btnVirtual2");
 
 // Get the <span> element that closeBtnPhotos the modalPhotoVirtual2
-var span = document.getElementsByClassName("closeBtnPhoto2")[0];
+var span2 = document.getElementsByClassName("closeBtnPhoto2")[0];
 
 // When the user clicks the button, open the modalPhotoVirtual2 
 btn2.onclick = function() {
     modalPhotoVirtual2.style.display = "block";
 }
 
-// When the user clicks on <span> (x), closeBtnPhoto the modalPhotoVirtual2
-span.onclick = function() {
+// When the user clicks on <span2> (x), closeBtnPhoto the modalPhotoVirtual2
+span2.onclick = function() {
     modalPhotoVirtual2.style.display = "none";
 }
 
@@ -64,7 +65,7 @@ window.onclick = function(event) {
         modalPhotoVirtual2.style.display = "none";
     }
 }
-/* ******************** */
+/* ************************ SLIDERS DE VENDEDORES ************************************** */
 var slideIndexPhotoSales = 1;
 showSlidesPhotoSales(slideIndexPhotoSales);
 
@@ -86,3 +87,5 @@ function showSlidesPhotoSales(n) {
   }
   slidesPhoto[slideIndexPhotoSales-1].style.display = "block";
 }
+
+/* **************************************************************************************************** */

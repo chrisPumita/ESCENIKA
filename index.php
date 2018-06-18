@@ -6,7 +6,13 @@
 	<title>ESCENIKA HOME</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.css">
+		<!-- meta para iphone, ipad quita estilo que da por defecto para telefonos -->
+	<meta name="format-detection" content="telephone=no">
 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
 
@@ -53,76 +59,279 @@
 }
 </style>
 
+<style type="text/css" media="screen">
+		            /*       EEFCTOS DE IMAGENES        */
+        .imagenPano{
+        background-image: url('image/demoPanoView.jpg');
+        background-repeat: repeat-x;
+        	width: 100%;
+		    height: 100vh;
+		    position: relative;
+		    background-size: cover;
+        }
+        .imagenPano{
+    -webkit-animation: animatedBackground 60s alternate ease-in-out infinite;
+    animation-name: mov-izq;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    -moz-animation-name: mov-izq;
+    -moz-animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-delay: 0s;
+    -webkit-animation-name: mov-izq;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+        }
+        /*
+        
+         */
+	    @keyframes mov-izq{
+	    	    0% { background-position: 0em }
+          100%{background-position:-200em}
+        }
+        @-webkit-keyframes mov-izq{
+        	    0% { background-position: 0em }
+            100%{background-position:-200em}
+        }
+
+
+        #myBtnUp{
+    	    position: fixed;
+		    bottom: 20px;
+		    right: 30px;
+		    z-index: 99;
+		    /* font-size: 18px; */
+		    /* border: none; */
+		    outline: none;
+		    background-color: var(--greyHigh);
+		    color: white;
+		    cursor: pointer;
+		    padding: 10px;
+		    border-radius: 10px;
+        }
+		#myBtnUp:hover{background-color:var(--green);}
+</style>
+
 <style>
-
-/* Slides */
-.mySalesManSlider {
-  display: none;
-  padding: 80px;
-  text-align: center;
-}
-
-/* sigSalesMan & prevSalesManious buttons */
-.prevSalesMan, .sigSalesMan {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "sigSalesMan button" to the right */
-.sigSalesMan {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prevSalesMan:hover, .sigSalesMan:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-}
-
-/* The circleDot/bullet/indicator container */
-.circleDot-container {
+/*
+.imagenPano:{
+    width: 100%;
+    padding-bottom: 0px;
+    overflow: hidden;
     text-align: center;
-    padding: 20px;
-    background: #ddd;
+    background-color: white;
+    background-image: url("../image/15.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 150%;
+    animation: slider .5s infinite alternate;
+    transition: background-image 0.5s ease;
+    -webkit-transition: background-image 0.5s cubic-bezier(0.46, 1.26, 0.66, -0.2);
+    -moz-transition: background-image 0s linear;
 }
-
-/* The circleDots/bullets/indicators */
-.circleDot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the activeSelectesSalesMan circleDot/circle */
-.activeSelectesSalesMan, .circleDot:hover {
-  background-color: #717171;
-}
+ */
 
 </style>
 
+<style>
+	.banSlider {
+    background-image: url(image/15.jpg);
+    /* width: 200%; */
+    /* height: 400px; */
+    text-align: center;
+    font-size: 18px;
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    /* display: -webkit-flex; */
+    /* display: flex; */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-size: cover;
+    background-position: 0px 0px;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-animation: animatedBackground 5s alternate ease-in-out infinite;
+    -moz-animation: animatedBackground 5s alternate ease-in-out infinite;
+    -ms-animation: animatedBackground 5s alternate ease-in-out infinite;
+    -o-animation: animatedBackground 5s alternate ease-in-out infinite;
+    /* margin-top: -25%; */
+    }
+</style>
+
+ <style>
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 15px;
+    margin: 7px 10px 6px 0px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+        outline: none;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn {
+  float: left;
+  width: 50%;
+}
+
+/* The ModalInfo (background) */
+.modalInfo {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    overflow: auto;
+    width: 500px;
+    z-index: 3;
+    display: none;
+    right: 10px;
+}
+
+/* ModalInfo Content/Box */
+.modalInfo-content {
+    width: 500px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animateInfo {
+    -webkit-animation: animateInfozoom 0.6s;
+    animation: animateInfozoom 0.6s;
+}
+
+@-webkit-keyframes animateInfozoom {
+    from {top: -500px;-webkit-transform: scale(0)} 
+    to {top: 0px;-webkit-transform: scale(1)}
+}
+    
+@keyframes animateInfozoom {
+    from {top: -500px; transform: scale(0)} 
+    to {top: 0px;transform: scale(1)}
+}
+
+
+</style>
+	<style type="text/css" media="screen">
+
+body{
+    background-color: coral
+}
+
+.flag {
+    box-sizing: border-box;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    /* padding-top: 30px; */
+    position: relative;
+    background-color: #B8C1CF;
+    color: #4CAF50;
+    font-size: 28px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.triangulo-equilatero-bottom {
+    position: relative;
+    bottom: 140px;
+    z-index: 999;
+    width: 0px;
+    height: 0px;
+    /* top: 600px; */
+    border-right: 350px solid transparent;
+    border-top: 30px solid transparent;
+    border-left: 150px solid transparent;
+    border-bottom: 136px solid #59AF31;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #59AF31;
+    border: none;
+    color: white;
+    padding: 23px 30px;
+    display: inline-flex;
+    font-size: 28px;
+    margin: 56px -54px;
+    cursor: pointer;
+}
+.pieTri{
+    width: 100%;
+    height: 300px;
+    background-color: goldenrod;
+}
+
+.pieTriangulo{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+    border-right: 350px solid var(--greyLow);
+    border-top: 50px solid var(--greyLow);
+    border-left: 150px solid var(--greyLow);
+    border-bottom: 130px solid #090c0700;
+}
+
+.containerFlag{
+    width: 500px;
+}
+	</style>
 
 </head>
-	<body>
+	<body id="escenika" data-spy="scroll" data-target=".navbar" data-offset="60">
 		<header id="header" class="header">
 			<div class="backImg">
+					<svg class="contTriangulo" height="50%" width="100%">
+					  <polygon class="triangulo" points="350,0 980,400 0,400"></polygon>
+					  Sorry, your browser does not support inline SVG.
+					</svg>
 				<div class="menu">
-					<a href="#menu" id="btnStart" class="boton bTri btn1 btnInformes">INFORMES</a>
+					<a href="#mapaGoolePlugIn">
+						<button id="btnShowroom" class="boton bTri btn1 btnInformes">SHOWROOM</button>
+					</a>
+					<button id="btnStart" class="boton bTri btn1 btnInformes" onclick="document.getElementById('id01').style.display='block'" >INFORMES</button>
 				</div>
 				<div class="contLogo">
 					<div class="logoEsc">
@@ -137,7 +346,7 @@
 		</header>
 	<!-- /header -->
 		<content id="content">
-			<div id="contentHeader">
+			<div id="contentHeader" class="imagenPano">
 				<div class="contentMenu">
 					<div class="contLogoH">
 						<div class="logoH">
@@ -149,13 +358,17 @@
 							<a href="#contentProyect"class="boton bTri btn3">ARQUITECTURA</a>
 							<a href="#contentDeptos" class="boton bTri btn3">DEPARTAMENTOS</a>
 							<a href="#contentEstilo"class="boton bTri btn3">ESTILO DE VIDA</a>
-							<a href="#locationGoo" class="boton bTri btn3">UBICACIÓN</a>
+							<a href="#mapaGoolePlugIn" class="boton bTri btn3">UBICACIÓN</a>
 						</div>
 					</div>
 				</div>
 				<div class="contPano">
 					<div class="contMjeAbout">
 						<div class="positionContMje">
+							<svg class="contPanoTraingulo">
+							  <polygon class="triangulo" points="350,100 900,350 70,350"></polygon>
+							  Sorry, your browser does not support inline SVG.
+							</svg>
 							<p class="txtAbout tittleNosotros">
 								ACERCA DE 
 								<br>
@@ -173,7 +386,10 @@
 					</div>
 				</div>
 			</div>
-
+		<a href="#contentHeader" title="To Top">
+			<button id="myBtnUp" title="Ir Arriba">
+				<i style="font-size:35px" class="fa">&#xf139;</i>
+			</button> </a>
 			<div id="contentProyect">
 				<div class="contenCaract">
 						<div class="contentDescription">
@@ -182,8 +398,8 @@
 								</div>
 								<div class="iconLogoC iconPerfect">
 								</div>
-								<h2 class="tDesc">PERFECTO</h2>
-								<h3 class="stDesc">DISEÑO Y ACABADO</h3>							
+								<h2 class="tDesc">INTELIGENTE</h2>
+								<h3 class="stDesc">SISTEMA DOMÓTICO</h3>							
 								<hr class="lineaBandera">
 							<p class="txtDesc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -246,9 +462,6 @@
 						</div>	
 				</div>
 			</div>
-
-
-
 
 			<div id="contentDeptos">
 				<div class="titleDeptos">
@@ -327,9 +540,7 @@
 									<div>
 										<br>
 										<a href="#contentDeptos" id="btnVirtual2" class="boton bTri btn1">RECORRIDO FOTOGRAFICO</a>
-										
 									</div>
-										
 								</div>
 							</div>
 					    </div>
@@ -406,8 +617,19 @@
 				</div>
 			</div>
 			<div id="contentEstilo">
+				<!--
+				<svg class="contTrainguloAmenidades" height="50%" width="100%">
+				  <polygon class="trianguloSolid" points="380,90 900,400 0,400"></polygon>
+				  Sorry, your browser does not support inline SVG.
+				</svg>
+				<div class="mjeBoxing">
+					<p class="pBoxesMje">
+						Áreas Recreativas <br>
+						incluidas
+					</p>
+				</div>
+				-->
 				<div class="divEstilo div1Estilo">
-
 					<div class="mySlides fade">
 					  <img  class="imagenAjustada" src="image/family0.png">
 					</div>
@@ -474,7 +696,7 @@
 								PARA MAS INFORMACIÓN
 							</div>
 							<div class="tittle">
-								CONTACTENOS
+								CONTACTANOS
 							</div>
 						</div>
 					</div>
@@ -482,42 +704,69 @@
 				<!-- 	SLIDERS DE VENDEDORES	-->
 					<div class="contentAsesores">
 						<div class="mySalesManSlider">
-						  <!-- 	PARTE UNO DE VENDEDORES 4 de N -->
+						<!--
+*************************** > inicio
+						-->
+<!-- 	PARTE UNO DE VENDEDORES 4 de N -->
 							<div class="contentAsesoresRandoom">
+				<!-- 	AGENTE 1 DATA ESTATICO -->
 								<div class="contAgentePerson">
-									<!-- 	AGENTE 1 DATA -->
 									<div class="boxFrontAgent zoom">
 										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/vendedor2.png">
+											<img class="imagenAjustada" src="image/executivePhotos/juanp.jpg" >
 										</div>
 										<div class="boxontactoAgente">
 											<div class="txtContactoAgente">
 												<div class="nameAgente">
-													JOSE CARLOS
+													Juan Pérez
 												</div>
 												<hr class="lineaBandera">
 													<p class="txtDesc txtBoxFormat">
-														lhernandez@escenika.com.mx
+														jperez@escenika.com.mx <br>
+														55 1212 2323
 													</p>
 													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="contAgentePerson">
-																<!-- 	AGENTE 2 DATA -->
+							<div class="contAgentePerson">
 									<div class="boxFrontAgent zoom">
 										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/vendedor2.png">
+											<img class="imagenAjustada" src="image/executivePhotos/sandrac.jpg" >
 										</div>
 										<div class="boxontactoAgente">
 											<div class="txtContactoAgente">
 												<div class="nameAgente">
-													LETICIA SALAS
+													Sandra Carrejo
 												</div>
 												<hr class="lineaBandera">
 													<p class="txtDesc txtBoxFormat">
-														lhernandez@escenika.com.mx
+														scarrejo@escenika.com <br>
+														55 2929 9838
+													</p>
+													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+											</div>
+										</div>
+									</div>
+								</div>
+				<!-- 	AGENTE 2 DATA  ESTATIC -->
+								<?php require 'php/data.php';?>
+								<div class="contAgentePerson">
+									<div class="boxFrontAgent zoom">
+										<div class="boxBackIMG2">
+
+											<img class="imagenAjustada" src="image/executivePhotos/<?php echo $salesman[0][4]; ?>.jpg">
+										</div>
+										<div class="boxontactoAgente">
+											<div class="txtContactoAgente">
+												<div class="nameAgente">
+													<?php echo $salesman[0][1]; ?>
+												</div>
+												<hr class="lineaBandera">
+													<p class="txtDesc txtBoxFormat">
+														<?php echo $salesman[0][2]; ?> <br>
+														<?php echo $salesman[0][3]; ?>
 													</p>
 													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
 											</div>
@@ -526,40 +775,20 @@
 								</div>
 
 								<div class="contAgentePerson">
-																<!-- 	AGENTE 3 DATA -->
 									<div class="boxFrontAgent zoom">
 										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/vendedor2.png">
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													CLAUDIA ESPONOZA
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														lhernandez@escenika.com.mx
-													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
-											</div>
-										</div>
-									</div>
-								</div>
 
-								<div class="contAgentePerson">
-																<!-- 	AGENTE 4 DATA -->
-									<div class="boxFrontAgent zoom">
-										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/vendedor2.png">
+											<img class="imagenAjustada" src="image/executivePhotos/<?php echo $salesman[1][4]; ?>.jpg">
 										</div>
 										<div class="boxontactoAgente">
 											<div class="txtContactoAgente">
 												<div class="nameAgente">
-													KAREN MEJIA
+													<?php echo $salesman[1][1]; ?>
 												</div>
 												<hr class="lineaBandera">
 													<p class="txtDesc txtBoxFormat">
-														lhernandez@escenika.com.mx
+														<?php echo $salesman[1][2]; ?> <br>
+														<?php echo $salesman[1][3]; ?>
 													</p>
 													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
 											</div>
@@ -570,118 +799,86 @@
 						  <!-- 	PARTE UNO DE VENDEDORES 4 de N -->
 						</div>
 
-						<div class="mySalesManSlider">
-						  <!-- 	PARTE UNO DE VENDEDORES 4 de N -->
-							<div class="contentAsesoresRandoom">
-								<div class="contAgentePerson">
-									<!-- 	AGENTE 1 DATA -->
-									<div class="boxFrontAgent zoom">
-										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/vendedor2.png">
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													ALBERTO SURIÑA
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														lhernandez@escenika.com.mx
-													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
-											</div>
-										</div>
+						<?php 
+							//GEenerando el contenedor, valor obtenido de $containers
+						$contadorVendedor = 6; //El ultimo vendedor ID
+						$contadosVendedor = 2; //Se traduce como el ID inicial del contenedor 1
+						$restanteVendedor = $noSales;
+							for ($i=2; $i <= $containers; $i++) {
+								#pintando el contenedor sliders
+								echo '
+								  <!-- 	CONTENEDOR '.$i.' de '.$containers.' VENDEDOR '.$contadosVendedor.' de '.$noSales.' -->
+									<div class="mySalesManSlider">
+									<div class="contentAsesoresRandoom">
+									';
+							//	echo "CONTENEDOR".$i;
+								// Opero los que restan y deduzco si caben otros 4 en el contenedor
+									$restanteVendedor = ($noSales-2) - $contadosVendedor; //ME FALTAN POR MOSTRAR VENDEDORES
+									if ($restanteVendedor >= 4) {
+											for ($j=$contadosVendedor; $j < $contadorVendedor; $j++) { 
+												echo '
+													<!-- 	AGENTE '.$j.' de '.$noSales.' CONTADOR ID: '.$contadorVendedor.' -->
+														<div class="contAgentePerson">
+															<div class="boxFrontAgent zoom">
+																<div class="boxBackIMG2">
+																	<img class="imagenAjustada" src="image/executivePhotos/'.$salesman[$j][4].'.jpg">
+																</div>
+																<div class="boxontactoAgente">
+																	<div class="txtContactoAgente">
+																		<div class="nameAgente">
+																			'.$salesman[$j][1].'
+																		</div>
+																		<hr class="lineaBandera">
+																			<p class="txtDesc txtBoxFormat">
+																				'.$salesman[$j][2].' <br>
+																				'.$salesman[$j][3].'
+																			</p>
+																			<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+										';
+										++$contadosVendedor;
+											}
+											
+											$contadorVendedor = $contadorVendedor + 4;
+										//	$contadosVendedor = $contadosVendedor + 4;
+									}
+									else{
+									//echo "NO CANDITADO MENOS A 4";
+										//Ordenando los ultimos vendedores
+										for ($j=$contadosVendedor; $j < $noSales; $j++) { 
+												echo '
+													<!-- 	AGENTE '.$j.' de '.$noSales.' -->
+														<div class="contAgentePerson">
+															<div class="boxFrontAgent zoom">
+																<div class="boxBackIMG2">
+																	<img class="imagenAjustada" src="image/executivePhotos/'.$salesman[$j][4].'.jpg">
+																</div>
+																<div class="boxontactoAgente">
+																	<div class="txtContactoAgente">
+																		<div class="nameAgente">
+																			'.$salesman[$j][1].'
+																		</div>
+																		<hr class="lineaBandera">
+																			<p class="txtDesc txtBoxFormat">
+																				'.$salesman[$j][2].' <br>
+																				'.$salesman[$j][3].'
+																			</p>
+																			<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+												';
+										}
+									}
+								echo '
 									</div>
-								</div>
-								<div class="contAgentePerson">
-																<!-- 	AGENTE 2 DATA -->
-									<div class="boxFrontAgent zoom">
-										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/vendedor2.png">
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													CARLOS DAVID
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														lhernandez@escenika.com.mx
-													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="contAgentePerson">
-																<!-- 	AGENTE 3 DATA -->
-									<div class="boxFrontAgent zoom">
-										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/vendedor2.png">
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													FRANCISCO JAVIER LOPEZ
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														lhernandez@escenika.com.mx
-													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="contAgentePerson">
-																<!-- 	AGENTE 4 DATA -->
-									<div class="boxFrontAgent zoom">
-										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/vendedor2.png">
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													LAURA HERNÁNDEZ
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														lhernandez@escenika.com.mx
-													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						  <!-- 	PARTE UNO DE VENDEDORES 4 de N -->
-						</div>
-						<div class="mySalesManSlider">
-						  <q>I love you the more in that I believe ynd for nothing else</q>
-						  <p class="author">- John Keats</p>
-						</div>
-						<div class="mySalesManSlider">
-						  <q>I love you the more ined me for my own sake and for nothing else</q>
-						  <p class="author">- John Keats</p>
-						</div>
-						<div class="mySalesManSlider">
-						  <q>I love you the more in that I believe you had liked me foor nothing else</q>
-						  <p class="author">- John Keats</p>
-						</div>
-						<div class="mySalesManSlider">
-						  <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
-						  <p class="author">- John Keats</p>
-						</div>
-						<div class="mySalesManSlider">
-						  <q>But man is not made for defeat. oyed but not defeated.</q>
-						  <p class="author">- Ernest Hemingway</p>
-						</div>
-						<div class="mySalesManSlider">
-						  <q>I have not failed. I've just found 10,000 ways that won't work.</q>
-						  <p class="author">- Thomas A. Edison</p>
-						</div>
+								</div>';
+							}
+						?>
 						<a class="prevSalesMan" onclick="plusSlides(-1)">❮</a>
 						<a class="sigSalesMan" onclick="plusSlides(1)">❯</a>
 					</div>
@@ -696,7 +893,7 @@
 							</blockquote>
 						</p>
 					</div>
-					<div class="contMapaGoogle">
+					<div id="mapaGoolePlugIn" class="contMapaGoogle">
 						<iframe class="googleMap" src="https://www.google.com/maps/d/embed?mid=1u73tudK45NK7YBdSfxLBW64RvHFWfqYB" width="100%" height="100%">
 						</iframe>
 							<div class="ContInfoInsideMap">
@@ -729,12 +926,16 @@
 				</div>
 			</div>
 		</content>
-		<footer>
+		<footer id="footer">
 			<div class="contentFooter">
 				<div class="footer1">
 					<p class="proyectAuthors">UN PROYECTO DE</p>
-					<img class="iconAuthors" src="icons/dcmLogo.png">
-					<img class="iconAuthors" src="icons/GMIcon.png">
+					<a href="http://www.decomet.mx/" target="_blank">
+						<img class="iconAuthors" src="icons/dcmLogo.png">
+					</a>
+					<a href="http://www.gmasm.mx/" target="_blank">
+						<img class="iconAuthors" src="icons/GMIcon.png">
+					</a>
 				</div>
 				<div class="footer2">
 					<p class="txtContactElectronic">
@@ -744,19 +945,30 @@
 					</p>
 				</div>
 				<div class="footer3">
-					<img class="iconSocial" src="icons/face.png">
-					<img class="iconSocial" src="icons/face.png">
+					<a href="#" target="_blank">
+						<img class="iconSocial" src="icons/face.png">
+					</a>
+					<a href="#" target="_blank">
+						<img class="iconSocial" src="icons/tw.png">
+					</a>
 				</div>
 			</div>
 			<div class="autorized">
 				<p class="txtAutorixed">
 					Autorizado mediante gaceta de Gobierno del Estado de México tomo CCIV números 34 y 35 de fecha 17 y 18 de Agosto de 2017. <br>
-					Aviso de Privacidad
+					<a href="#">
+						Aviso de Privacidad
+					</a>
+					
 				</p>
 			</div>
 			<div class="contenedorArriba">
+				<svg class="contTrainguloFooter" height="50%" width="100%">
+				  <polygon class="trianguloSolid" points="380,90 900,400 0,400"></polygon>
+				  Sorry, your browser does not support inline SVG.
+				</svg>
 				<div class="arrow"></div>
-				<a href="#" class="to-top">Ir arriba</a>
+				<a href="#escenika" class="to-top">Ir arriba</a>
 			</div>	
 		</footer>
 <!--
@@ -788,17 +1000,107 @@
 			<iframe class="recorrido-iframe" style="width:  100%;height:  90%;" src="https://my.matterport.com/show/?m=H6PfMfCeZTi&lang=es" frameborder="0" allowfullscreen>
 			</iframe>
 	  </div>
-
 	</div>
 
+			<!-- The modalContacto -->
+<div id="id01" class="modalInfo animateInfo" style="z-index: 3;">
+  <form class="modalInfo-content" action="/action_page.php">
+        <div class="containerFlag">
+            <div class="flag">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close ModalInfo">&times;</span>
+                <form action="/action_page.php">
+                	<div class="promocion">
+            	        <legend>APROVECHA NUESTROS <br> PRECIOS DE PREVENTA</legend>
+                	</div>
+                  	<div class="leyendContacto">
+        	            <legend>ENVIANOS TUS DATOS Y NOS COMUNICAREMOS CONTIGO</legend>
+                	</div>
+                	<div class="txtForm">
+	                    <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+
+                      <label for="psw-repeat"><b>Repeat Password</b></label>
+                      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                	</div>
+                	<div class="protectionInfo">
+                         <p>Sus datos estan protegidos. lea nuestra <a href="#" style="color:dodgerblue">Aviso de Privacidad</a>.</p>
+                	</div>
 
 
+                </form>
+                
+            </div>
+            <div class="pieTriangulo">
+            </div>
+              <div class="triangulo-equilatero-bottom">
+                <input type="button" class="button" value="ENVIAR">
+          </div>
+        </div>
+  </form>
+</div>
  <!-- SCRIPTS -->
-
+	<!-- 	Script Bootstrap JS Ref Navegator -->
 <script>
+$(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50});$("#escenika a").on('click', function(event) {if (this.hash !== "") {event.preventDefault();
+       var hash = this.hash;$('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
 
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+		    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		        document.getElementById("myBtnUp").style.display = "block";
+		    } else {
+		        document.getElementById("myBtnUp").style.display = "none";
+		    }
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		    document.body.scrollTop = 0;
+		    document.documentElement.scrollTop = 0;
+		}
 </script>
 
 		  <script src="javascripts/application.js" type="text/javascript" charset="utf-8" async defer></script>
+		  <script>
+		  	/*
+		  	//SCRIPT
+		var x = -1;
+		function timeout() {
+			x=(x+1)%12;
+			setTimeout(function () {
+				timeout();
+				}, 20000);
+			//console.log("Val: "+x);
+			if (x==0) {
+				$(".foo-slider").css("background-image","url(image/demo_photo1.jpg)");
+			}
+			else if (x==1) {
+				$(".foo-slider").css("background-image","url(image/demoPanoView.jpg)");
+			}
+			else if (x==2) {
+				$(".foo-slider").css("background-image","url(image/demo_photo1.jpg)");
+			}
+			else if (x==3) {
+				$(".foo-slider").css("background-image","url(image/demoPanoView.jpg)");
+			}
+			else if (x==4) {
+				$(".foo-slider").css("background-image","url(image/demo_photo1.jpg)");
+		}
+			timeout();
+		  	 */
+		  </script>
+
 	</body>
 </html>

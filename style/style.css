@@ -11,6 +11,8 @@
         --degrayBlack:  #000000d4;
         --textFocus:  #000000;
         --degrayBlackLow:  #0000007d;
+        --greenTrasparente:  #56af3185;
+        --google: #4F6A77;
     }
 
     body{
@@ -18,7 +20,36 @@
     	font-family: 'Montserrat', sans-serif;
     	display: contents;
     	overflow-x: hidden;
-        background-color: var(--green);
+        background-color: var(--blackSolid);
+    }
+
+    .contTriangulo{
+        height: 50%; */
+        /* width: 100%; */
+        /* top: 55%; */
+        /* position: absolute; */
+        z-index: 1;
+        width: 950px;
+        height: 25%;
+        right: 32%;
+        /* top: 1135px; */
+        bottom: 0%;
+        position: absolute;
+    }
+
+    .triangulo{
+        fill: var(--greenTrasparente);
+        stroke: var(--greenTrasparente);
+        stroke-width: 0;
+    }
+
+    .contPanoTraingulo{
+        height: 350px;
+        width: 900px;
+        top: 50%;
+        right: 0;
+        position: absolute;
+        z-index: -1;
     }
 
     .header{
@@ -36,7 +67,13 @@
         align-items: center;
     }
 
-
+    .menu{
+        z-index: 2;
+        position: fixed;
+        display: flex;
+        right: 0px;
+        top: -10px;
+    }
 
 
     .contLogo{
@@ -82,12 +119,13 @@
     }
 
     .boton {
-    width: 100px;
-    max-width: 200px;
-    padding: 10px;
-    margin: 10px;
-    color: var(--whitteSolid);
-    border-radius: 2px;
+        width: 150px;
+        max-width: 200px;
+        padding: 10px;
+        margin: 10px;
+        color: var(--whitteSolid);
+        border-radius: 2px;
+        cursor: pointer;
     }
 
 
@@ -133,19 +171,21 @@
 
     .btnInformes{
         z-index: 9999;
-        position: fixed;
         float: right;
         top: 0px;
-        right: 0px;
-        top: -10px;
-
     }
     /*          INICIA el HEADER MENU DE DEMAS*/
     #contentHeader{
-    	width: 100%;
+        width: 100%;
+        height: 100vh;
         position: relative;
+        background-color: black;
+        /*
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
-        background: url(../image/pano.jpg) no-repeat fixed center;
+        */
     }
     .contentMenu{
         text-align: center;
@@ -252,6 +292,7 @@
         height: 80%;
         margin: 20px;
         padding: 10px;
+        cursor: pointer;
     }
 
     .banderaText{
@@ -260,44 +301,44 @@
         background-color: var(--whitteSolid);
     }
 
-    .contentDescription:hover .banderaText{
+   .banderaText:hover .banderaText, .contentDescription:hover .banderaText{
         background-color: var(--greyHigh);
         color: var(--whitteSolid);
     }
 
-    .contentDescription:hover .bandera {
+   .banderaText:hover .bandera , .contentDescription:hover .bandera {
         background: url(../icons/baseTraingulo.png) no-repeat;
         width: 100%;
         height: 100px;
         background-size: 100%; 
     }
 /*  HOVER EN LOS ELEMENtOS DE DESCRIPCION */
-    .contentDescription:hover .iconPerfect{
-        background: url(../icons/edificio.png) center no-repeat;
+   .banderaText:hover .iconPerfect , .contentDescription:hover .iconPerfect{
+        background: url(../icons/domotic.png) center no-repeat;
         background-size: 60%;
         border: white solid 4px;
     }
 
-    .contentDescription:hover .iconVista{
+   .banderaText:hover .iconVista , .contentDescription:hover .iconVista{
         background: url(../icons/vista.png) center no-repeat;
         background-size: 60%;
         border: white solid 4px;
     }
 
-    .contentDescription:hover .iconParque{
+   .banderaText:hover .iconParque , .contentDescription:hover .iconParque{
         background: url(../icons/parque.png) center no-repeat;
         background-size: 60%;
         border: white solid 4px;
     }
 
-    .contentDescription:hover .iconCalentador{
+   .banderaText:hover .iconCalentador , .contentDescription:hover .iconCalentador{
         background: url(../icons/calentador.png) center no-repeat;
         background-size: 60%;
         border: white solid 4px;
     }
 
 
-     .contentDescription:hover .backIconLogoC{
+     .banderaText:hover .backIconLogoC, .contentDescription:hover .backIconLogoC{
         margin-top: -7%;
         position: absolute;
         display: inline-flex;
@@ -356,7 +397,7 @@
 
 /*  IMAGENES ICONOS DE LAS CARACTERISTICAS    */
     .iconPerfect{
-        background: url(../icons/edificioG.png) center no-repeat; 
+        background: url(../icons/domoticG.png) center no-repeat; 
         background-size: 60%;
     }
 
@@ -579,7 +620,7 @@
 
     #contentEstilo{
         width: 100%;
-        height: 100%;
+        height: 200%;
         background-color: var(--grey);
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -615,6 +656,48 @@
     .mySlides{
         width: 100%;
         height: 100vh;
+    }
+
+    .mjeBoxing{
+        z-index: 1;
+        color: var(--whitteSolid);
+        left: 68%;
+        top: 90vh;
+        text-align: center;
+        position: absolute;
+    }
+
+    .contTrainguloAmenidades{
+        z-index: 1;
+        width: 100%;
+        height: 400px;
+        top: 62vh;
+        left: 54%;
+        position: fixed;
+    }
+
+    .contTrainguloFooter{
+        z-index: 1;
+        width: 552px;
+        height: 189px;
+        right: 77%;
+        top: -260%;
+        /* bottom: 41%; */
+        position: absolute;
+    }
+
+    .pBoxesMje{
+        font-size: 2.5em;
+        color: var(--whitteSolid);
+    }
+    .tituloInsideTriangulo{
+        color: var(--green);
+    }
+
+    .trianguloSolid{
+        fill: var(--green);
+        stroke: var(--green);
+        stroke-width: 0;
     }
 
     .div2Estilo{
@@ -771,8 +854,8 @@
     .contInstruccions{
         width: 100%;
         height: auto;
-        background-color: var(--greyHigh);
-        color: var(--greyLow);
+        background-color: var(--google);
+        color: var(--whitteSolid);
         display: inline-table;
     }
 
@@ -789,7 +872,7 @@
 .googleMap{
     position: absolute;
     display: flex;
-    border: var(--green) solid 1px;
+    border: var(--google) solid 1px;
 }
 
 .ContInfoInsideMap {
@@ -1061,12 +1144,15 @@ blockquote{
 
 /*  FOOTER */
 .contenedorArriba{
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    height: auto;
     background-color: var(--blackSolid);
     text-align: center;
+    width: 100%;
+    height: 200%;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
 }
 
 .contentFooter{
@@ -1082,9 +1168,10 @@ blockquote{
 .footer1{
     width: 50%;
     position: relative;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 80%;
 }
 .proyectAuthors{
 padding-right: 25px;
@@ -1136,6 +1223,7 @@ font-size: 2em;
 }
 
 .txtAutorixed{
+    text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
@@ -1145,7 +1233,9 @@ font-size: 2em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-
+.privacity{
+    text-decoration: none;
+}
 /* END FLECHAS       vertical-align: middle;*/
 
 
@@ -1176,6 +1266,11 @@ font-size: 2em;
   transform: rotateY(180deg);
 }
 
+.card:hover {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
 .front,
 .back {
     -webkit-backface-visibility: hidden;
@@ -1201,13 +1296,13 @@ font-size: 2em;
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2.5s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .9} 
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
@@ -1215,7 +1310,73 @@ font-size: 2em;
   from {opacity: .4} 
   to {opacity: 1}
 }
+/*SLIDER SALES MAN*/
 
+/* Slides */
+.mySalesManSlider {
+    display: table;
+    position: absolute;
+    width: 100%;
+}
+
+/* sigSalesMan & prevSalesManious buttons */
+.prevSalesMan, .sigSalesMan {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: var(--green);
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "sigSalesMan button" to the right */
+.sigSalesMan {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevSalesMan:hover, .sigSalesMan:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The circleDot/bullet/indicator container */
+.circleDot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The circleDots/bullets/indicators */
+.circleDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the activeSelectesSalesMan circleDot/circle */
+.activeSelectesSalesMan, .circleDot:hover {
+  background-color: #717171;
+  }
+a:link {color:#ffffff;}
+a:hover{
+    color: var(--green);
+}
+a:visited {color:#ffffff;}
+a:active {color:#ffffff;}
+a:hover {color:#ffffff;}
 /*
 PARADAX
     background-attachment: fixed;
@@ -1223,3 +1384,30 @@ PARADAX
     background-repeat: no-repeat;
     background-size: cover;
  */
+
+
+/*       MODAL DE CONTACTO */
+
+ .promocion, .leyendContacto, .txtForm, .protectionInfo{
+    padding: 5%;
+    color: var(--whitteSolid);
+ }
+ .promocion{
+      background-color: var(--greyHigh);
+ }
+ .leyendContacto{
+    font-size: .6em;
+    background-color: var(--greyMed);;
+ }
+
+ .txtForm{
+    font-size: .8em;
+    background-color: var(--greyLow);
+    text-align: left;
+ }
+
+
+
+
+
+
