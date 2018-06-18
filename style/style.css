@@ -1388,10 +1388,20 @@ PARADAX
 
 /*       MODAL DE CONTACTO */
 
- .promocion, .leyendContacto, .txtForm, .protectionInfo{
-    padding: 5%;
+ .promocion, .leyendContacto, .txtForm{
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+ }
+
+ .protectionInfo{
+    padding-bottom: 1%;
+    font-size: 0.5em;
+    padding-left: 5%;
+    padding-right: 5%;
     color: var(--whitteSolid);
  }
+
  .promocion{
       background-color: var(--greyHigh);
  }
@@ -1401,13 +1411,60 @@ PARADAX
  }
 
  .txtForm{
+    width: 90%;
     font-size: .8em;
     background-color: var(--greyLow);
     text-align: left;
  }
 
+.caja {
+    width: 425px;
+    margin: 15px 0px 15px 0px;
+    /* border: 1px solid #455667; */
+    height: auto;
+    /* overflow: hidden; */
+    /* position: relative; */
+    background-color: transparent;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border-radius: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 11px #FFFFFF;
+    background: #F1F1F0 no-repeat scroll 268px center;
+}
+        select {
+           border: none;
+           font-size: 10px;
+           height: 30px;
+           width: 100%;
+           padding: 1px;
+        }
+        select:focus{ 
+            outline: none;
+            background: var(--green);
+        }
+        select:hover { 
+            background-color: var(--green);
+        }
+        .caja::after{
+            content:"\025be";
+            display:table-cell;
+            text-align:center;
+            width:10px;
+            height:30px;
+            background-color: var(--greyLow);
+            position:absolute;
+            top:0;
+            right:0px;  
+            pointer-events: none;
+        }
 
+    select, option{
+        color: var(--greyHigh);
+    font-size: 15px;
+        }
 
-
-
-
+.txtArea{
+    margin: 0px;
+    width: 425px;
+    height: 100px;
+}

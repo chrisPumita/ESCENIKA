@@ -171,20 +171,23 @@
  <style>
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 80%;
-    padding: 15px;
-    margin: 7px 10px 6px 0px;
+input[type=text], input[type=tel], input[type=email], input[type=password], input[type=select] {
+    width: 90%;
+    padding: 10px;
+    margin: 7px 0px 8px 0px;
     display: inline-block;
     border: none;
     background: #f1f1f1;
-        outline: none;
+    outline: none;
+        border-bottom: var(--green) solid 3px;
 }
 
 /* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=password]:focus, input[type=select]:focus {
+    background-color: var(--green);
     outline: none;
+    border-bottom: var(--whitteSolid) solid 3px;
+    color: var(--textHover);
 }
 
 /* Extra styles for the cancel button */
@@ -204,8 +207,9 @@ input[type=text]:focus, input[type=password]:focus {
     position: fixed;
     top: 0px;
     width: 100%;
-    overflow: auto;
+    overflow: scroll;
     width: 500px;
+    height: 100vh;
     z-index: 3;
     display: none;
     right: 10px;
@@ -220,7 +224,7 @@ input[type=text]:focus, input[type=password]:focus {
 .close {
     position: absolute;
     right: 35px;
-    top: 15px;
+    top: 0px;
     font-size: 40px;
     font-weight: bold;
     color: #f1f1f1;
@@ -264,7 +268,7 @@ body{
     /* padding-top: 30px; */
     position: relative;
     background-color: #B8C1CF;
-    color: #4CAF50;
+    color: white;
     font-size: 28px;
     letter-spacing: 0.2em;
     text-align: center;
@@ -309,13 +313,13 @@ body{
     height: 0px;
     margin: 0 auto;
     border-right: 350px solid var(--greyLow);
-    border-top: 50px solid var(--greyLow);
+    border-top: 5px solid var(--greyLow);
     border-left: 150px solid var(--greyLow);
     border-bottom: 130px solid #090c0700;
 }
 
 .containerFlag{
-    width: 500px;
+        width: 500px;
 }
 	</style>
 
@@ -1016,17 +1020,35 @@ body{
         	            <legend>ENVIANOS TUS DATOS Y NOS COMUNICAREMOS CONTIGO</legend>
                 	</div>
                 	<div class="txtForm">
-	                    <label for="email"><b>Email</b></label>
-                      <input type="text" placeholder="Enter Email" name="email" required>
+		            <label for="name"><b>Nombre:</b></label>
+                    <input type="text" placeholder="Escriba su nombre" name="name" required="Please">
 
-                      <label for="psw"><b>Password</b></label>
-                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <label for="tel"><b>Teléfono:</b></label>
+                      <input type="tel" placeholder="Enter Password" name="phone" required="Please">
 
-                      <label for="psw-repeat"><b>Repeat Password</b></label>
-                      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+	                <label for="email"><b>Email:</b></label>
+                      <input type="email" placeholder="Enter Email" name="email" required="Please">
+
+					<div class="caja">
+		  					<select name="conocimiento">
+		  						<option value="none">Cómo se enteró de nosotros?</option>
+								<option value="periodico">Periódico/Revista</option>
+								<option value="google">Google</option>
+								<option value="espectacular">Espectacular</option>
+								<option value="stand">Stand</option>
+								<option value="folleto">Folleto</option>
+								<option value="showroom">Showroom</option>
+								<option value="volante">Volante</option>
+								<option value="redes">Redes Sociales</option>
+								<option value="inmuebles">Portal de Inmuebles</option>
+								<option value="poster">Poster en la calle</option>
+								<option value="valla">Valla Publicitaria</option>
+		  					</select>
+		  				</div>
+                      <textarea class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
                 	</div>
                 	<div class="protectionInfo">
-                         <p>Sus datos estan protegidos. lea nuestra <a href="#" style="color:dodgerblue">Aviso de Privacidad</a>.</p>
+                         <p>*Campo Obligatorio. <br> Sus datos estan protegidos. <br> Porfavor lea nuestro <a href="#">Aviso de Privacidad</a>.</p>
                 	</div>
 
 
