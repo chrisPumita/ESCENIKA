@@ -173,13 +173,13 @@
 /* Full-width input fields */
 input[type=text], input[type=tel], input[type=email], input[type=password], input[type=select] {
     width: 90%;
-    padding: 10px;
+    padding: 12px;
     margin: 7px 0px 8px 0px;
     display: inline-block;
     border: none;
     background: #f1f1f1;
     outline: none;
-        border-bottom: var(--green) solid 3px;
+    border-bottom: var(--green) solid 3px;
 }
 
 /* Add a background color when the inputs get focus */
@@ -206,10 +206,10 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
 .modalInfo {
     position: fixed;
     top: 0px;
-    width: 100%;
+    /* width: 100%; */
     overflow: scroll;
-    width: 500px;
-    height: 100vh;
+    /* width: 500px; */
+    /* height: 100vh; */
     z-index: 3;
     display: none;
     right: 10px;
@@ -217,22 +217,25 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
 
 /* ModalInfo Content/Box */
 .modalInfo-content {
-    width: 500px;
+        width: 320px;
+    float: right;
 }
 
 /* The Close Button (x) */
 .close {
-    position: absolute;
-    right: 35px;
+    /* text-align: -webkit-auto; */
+    position: relative;
+    bottom: 0px;
     top: 0px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
+    font-size: 0.5em;
+    /* font-weight: bold; */
+    color: #ffffff;
+    background-color: black;
 }
 
 .close:hover,
 .close:focus {
-    color: #f44336;
+    color: var(--green);
     cursor: pointer;
 }
 
@@ -261,8 +264,8 @@ body{
 }
 
 .flag {
-    box-sizing: border-box;
-    width: 500px;
+box-sizing: border-box;
+    width: 320px;
     height: auto;
     margin: 0 auto;
     /* padding-top: 30px; */
@@ -276,18 +279,28 @@ body{
     text-transform: uppercase;
 }
 
-
+.triangulo-equilatero-bottom:hover, .button:hover .triangulo-equilatero-bottom{
+	border-bottom: 100px solid #000000;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.triangulo-equilatero-bottom:hover .btn1{
+	
+      background-color: black;
+}
 .triangulo-equilatero-bottom {
-    position: relative;
+	position: relative;
     bottom: 140px;
-    z-index: 999;
     width: 0px;
     height: 0px;
     /* top: 600px; */
-    border-right: 350px solid transparent;
-    border-top: 30px solid transparent;
-    border-left: 150px solid transparent;
-    border-bottom: 136px solid #59AF31;
+    border-right: 220px solid transparent;
+    border-top: 60px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #59AF31;
     margin: 0 auto;
 }
 
@@ -295,10 +308,10 @@ body{
     background-color: #59AF31;
     border: none;
     color: white;
-    padding: 23px 30px;
+    /* padding: 0px 0px 0px 0px; */
     display: inline-flex;
     font-size: 28px;
-    margin: 56px -54px;
+    margin: 54px 0px 0px -32px;
     cursor: pointer;
 }
 .pieTri{
@@ -312,16 +325,71 @@ body{
     width: 0px;
     height: 0px;
     margin: 0 auto;
-    border-right: 350px solid var(--greyLow);
+    border-right: 220px solid var(--greyLow);
     border-top: 5px solid var(--greyLow);
-    border-left: 150px solid var(--greyLow);
-    border-bottom: 130px solid #090c0700;
+    border-left: 100px solid var(--greyLow);
+    border-bottom: 100px solid #090c0700;
 }
 
 .containerFlag{
-        width: 500px;
+        width: 320px;
 }
 	</style>
+
+<style>
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: var(--green);
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: var(--green);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+</style>
 
 </head>
 	<body id="escenika" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -706,7 +774,7 @@ body{
 					</div>
 
 				<!-- 	SLIDERS DE VENDEDORES	-->
-					<div class="contentAsesores">
+					<div id="salesman" class="contentAsesores">
 						<div class="mySalesManSlider">
 						<!--
 *************************** > inicio
@@ -729,7 +797,7 @@ body{
 														jperez@escenika.com.mx <br>
 														55 1212 2323
 													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+													<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById('id01').style.display='block'">CONTACTAR</a>
 											</div>
 										</div>
 									</div>
@@ -749,7 +817,7 @@ body{
 														scarrejo@escenika.com <br>
 														55 2929 9838
 													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+													<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById('id01').style.display='block'">CONTACTAR</a>
 											</div>
 										</div>
 									</div>
@@ -772,7 +840,7 @@ body{
 														<?php echo $salesman[0][2]; ?> <br>
 														<?php echo $salesman[0][3]; ?>
 													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+													<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById('id01').style.display='block'">CONTACTAR</a>
 											</div>
 										</div>
 									</div>
@@ -794,7 +862,7 @@ body{
 														<?php echo $salesman[1][2]; ?> <br>
 														<?php echo $salesman[1][3]; ?>
 													</p>
-													<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+													<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById('id01').style.display='block'">CONTACTAR</a>
 											</div>
 										</div>
 									</div>
@@ -837,7 +905,7 @@ body{
 																				'.$salesman[$j][2].' <br>
 																				'.$salesman[$j][3].'
 																			</p>
-																			<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+																			<a href="#salesman" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
@@ -1011,7 +1079,9 @@ body{
   <form class="modalInfo-content" action="/action_page.php">
         <div class="containerFlag">
             <div class="flag">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close ModalInfo">&times;</span>
+            	<div class="cerrarContactContenedor">
+                	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close ModalInfo">CERRAR</span>
+            	</div>
                 <form action="/action_page.php">
                 	<div class="promocion">
             	        <legend>APROVECHA NUESTROS <br> PRECIOS DE PREVENTA</legend>
@@ -1029,20 +1099,20 @@ body{
 	                <label for="email"><b>Email:</b></label>
                       <input type="email" placeholder="Enter Email" name="email" required="Please">
 
-					<div class="caja">
+					<div class="caja custom-select" style="width:280px;">
 		  					<select name="conocimiento">
-		  						<option value="none">Cómo se enteró de nosotros?</option>
-								<option value="periodico">Periódico/Revista</option>
-								<option value="google">Google</option>
-								<option value="espectacular">Espectacular</option>
-								<option value="stand">Stand</option>
-								<option value="folleto">Folleto</option>
-								<option value="showroom">Showroom</option>
-								<option value="volante">Volante</option>
-								<option value="redes">Redes Sociales</option>
-								<option value="inmuebles">Portal de Inmuebles</option>
-								<option value="poster">Poster en la calle</option>
-								<option value="valla">Valla Publicitaria</option>
+		  						<option value="0">Cómo se enteró de nosotros?</option>
+								<option value="1">Periódico/Revista</option>
+								<option value="2">Google</option>
+								<option value="3">Espectacular</option>
+								<option value="4">Stand</option>
+								<option value="5">Folleto</option>
+								<option value="6">Showroom</option>
+								<option value="7">Volante</option>
+								<option value="8">Redes Sociales</option>
+								<option value="9">Portal de Inmuebles</option>
+								<option value="10">Poster en la calle</option>
+								<option value="11">Valla Publicitaria</option>
 		  					</select>
 		  				</div>
                       <textarea class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
@@ -1058,7 +1128,7 @@ body{
             <div class="pieTriangulo">
             </div>
               <div class="triangulo-equilatero-bottom">
-                <input type="button" class="button" value="ENVIAR">
+              	<a href="#content" id="btnSend" class="button bTri btn1">ENVIAR</a>
           </div>
         </div>
   </form>
@@ -1122,6 +1192,81 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
 		}
 			timeout();
 		  	 */
+		  </script>
+
+		  <script>
+var x, i, j, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+for (i = 0; i < x.length; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 0; j < selElmnt.length; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < s.length; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            for (k = 0; k < y.length; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  for (i = 0; i < y.length; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < x.length; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);</script>
 		  </script>
 
 	</body>

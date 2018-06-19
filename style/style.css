@@ -20,7 +20,7 @@
     	font-family: 'Montserrat', sans-serif;
     	display: contents;
     	overflow-x: hidden;
-        background-color: var(--blackSolid);
+        background-color: var(--blackSolid) !important;
     }
 
     .contTriangulo{
@@ -1396,40 +1396,40 @@ PARADAX
 
  .protectionInfo{
     padding-bottom: 1%;
-    font-size: 0.5em;
+    font-size: 0.4em;
     padding-left: 5%;
     padding-right: 5%;
     color: var(--whitteSolid);
  }
 
  .promocion{
-      background-color: var(--greyHigh);
+        font-size: .8em;
+    background-color: var(--greyHigh);
  }
  .leyendContacto{
-    font-size: .6em;
-    background-color: var(--greyMed);;
+    font-size: 0.5em;
+    background-color: var(--greyMed);
  }
 
  .txtForm{
     width: 90%;
-    font-size: .8em;
+    font-size: .6em;
     background-color: var(--greyLow);
     text-align: left;
  }
 
 .caja {
-    width: 425px;
+width: 280px;
     margin: 15px 0px 15px 0px;
-    /* border: 1px solid #455667; */
+    border: 1px solid #4CAF50;
     height: auto;
     /* overflow: hidden; */
     /* position: relative; */
-    background-color: transparent;
+    /* background-color: #59af31; */
     -moz-border-radius: 9px 9px 9px 9px;
     -webkit-border-radius: 9px 9px 9px 9px;
     border-radius: 9px 9px 9px 9px;
     box-shadow: 1px 1px 11px #FFFFFF;
-    background: #F1F1F0 no-repeat scroll 268px center;
 }
         select {
            border: none;
@@ -1440,31 +1440,31 @@ PARADAX
         }
         select:focus{ 
             outline: none;
-            background: var(--green);
+            background: var(--whitteSolid);
         }
         select:hover { 
             background-color: var(--green);
-        }
-        .caja::after{
-            content:"\025be";
-            display:table-cell;
-            text-align:center;
-            width:10px;
-            height:30px;
-            background-color: var(--greyLow);
-            position:absolute;
-            top:0;
-            right:0px;  
-            pointer-events: none;
+            color: var(--whitteSolid);;
         }
 
     select, option{
-        color: var(--greyHigh);
-    font-size: 15px;
+    color: var(--greyHigh);
+    font-size: .9em;
         }
 
 .txtArea{
     margin: 0px;
-    width: 425px;
+    width: 270px;
     height: 100px;
+}
+
+.cerrarContactContenedor{
+    z-index: 5;
+    text-align: center;
+    padding: 2%;
+    background-color: var(--blackSolid);
+}
+
+select::-ms-expand {
+    display: none;
 }

@@ -8,7 +8,7 @@
 		array('2',"Sandra Carrejo","scarrejo@escenika.com","1106-2678","sandrac"),
 		*/
 		array('3',"Alfredo Torres","atorres@escenika.com","1106-2678","alfredot"),
-		array('4',"Karen Mejia","kmejia@escenika.com","1106-2678","karenm"),
+		array('4',"Jazmin Torres","jtorres@escenika.com","1106-2678","karenm"),
 		array('5',"Christian Avila","cavila@escenika.com","1106-2678","christiana"),
 		array('6',"Teresa Martínez","tmartinez@escenika.com","1106-2678","teresam"),
 		array('7',"Fernanda Sandobal","fsandobal@escenika.com","1106-2678","fernandas"),
