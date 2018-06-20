@@ -104,7 +104,7 @@
     	    position: fixed;
 		    bottom: 20px;
 		    right: 30px;
-		    z-index: 99;
+		    z-index: 2;
 		    /* font-size: 18px; */
 		    /* border: none; */
 		    outline: none;
@@ -206,12 +206,12 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
 .modalInfo {
     position: fixed;
     top: 0px;
-    /* width: 100%; */
+    width: 100%;
     overflow: scroll;
     /* width: 500px; */
-    /* height: 100vh; */
-    z-index: 3;
-    display: none;
+    height: 100vh;
+    /* z-index: 3; */
+    /* display: none; */
     right: 10px;
 }
 
@@ -292,16 +292,16 @@ box-sizing: border-box;
       background-color: black;
 }
 .triangulo-equilatero-bottom {
-	position: relative;
-    bottom: 140px;
+	position: absolute;
+    bottom: 180px;
     width: 0px;
     height: 0px;
-    /* top: 600px; */
+    top: 600px;
     border-right: 220px solid transparent;
-    border-top: 60px solid transparent;
+    border-top: 0px solid transparent;
     border-left: 100px solid transparent;
     border-bottom: 100px solid #59AF31;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .button {
@@ -690,6 +690,7 @@ box-sizing: border-box;
 			</div>
 			<div id="contentEstilo">
 				<!--
+				-->
 				<svg class="contTrainguloAmenidades" height="50%" width="100%">
 				  <polygon class="trianguloSolid" points="380,90 900,400 0,400"></polygon>
 				  Sorry, your browser does not support inline SVG.
@@ -700,26 +701,8 @@ box-sizing: border-box;
 						incluidas
 					</p>
 				</div>
-				-->
 				<div class="divEstilo div1Estilo">
-					<div class="mySlides fade">
-					  <img  class="imagenAjustada" src="image/family0.png">
-					</div>
-
-					<div class="mySlides fade">
-					  <img  class="imagenAjustada" src="image/family1.jpg">
-					</div>
-
-					<div class="mySlides fade">
-					  <img class="imagenAjustada" src="image/family2.jpg">
-					</div>
-
-					<div class="mySlides fade">
-					  <img  class="imagenAjustada" src="image/family4.jpg">
-					</div>
-				</div>
-				<div class="divEstilo div2Estilo">
-					<div class="titleDeptos titleDeptos2">
+					<div class="tittleDeptosIzq">
 						<div class="contTituloSubtitulo2">
 							<div class="subtittle tiitle2">
 								CONOZCA NUESTROS
@@ -732,6 +715,25 @@ box-sizing: border-box;
 						</div>
 						</div>
 					</div>
+					<div class="containerSlidersFull">
+						<div class="mySlides fade">
+						  <img  class="imagenAjustada" src="image/family0.png">
+						</div>
+
+						<div class="mySlides fade">
+						  <img  class="imagenAjustada" src="image/family1.jpg">
+						</div>
+
+						<div class="mySlides fade">
+						  <img class="imagenAjustada" src="image/family2.jpg">
+						</div>
+
+						<div class="mySlides fade">
+						  <img  class="imagenAjustada" src="image/family4.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="divEstilo div2Estilo">
 					<div class="ContimagePinMAP">
 						<div class="contenedorMapaScroll">
 							<img class="imgMap" src="image/mapPin.png">
@@ -1075,7 +1077,7 @@ box-sizing: border-box;
 	</div>
 
 			<!-- The modalContacto -->
-<div id="id01" class="modalInfo animateInfo" style="z-index: 3;">
+<div id="id01" class="modalInfo animateInfo" style="z-index: 3; display: none">
   <form class="modalInfo-content" action="/action_page.php">
         <div class="containerFlag">
             <div class="flag">
@@ -1099,20 +1101,20 @@ box-sizing: border-box;
 	                <label for="email"><b>Email:</b></label>
                       <input type="email" placeholder="Enter Email" name="email" required="Please">
 
-					<div class="caja custom-select" style="width:280px;">
+					<div class="caja">
 		  					<select name="conocimiento">
-		  						<option value="0">Cómo se enteró de nosotros?</option>
-								<option value="1">Periódico/Revista</option>
-								<option value="2">Google</option>
-								<option value="3">Espectacular</option>
-								<option value="4">Stand</option>
-								<option value="5">Folleto</option>
-								<option value="6">Showroom</option>
-								<option value="7">Volante</option>
-								<option value="8">Redes Sociales</option>
-								<option value="9">Portal de Inmuebles</option>
-								<option value="10">Poster en la calle</option>
-								<option value="11">Valla Publicitaria</option>
+		  						<option value="none">Cómo se enteró de nosotros?</option>
+								<option value="periodico">Periódico/Revista</option>
+								<option value="google">Google</option>
+								<option value="espectacular">Espectacular</option>
+								<option value="stand">Stand</option>
+								<option value="folleto">Folleto</option>
+								<option value="showroom">Showroom</option>
+								<option value="volante">Volante</option>
+								<option value="redes">Redes Sociales</option>
+								<option value="inmuebles">Portal de Inmuebles</option>
+								<option value="poster">Poster en la calle</option>
+								<option value="valla">Valla Publicitaria</option>
 		  					</select>
 		  				</div>
                       <textarea class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>

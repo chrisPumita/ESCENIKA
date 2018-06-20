@@ -462,6 +462,19 @@
         transform: translateX(0%);
     }
 
+.tittleDeptosIzq{
+        display: block;
+    width: 60%;
+    position: absolute;
+    height: 60px;
+    bottom: 0px;
+    float: right;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+}
     .tittle{
         padding-left: 15px;
         font-size: 1.5em;
