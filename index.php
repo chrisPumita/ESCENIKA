@@ -1120,7 +1120,7 @@ box-sizing: border-box;
                       <textarea class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
                 	</div>
                 	<div class="protectionInfo">
-                         <p>*Campo Obligatorio. <br> Sus datos estan protegidos. <br> Porfavor lea nuestro <a href="#">Aviso de Privacidad</a>.</p>
+                         <p>*Campo Obligatorio. <br> Sus datos estan protegidos. <br> Porfavor lea nuestro <br> <ins><a href="#">Aviso de Privacidad</a></ins>.</p>
                 	</div>
 
 

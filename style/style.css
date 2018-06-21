@@ -672,21 +672,23 @@
     }
 
     .mjeBoxing{
-        z-index: 1;
+        z-index: 3;
         color: var(--whitteSolid);
-        left: 68%;
-        top: 90vh;
+        right: 0px;
+        bottom: 98vh;
         text-align: center;
         position: absolute;
+        width: 30%;
     }
 
     .contTrainguloAmenidades{
-        z-index: 1;
-        width: 100%;
-        height: 400px;
-        top: 62vh;
-        left: 54%;
-        position: fixed;
+        z-index: 3;
+        width: 55%;
+        height: 328px;
+        /* top: 62vh; */
+        bottom: 100vh;
+        left: 45%;
+        position: absolute;
     }
 
     .contTrainguloFooter{
@@ -700,8 +702,8 @@
     }
 
     .pBoxesMje{
-        font-size: 2.5em;
-        color: var(--whitteSolid);
+    font-size: 2em;
+    color: var(--whitteSolid);
     }
     .tituloInsideTriangulo{
         color: var(--green);
