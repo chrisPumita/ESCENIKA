@@ -39,7 +39,7 @@ window.onclick = function(event) {
         modalPhotoVirtual.style.display = "none";
     }
 }
-/* ********************************** MODAL 1: MODELO 1 DEPTO ************************************** */
+/* ********************************** MODAL 2: MODELO 1 DEPTO ************************************** */
 // Get the modalPhotoVirtual2
 var modalPhotoVirtual2 = document.getElementById('myModalPhotoVirtual2');
 
@@ -88,4 +88,31 @@ function showSlidesPhotoSales(n) {
   slidesPhoto[slideIndexPhotoSales-1].style.display = "block";
 }
 
-/* **************************************************************************************************** */
+/* ************************ SLIDERS DE AMENIDADES ************************************** */
+// Get the modalAmenidades
+var modalAmenidades = document.getElementById('myModalAmenidades');
+
+// Get the button that opens the modalAmenidades
+var btn3 = document.getElementById("btnVirtual3");
+var btn31 = document.getElementById("btnVirtual31");
+
+
+// Get the <span> element that closeBtnPhotos the modalAmenidades
+var span3 = document.getElementsByClassName("closeBtnPhoto3")[0];
+
+// When the user clicks the button, open the modalAmenidades 
+btn3.onclick = function() {
+    modalAmenidades.style.display = "block";
+}
+
+// When the user clicks on <span2> (x), closeBtnPhoto the modalAmenidades
+span3.onclick = function() {
+    modalAmenidades.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modalAmenidades, closeBtnPhoto it
+window.onclick = function(event) {
+    if (event.target == modalAmenidades) {
+        modalAmenidades.style.display = "none";
+    }
+}

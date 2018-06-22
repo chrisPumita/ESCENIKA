@@ -25,7 +25,7 @@
     /* left: 0; */
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: auto;
     /* background-color: rgb(0,0,0); */
     background-color: rgba(0, 0, 0, 0.58);
@@ -38,11 +38,11 @@
     padding: 20px;
     /* border: 1px solid #9E9E9E; */
     width: 90%;
-    height: 90%;
+    height: 85vh;
 }
 
 /* The CloseBtnPhoto Button */
-.closeBtnPhoto, .closeBtnPhoto2 {
+.closeBtnPhoto, .closeBtnPhoto2, .closeBtnPhoto3 {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -52,7 +52,10 @@
 .closeBtnPhoto:hover,
 .closeBtnPhoto:focus,
 .closeBtnPhoto2:hover,
-.closeBtnPhoto2:focus {
+.closeBtnPhoto2:focus,
+.closeBtnPhoto3:focus,
+.closeBtnPhoto3:hover
+ {
     color: #000;
     text-decoration: none;
     cursor: pointer;
@@ -464,7 +467,7 @@ box-sizing: border-box;
 			</button> </a>
 			<div id="contentProyect">
 				<div class="contenCaract">
-						<div class="contentDescription">
+						<div id="btnVirtual3" class="contentDescription">
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
@@ -498,7 +501,8 @@ box-sizing: border-box;
 							<div class="bandera">
 							</div>
 						</div>	
-						<div class="contentDescription">
+
+						<div class="contentDescription" href="#mapAmenidades">
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
@@ -515,7 +519,7 @@ box-sizing: border-box;
 							<div class="bandera">
 							</div>
 						</div>	
-						<div class="contentDescription">
+						<div class="contentDescription" onclick="document.getElementById('myModalAmenidades').style.display='block'">
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
@@ -705,10 +709,10 @@ box-sizing: border-box;
 					<div class="tittleDeptosIzq">
 						<div class="contTituloSubtitulo2">
 							<div class="subtittle tiitle2">
-								CONOZCA NUESTROS
+								ESPACIOS PARA TU COMODIDAD
 							</div>
 							<div class="tittle tiitle2">
-								DEPARTAMENTOS
+								ESTILO DE VIDA
 							</div>
 							<div class="trianguloTittle2">
 							<img class="trianguloImg" src="icons/tiitletrianguloINVERT.png">
@@ -733,7 +737,7 @@ box-sizing: border-box;
 						</div>
 					</div>
 				</div>
-				<div class="divEstilo div2Estilo">
+				<div id="mapAmenidades" class="divEstilo div2Estilo">
 					<div class="ContimagePinMAP">
 						<div class="contenedorMapaScroll">
 							<img class="imgMap" src="image/mapPin.png">
@@ -1060,7 +1064,7 @@ box-sizing: border-box;
 	    <p class="subtittle">RECORRIDO FOTOGRÁFICO VIRTUAL - DEPARTAMENTO CMYK MOD 2</p>
 			<iframe class="recorrido-iframe" style="width:  100%;height:  90%;" src="https://my.matterport.com/show/?m=H6PfMfCeZTi&lang=es" frameborder="0" allowfullscreen>
 			</iframe>
-	  </div>
+	  </div>    
 
 	</div>
 
@@ -1073,6 +1077,53 @@ box-sizing: border-box;
 	    <p class="subtittle">RECORRIDO FOTOGRÁFICO VIRTUAL - DEPARTAMENTO RGB MOD 1</p>
 			<iframe class="recorrido-iframe" style="width:  100%;height:  90%;" src="https://my.matterport.com/show/?m=H6PfMfCeZTi&lang=es" frameborder="0" allowfullscreen>
 			</iframe>
+	  </div>
+	</div>
+
+			<!-- The ModalPhotoVirtual -->
+	<div id="myModalAmenidades" class="modalPhotoVirtual">
+
+	  <!-- ModalPhotoVirtual content -->
+	  <div class="modalPhotoVirtual-content2">
+	    <span class="closeBtnPhoto3">&times;</span>
+	    <p class="subtittle">ESTILOS DE VIDA</p>
+			<div class="containerAmenidades">
+				<div class="contAmenidades">
+					<div class="boxImageAmenidad">
+						<img class="imagenAjustada img" src="image/amenidades/persianas_automaticas.jpg">
+					</div>
+				</div>
+				<div class="contAmenidades">
+					<div class="boxAmenidad">
+						<div class="boxImageAmenidad">
+							<img class="imagenAjustada img" src="image/amenidades/calentador-de_agua.jpg">
+						</div>
+					</div>
+					<div class="boxAmenidad">
+						<div class="boxImageAmenidad">
+							<img class="imagenAjustada img" src="image/amenidades/lampara.png">
+						</div>
+					</div>
+				</div>
+				<div class="contAmenidades">
+					<div class="boxAmenidad infoG">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+					<div class="boxAmenidad infoV">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+			</div>
 	  </div>
 	</div>
 

@@ -683,11 +683,10 @@
 
     .contTrainguloAmenidades{
         z-index: 3;
-        width: 55%;
-        height: 328px;
-        /* top: 62vh; */
+        width: 45%;
+        height: 400px;
         bottom: 100vh;
-        left: 45%;
+        left: 55%;
         position: absolute;
     }
 
@@ -1483,3 +1482,78 @@ width: 280px;
 select::-ms-expand {
     display: none;
 }
+
+
+/*
+        Estilo de vida pop up amenidades
+ */
+
+.containerAmenidades{
+    width: 100%;
+    height: 90%;
+    background-color: var(--grey);
+    position: relative;
+    display: flex;
+}
+
+.contAmenidades{
+    width: 33.2%;
+    height: 100%;
+}
+
+.boxAmenidad{
+    width: 100%;
+    height: 50%;
+}
+
+.infoG, .infoV{
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    width: 91%;
+}
+
+.infoV{
+    background-color: var(--green);
+}
+
+.infoG{
+    background-color: var(--greyHigh);
+}
+
+.boxImageAmenidad{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.contAmenidades:hover .img {
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2); 
+}
+.contAmenidades, .boxAmenidad {
+    overflow:auto;
+}
+
+
+
+.img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+    transform:scale(1);
+    -ms-transform:scale(1); 
+    -moz-transform:scale(1); 
+    -webkit-transform:scale(1); 
+    -o-transform:scale(1); 
+    -webkit-transition: all 500ms ease-in-out; 
+    -moz-transition: all 500ms ease-in-out; 
+    -ms-transition: all 500ms ease-in-out; 
+    -o-transition: all 500ms ease-in-out;   
+}     
