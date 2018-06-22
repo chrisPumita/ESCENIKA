@@ -42,7 +42,7 @@
 }
 
 /* The CloseBtnPhoto Button */
-.closeBtnPhoto, .closeBtnPhoto2, .closeBtnPhoto3 {
+.closeBtnPhoto, .closeBtnPhoto2, .closeBtnPhoto3, .closeBtnPhoto5 {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -54,7 +54,9 @@
 .closeBtnPhoto2:hover,
 .closeBtnPhoto2:focus,
 .closeBtnPhoto3:focus,
-.closeBtnPhoto3:hover
+.closeBtnPhoto3:hover,
+.closeBtnPhoto5:focus,
+.closeBtnPhoto5:hover
  {
     color: #000;
     text-decoration: none;
@@ -721,19 +723,25 @@ box-sizing: border-box;
 					</div>
 					<div class="containerSlidersFull">
 						<div class="mySlides fade">
-						  <img  class="imagenAjustada" src="image/family0.png">
+						  <img alt="jardin"  class="imagenAjustada" src="image/amenidades/jardin.jpg">
 						</div>
 
 						<div class="mySlides fade">
-						  <img  class="imagenAjustada" src="image/family1.jpg">
+						  <img alt="casa inteligente"  class="imagenAjustada" src="image/amenidades/homeInteligent.jpg">
 						</div>
 
 						<div class="mySlides fade">
-						  <img class="imagenAjustada" src="image/family2.jpg">
+						  <img alt="niños jugando" class="imagenAjustada" src="image/amenidades/ninios_111661380.jpg">
 						</div>
 
 						<div class="mySlides fade">
-						  <img  class="imagenAjustada" src="image/family4.jpg">
+						  <img alt="familia con mascota"  class="imagenAjustada" src="image/amenidades/petfriendly.jpg">
+						</div>
+						<div class="mySlides fade">
+						  <img alt="salon de ventos"  class="imagenAjustada" src="image/amenidades/salon_143121109.jpg">
+						</div>
+						<div class="mySlides fade">
+						  <img alt="cancha de tennis"  class="imagenAjustada" src="image/amenidades/tenis-1.jpg">
 						</div>
 					</div>
 				</div>
@@ -1034,7 +1042,7 @@ box-sizing: border-box;
 			<div class="autorized">
 				<p class="txtAutorixed">
 					Autorizado mediante gaceta de Gobierno del Estado de México tomo CCIV números 34 y 35 de fecha 17 y 18 de Agosto de 2017. <br>
-					<a href="#">
+					<a id="btnVirtual5" href="#" onclick="document.getElementById('myModalPrivacity').style.display='block'">
 						Aviso de Privacidad
 					</a>
 					
@@ -1080,7 +1088,7 @@ box-sizing: border-box;
 	  </div>
 	</div>
 
-			<!-- The ModalPhotoVirtual -->
+			<!-- The Modal amenidades -->
 	<div id="myModalAmenidades" class="modalPhotoVirtual">
 
 	  <!-- ModalPhotoVirtual content -->
@@ -1123,6 +1131,49 @@ box-sizing: border-box;
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</div>
 				</div>
+			</div>
+	  </div>
+	</div>
+
+			<!-- The Modal Politicy -->
+	<div id="myModalPrivacity" class="modalPhotoVirtual2">
+
+	  <!-- ModalPhotoVirtual content -->
+	  <div class="modalPhotoVirtual-content2 aviso">
+	    <span class="closeBtnPhoto5">&times;</span>
+	    <p class="tittle">AVISO DE PRIVACIDAD</p>
+
+			<div class="aviso-content">
+				<h1>DESCRIPCIÓN DEL AVISO</h1>
+				<p>En Desarrolladora Elements S.A. de C.V. contamos con domicilio en (PUENTE DE VIGAS) Av. Adolfo López Mateos 6 Casi esq. Calz. Las Armas, Col. San José Puente de Vigas, Tlalnepantla, C.P. 54090, Estado de México, es responsable del tratamiento de sus datos personales. Hacemos de su conocimiento que no solicitamos ni hacemos uso de datos personales sensibles. Los términos que se utilicen en el presente aviso, tendrán la definición que a los mismos le asigna la Ley Federal de Protección de Datos Personales en Posesión de Particulares.</p>
+			</div>
+
+			<div class="aviso-content">
+				<h1>DATOS PERSONALES QUE RECABAMOS</h1>
+				<p>Los datos personales que podemos llegar a recabar por la relación comercial que se lleva acabo se mantendrán como privados y solo solicitaremos información necesaria para llevar a cabo los requerimientos solicitados por los clientes; dentro los que encuentran: Nombres, Apellidos, Domicilios, teléfonos, correos electrónicos, fecha de nacimiento, información bancaria, Intereses sobre los productos, clave de Registro Federal de Contribuyentes, Información de formas de pago y toda aquella información que el usuario nos proporcione a lo largo de la relación contractual o comercial que se establezca.</p>
+			</div>
+
+			<div class="aviso-content">
+				<h1><span style="display: inline-block;transform: rotate(180deg);">?</span>CON QUE FINALIDAD RECABAMOS LOS DATOS?</h1>
+				<p>Los datos personales podrán ser tratados y utilizados por nosotros y nuestras filiales o subsidiarias nacionales e Internacionales para llevar a cabo algunas o todas las actividades relacionadas con el cumplimiento de las obligaciones que deriven de la relación comercial que se originen y deriven de la prestación de servicios o venta de productos; con el propósito de informar a los clientes del lanzamiento de nuevos productos, servicios, promociones y ofertas de nosotros o terceros, realizar estudios de mercado, así como cualquier otra actividad tendiente a promover y mejorar los servicios. La transferencia de los datos personales del usuario se encuentra limitada a aquellos actos, hechos y/o procedimientos que se requieran implementar a efecto de estar en posibilidad de cumplir con las obligaciones contractuales, regulatorias y comerciales en el curso ordinario de las operaciones. Si el usuario no manifiesta su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello.</p>
+			</div>
+			
+
+			<div class="aviso-content">
+				<h1>MEDIOS PARA EJERCER LOS DERECHOS (A.R.C.O)</h1>
+				<p>Los datos personales que recabamos de los usuarios serán tratados en estricto apego a la Ley. En cualquier momento, el usuario tendrá el derecho a solicitar el ejercicio de los derechos que le confiere la Ley, para limitar el acceso, la rectificación, cancelación u oposición; enviando su solicitud correspondiente por escrito al siguiente correo electrónico: contacto@elements.com.mx o comunicándose vía telefónica al 01 (55) 1106-2678, donde con gusto lo atenderemos.</p>
+				<p>Si usted se registra vía telefónica o por algún medio digital y no desea recibir notificaciones y/o avisos sobre nosotros o marcas comerciales afiliadas, tendrá que indicarlo durante el proceso a la persona de Desarrolladora Elements S.A. de C.V. que esté tratando en ese momento, marcándolo en el formulario que este entregando y en todo caso, dirigiéndose con nuestro departamento de Atención al Cliente.</p>
+			</div>
+			
+
+			<div class="aviso-content" style="border:none">
+				<h1>MODIFICACIONES AL AVISO DE PRIVACIDAD</h1>
+				<p>Nos reservamos el derecho de efectuar en cualquier momento, cambios o modificaciones al presente aviso de privacidad, para la atención de novedades legislativas o jurisprudenciales, políticas internas, nuevos requerimientos para el ofrecimiento de nuestros productos y mejores prácticas en el servicio. Estas modificaciones estarán disponibles al público a través de los siguientes medios:</p>
+				<p>• En nuestra página de internet www.elements.com.mx</p>
+				<p>• Mediante anuncios visibles en nuestras instalaciones</p>
+				<p>• Vía mail al correo electrónico que nos proporcionó</p>
+				<p>En la medida que el usuario no solicite, en los términos antes mencionados, la cancelación y/u oposición de sus información y continúe accediendo y/o utilizando, parcial o totalmente, los servicios, implicará que ha aceptado y consentido tales cambios y modificaciones. Al proporcionarnos sus datos personales, expresa, reconoce y acepta el presente Aviso, según el mismo pueda ser modificado en tiempo, y otorga su consentimiento para procesar sus datos personales de la forma que se explica en el presente. Si no está de acuerdo o acepta este aviso, no deberá proporcionar ninguna información, ni utilizar los servicios que le ofrecemos.</p>
+				<p style="text-align: right">FECHA DE ACTUALIZACIÓN: 18-ENERO-2018</p>
 			</div>
 	  </div>
 	</div>

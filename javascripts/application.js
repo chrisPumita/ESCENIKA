@@ -116,3 +116,31 @@ window.onclick = function(event) {
         modalAmenidades.style.display = "none";
     }
 }
+
+
+/* ************************ SLIDERS DE AVISO DE PRIVACIDAD ************************************** */
+// Get the modalPrivacity
+var modalPrivacity = document.getElementById('myModalPrivacity');
+
+// Get the button that opens the modalPrivacity
+var btn5 = document.getElementById("btnVirtual5");
+
+// Get the <span> element that closeBtnPhotos the modalPrivacity
+var span5 = document.getElementsByClassName("closeBtnPhoto5")[0];
+
+// When the user clicks the button, open the modalPrivacity 
+btn5.onclick = function() {
+    modalPrivacity.style.display = "block";
+}
+
+// When the user clicks on <span2> (x), closeBtnPhoto the modalPrivacity
+span5.onclick = function() {
+    modalPrivacity.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modalPrivacity, closeBtnPhoto it
+window.onclick = function(event) {
+    if (event.target == modalPrivacity) {
+        modalPrivacity.style.display = "none";
+    }
+}
