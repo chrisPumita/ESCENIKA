@@ -314,39 +314,36 @@
     }
 /*  HOVER EN LOS ELEMENtOS DE DESCRIPCION */
    .banderaText:hover .iconPerfect , .contentDescription:hover .iconPerfect{
-        background: url(../icons/domotic.png) center no-repeat;
-        background-size: 60%;
+        background: url(../icons/homeG.png) center no-repeat;
+        background-size: 100%;
         border: white solid 4px;
     }
 
    .banderaText:hover .iconVista , .contentDescription:hover .iconVista{
-        background: url(../icons/vista.png) center no-repeat;
-        background-size: 60%;
+        background: url(../icons/viewG.png) center no-repeat;
+        background-size: 100%;
         border: white solid 4px;
     }
 
    .banderaText:hover .iconParque , .contentDescription:hover .iconParque{
-        background: url(../icons/parque.png) center no-repeat;
-        background-size: 60%;
+        background: url(../icons/treeG.png) center no-repeat;
+        background-size: 100%;
         border: white solid 4px;
     }
 
    .banderaText:hover .iconCalentador , .contentDescription:hover .iconCalentador{
-        background: url(../icons/calentador.png) center no-repeat;
-        background-size: 60%;
+        background: url(../icons/sunG.png) center no-repeat;
+        background-size: 100%;
         border: white solid 4px;
     }
 
 
      .banderaText:hover .backIconLogoC, .contentDescription:hover .backIconLogoC{
-        margin-top: -7%;
-        position: absolute;
-        display: inline-flex;
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        background-color: var(--green);
-        border: white solid 5px;
+    margin-top: -7%;
+    position: absolute;
+    display: inline-flex;
+    border-radius: 50%;
+    border: white solid 5px;
      }
 
      .lineaBandera{
@@ -1558,7 +1555,109 @@ select::-ms-expand {
     -o-transition: all 500ms ease-in-out;   
 }     
 
-
  .aviso {
         overflow: scroll;
+}
+
+/*  MODAL DE AMENIDADES VARIOS */
+
+.modal-contenido{
+    background-color: var(--grey);
+    width: 90%;
+    height: 75%;
+    padding: 2%;
+    margin: 5% auto;
+    position: relative;
+    overflow: auto;
+}
+.modal1{
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    background-color: #000000c7;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    transition: all 0.5s;
+    color: var(--whitteSolid);
+}
+#miModalAmeni1:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+.linkCloseAmeni{
+    color: var(--whitteSolid);
+        float: right;
+}
+
+
+.TModalAmen{
+    width: 80%;
+    height: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: var(--grey);
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* right: 8px; */
+    left: 0px;
+    position: absolute;
+}
+
+.ContBoxAmeni{
+    width: 100%;
+    height: 84%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #2196F3;
+    position: absolute;
+    display: inline-table;
+    display: flex;
+}
+
+.contModalAmeni{
+    width: 50%;
+    height: 100%;
+}
+.box:hover .top {
+    -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+    top: -100%;
+}
+
+.top {
+    order: 3;
+}
+.top {
+    top: -200px;
+}
+.cover {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    background: rgba(0,0,0,0.45);
+    position: relative;
+    -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+    /* padding: 1em; */
+    color: #fff;
+    overflow: hidden;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.box {
+    width: 100%;
+    /* height: 200px; */
+    /* background: url(http://placekitten.com/250/200); */
+    overflow: hidden;
+    /* margin: 5px; */
+    /* border: 1px solid #000; */
+    box-shadow: 0px 0px 15px 0px #666, 0px 5px 15px 0px #000;
 }

@@ -504,22 +504,25 @@ box-sizing: border-box;
 							</div>
 						</div>	
 
-						<div class="contentDescription" href="#mapAmenidades">
-							<div class="banderaText">
-								<div class="backIconLogoC">
-								</div>
-								<div class="iconLogoC iconParque">
-								</div>
-								<h2 class="tDesc">AMPLIAS</h2>
-								<h3 class="stDesc">ÁREAS VERDES</h3>							
-								<hr class="lineaBandera">
-							<p class="txtDesc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-							</p>
-							</div>
-							<div class="bandera">
-							</div>
+						<div class="contentDescription">
+                            <a href="#mapAmenidades">
+    							<div class="banderaText">
+    								<div class="backIconLogoC">
+    								</div>
+    								<div class="iconLogoC iconParque">
+    								</div>
+    								<h2 class="tDesc">AMPLIAS</h2>
+    								<h3 class="stDesc">ÁREAS VERDES</h3>							
+    								<hr class="lineaBandera">
+    							<p class="txtDesc">
+    								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+    							</p>
+    							</div>
+    							<div class="bandera">
+    							</div>
+                                
+                            </a>
 						</div>	
 						<div class="contentDescription" onclick="document.getElementById('myModalAmenidades').style.display='block'">
 							<div class="banderaText">
@@ -749,12 +752,14 @@ box-sizing: border-box;
 					<div class="ContimagePinMAP">
 						<div class="contenedorMapaScroll">
 							<img class="imgMap" src="image/mapPin.png">
-							<div class="contPinBoxes1">
-								<img class="imgPin" src="icons/pin.png">
-								<div class="boxPin">
-									SALON DE USOS MUKTIMPLES
-								</div>
-							</div>
+                            <a href="#miModalAmeni1">
+                                <div class="contPinBoxes1">
+                                    <img class="imgPin" src="icons/pin.png">
+                                    <div class="boxPin">
+                                        SALON DE USOS MUKTIMPLES
+                                    </div>
+                                </div>
+                            </a>
 							<div class="contPinBoxes2">
 								<img class="imgPin" src="icons/pin.png">
 								<div class="boxPin">
@@ -771,6 +776,40 @@ box-sizing: border-box;
 					</div>
 				</div>
 			</div>
+<!-- AMENIDADES ZONE BOX-->
+<div id="miModalAmeni1" class="modal1">
+  <div class="modal-contenido">
+    <div class="TModalAmen">
+        <a class="linkCloseAmeni" href="#mapAmenidades">CERRAR</a>
+        <h2>AMENIDAD 1</h2>
+    </div>
+    <div class="ContBoxAmeni">
+        <div class="contModalAmeni">
+            <div class="boxImageAmenidad box contAmenidades">
+                <img class="imagenAjustada img" src="image/amenidades/tenis.jpg">
+                    <div class="cover top">
+                  <h2 class="tittle">Cancha de Tennis</h2>
+                  <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quis enim nam dolorem recusandae ducimus laudantium iure sint similique reiciendis quaerat dolorum cum aliquid officiis repudiandae in qui itaque maiores!</p>
+                </div>
+            </div>
+        </div>
+        <div class="contModalAmeni">
+            <div class="boxAmenidad">
+                        <div class="boxImageAmenidad contAmenidades">
+                            <img class="imagenAjustada img" src="image/amenidades/tenis-1.jpg">
+                        </div>
+                    </div>
+            <div class="boxAmenidad">
+                        <div class="boxImageAmenidad contAmenidades">
+                            <img class="imagenAjustada img" src="image/amenidades/canchaTenis.jpg">
+                        </div>
+            </div>
+        </div>
+    </div>
+  </div>  
+</div>
+
+
 			<div id="contentContacto">
 				<div class="contentContact">
 					<div class="titleDeptos">
