@@ -410,7 +410,7 @@ box-sizing: border-box;
 					</a>
 					<button id="btnStart" class="boton bTri btn1 btnInformes" onclick="document.getElementById('id01').style.display='block'" >INFORMES</button>
 				</div>
-				<div class="contLogo">
+				<div class="contLogo colorDegradado">
 					<div class="logoEsc">
 						<img class="logoImg" src="image/Escenika-LogoHome.png" alt="Logo de Escenika">
 					</div>
@@ -439,7 +439,7 @@ box-sizing: border-box;
 						</div>
 					</div>
 				</div>
-				<div class="contPano">
+				<div class="contPano colorPaisajeDegradado">
 					<div class="contMjeAbout">
 						<div class="positionContMje">
 							<svg class="contPanoTraingulo">
@@ -1021,7 +1021,7 @@ box-sizing: border-box;
 					<div id="mapaGoolePlugIn" class="contMapaGoogle">
 						<iframe class="googleMap" src="https://www.google.com/maps/d/embed?mid=1u73tudK45NK7YBdSfxLBW64RvHFWfqYB" width="100%" height="100%">
 						</iframe>
-							<div class="ContInfoInsideMap">
+							<div class="ContInfoInsideMap colorDegradado">
 								<div class="contactVisitTittle">
 									VISITA NUESTRO SHOWROOM
 									<hr class="lineContact">
@@ -1178,7 +1178,7 @@ box-sizing: border-box;
 	<div id="myModalPrivacity" class="modalPhotoVirtual2">
 
 	  <!-- ModalPhotoVirtual content -->
-	  <div class="modalPhotoVirtual-content2 aviso">
+	  <div class="modalPhotoVirtual-content2 aviso colorDegradado">
 	    <span class="closeBtnPhoto5">&times;</span>
 	    <p class="tittle">AVISO DE PRIVACIDAD</p>
 
