@@ -20,7 +20,7 @@
 .modalPhotoVirtual, .modalPhotoVirtual2 {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 4;
     padding-top: 1%;
     /* left: 0; */
     top: 0;
@@ -36,7 +36,7 @@
     background-color: var(--grey);
     margin: auto;
     padding: 20px;
-    /* border: 1px solid #9E9E9E; */
+    margin-top: 50px;
     width: 90%;
     height: 85vh;
 }
@@ -75,19 +75,19 @@
 		    background-size: cover;
         }
         .imagenPano{
-    -webkit-animation: animatedBackground 60s alternate ease-in-out infinite;
+    -webkit-animation: animatedBackground 280s alternate ease-in-out infinite;
     animation-name: mov-izq;
-    animation-duration: 60s;
+    animation-duration: 280s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-delay: 0s;
     -moz-animation-name: mov-izq;
-    -moz-animation-duration: 60s;
+    -moz-animation-duration: 280s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -moz-animation-delay: 0s;
     -webkit-animation-name: mov-izq;
-    -webkit-animation-duration: 60s;
+    -webkit-animation-duration: 280s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 0s;
@@ -212,9 +212,9 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
     position: fixed;
     top: 0px;
     width: 100%;
-    overflow: scroll;
+    overflow-y: auto;
     /* width: 500px; */
-    height: 100vh;
+    height: 100%;
     /* z-index: 3; */
     /* display: none; */
     right: 10px;
@@ -222,7 +222,7 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
 
 /* ModalInfo Content/Box */
 .modalInfo-content {
-        width: 320px;
+    width: 500px;
     float: right;
 }
 
@@ -269,8 +269,8 @@ body{
 }
 
 .flag {
-box-sizing: border-box;
-    width: 320px;
+    box-sizing: border-box;
+    width: 500px;
     height: auto;
     margin: 0 auto;
     /* padding-top: 30px; */
@@ -285,7 +285,7 @@ box-sizing: border-box;
 }
 
 .triangulo-equilatero-bottom:hover, .button:hover .triangulo-equilatero-bottom{
-	border-bottom: 100px solid #000000;
+	border-bottom: 150px solid #000000;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
@@ -297,15 +297,15 @@ box-sizing: border-box;
       background-color: black;
 }
 .triangulo-equilatero-bottom {
-	position: absolute;
+    position: absolute;
     bottom: 180px;
     width: 0px;
     height: 0px;
     top: 600px;
-    border-right: 220px solid transparent;
+    border-right: 300px solid transparent;
     border-top: 0px solid transparent;
-    border-left: 100px solid transparent;
-    border-bottom: 100px solid #59AF31;
+    border-left: 200px solid transparent;
+    border-bottom: 150px solid #59AF31;
     /* margin: 0 auto; */
 }
 
@@ -315,8 +315,8 @@ box-sizing: border-box;
     color: white;
     /* padding: 0px 0px 0px 0px; */
     display: inline-flex;
-    font-size: 28px;
-    margin: 54px 0px 0px -32px;
+    font-size: 35px;
+    margin: 75px 0px 0px -40px;
     cursor: pointer;
 }
 .pieTri{
@@ -326,18 +326,19 @@ box-sizing: border-box;
 }
 
 .pieTriangulo{
+    /*Para Web Desktop*/
     position: relative;
     width: 0px;
     height: 0px;
     margin: 0 auto;
-    border-right: 220px solid var(--greyLow);
+    border-right: 300px solid var(--greyLow);
     border-top: 5px solid var(--greyLow);
-    border-left: 100px solid var(--greyLow);
-    border-bottom: 100px solid #090c0700;
+    border-left: 200px solid var(--greyLow);
+    border-bottom: 150px solid #090c0700;
 }
 
 .containerFlag{
-        width: 320px;
+        width: 500px;
 }
 	</style>
 
@@ -463,10 +464,13 @@ box-sizing: border-box;
 					</div>
 				</div>
 			</div>
-		<a href="#contentHeader" title="To Top">
-			<button id="myBtnUp" title="Ir Arriba">
-				<i style="font-size:35px" class="fa">&#xf139;</i>
-			</button> </a>
+            <!-- 
+        <a href="#contentHeader" title="To Top">
+            <button id="myBtnUp" title="Ir Arriba">
+                <i style="font-size:35px" class="fa">&#xf139;</i>
+            </button>
+        </a>
+            -->
 			<div id="contentProyect">
 				<div class="contenCaract">
 						<div id="btnVirtual3" class="contentDescription">
@@ -700,17 +704,17 @@ box-sizing: border-box;
 			<div id="contentEstilo">
 				<!--
 				-->
-				<svg class="contTrainguloAmenidades" height="50%" width="100%">
-				  <polygon class="trianguloSolid" points="380,90 900,400 0,400"></polygon>
-				  Sorry, your browser does not support inline SVG.
-				</svg>
-				<div class="mjeBoxing">
-					<p class="pBoxesMje">
-						Áreas Recreativas <br>
-						incluidas
-					</p>
-				</div>
-				<div class="divEstilo div1Estilo">
+                <div class="divEstilo div1Estilo">
+        				<svg class="contTrainguloAmenidades" height="50%" width="100%">
+        				  <polygon class="trianguloSolid" points="380,90 900,400 0,400"></polygon>
+        				  Sorry, your browser does not support inline SVG.
+        				</svg>
+        				<div class="mjeBoxing">
+        					<p class="pBoxesMje">
+        						Áreas Recreativas <br>
+        						incluidas
+        					</p>
+        				</div>
 					<div class="tittleDeptosIzq">
 						<div class="contTituloSubtitulo2">
 							<div class="subtittle tiitle2">
@@ -724,9 +728,9 @@ box-sizing: border-box;
 						</div>
 						</div>
 					</div>
-					<div class="containerSlidersFull">
+					<div class="containerSlidersFull amenidadColor">
 						<div class="mySlides fade">
-						  <img alt="jardin"  class="imagenAjustada" src="image/amenidades/jardin.jpg">
+						  <img alt="jardin"  class="imagenAjustada" src="image/amenidades/gym.jpg">
 						</div>
 
 						<div class="mySlides fade">
@@ -738,36 +742,36 @@ box-sizing: border-box;
 						</div>
 
 						<div class="mySlides fade">
-						  <img alt="familia con mascota"  class="imagenAjustada" src="image/amenidades/petfriendly.jpg">
+						  <img alt="familia"  class="imagenAjustada" src="image/amenidades/family.jpg">
 						</div>
 						<div class="mySlides fade">
-						  <img alt="salon de ventos"  class="imagenAjustada" src="image/amenidades/salon_143121109.jpg">
+						  <img alt="salon de ventos"  class="imagenAjustada" src="image/amenidades/salon.jpg">
 						</div>
 						<div class="mySlides fade">
-						  <img alt="cancha de tennis"  class="imagenAjustada" src="image/amenidades/tenis-1.jpg">
+						  <img alt="cancha de tennis"  class="imagenAjustada" src="image/amenidades/petfriendly.jpg">
 						</div>
 					</div>
 				</div>
 				<div id="mapAmenidades" class="divEstilo div2Estilo">
 					<div class="ContimagePinMAP">
 						<div class="contenedorMapaScroll">
-							<img class="imgMap" src="image/mapPin.png">
+							<img class="imgMap" src="image/amenidades/miniMap.png">
                             <a href="#miModalAmeni1">
                                 <div class="contPinBoxes1">
-                                    <img class="imgPin" src="icons/pin.png">
+                                    <img class="imgPin checkPoint" src="icons/pin.png">
                                     <div class="boxPin">
                                         SALON DE USOS MUKTIMPLES
                                     </div>
                                 </div>
                             </a>
 							<div class="contPinBoxes2">
-								<img class="imgPin" src="icons/pin.png">
+								<img class="imgPin checkPoint" src="icons/pin.png">
 								<div class="boxPin">
 									AREAS VERDES
 								</div>
 							</div>
 							<div class="contPinBoxes3">
-								<img class="imgPin" src="icons/pin.png">
+								<img class="imgPin checkPoint" src="icons/pin.png">
 								<div class="boxPin">
 									ESTACIONAMIENTO
 								</div>
@@ -780,8 +784,8 @@ box-sizing: border-box;
 <div id="miModalAmeni1" class="modal1">
   <div class="modal-contenido">
     <div class="TModalAmen">
-        <a class="linkCloseAmeni" href="#mapAmenidades">CERRAR</a>
-        <h2>AMENIDAD 1</h2>
+        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <p> AMENIDAD 1</p>
     </div>
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
@@ -1028,7 +1032,7 @@ box-sizing: border-box;
 								</div>
 								<div class="contentDataContact">
 									<div class="boxDataContact">
-										<img class="iconContact" src="icons/pinter.png">
+										<img class="iconContact" src="icons/point.png">
 										<p class="txtAdreess">
 											Av. Hacienda de Lindavista S/N, Esq. Hacienda de la Gavia, <br>
 											Col. Hacienda del parque 2da Sección, Cuautitlán Izcalli, <br>
@@ -1036,7 +1040,7 @@ box-sizing: border-box;
 										</p>
 									</div>
 									<div class="boxDataContact">
-										<img class="iconContact" src="icons/pinter.png">
+										<img class="iconContact" src="icons/time.png">
 										<p class="txtAdreess">
 											<strong>
 												Horarios de Atención: <br>
@@ -1137,14 +1141,19 @@ box-sizing: border-box;
 			<div class="containerAmenidades">
 				<div class="contAmenidades">
 					<div class="boxImageAmenidad">
-						<img class="imagenAjustada img" src="image/amenidades/persianas_automaticas.jpg">
+						<img class="imagenAjustada img" src="image/amenidades/calentador-de_agua.jpg">
 					</div>
 				</div>
 				<div class="contAmenidades">
 					<div class="boxAmenidad">
-						<div class="boxImageAmenidad">
-							<img class="imagenAjustada img" src="image/amenidades/calentador-de_agua.jpg">
-						</div>
+    	                 <div class="boxAmenidad infoG">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
 					</div>
 					<div class="boxAmenidad">
 						<div class="boxImageAmenidad">
@@ -1152,24 +1161,7 @@ box-sizing: border-box;
 						</div>
 					</div>
 				</div>
-				<div class="contAmenidades">
-					<div class="boxAmenidad infoG">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</div>
-					<div class="boxAmenidad infoV">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</div>
-				</div>
+
 			</div>
 	  </div>
 	</div>
@@ -1261,7 +1253,9 @@ box-sizing: border-box;
                       <textarea class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
                 	</div>
                 	<div class="protectionInfo">
-                         <p>*Campo Obligatorio. <br> Sus datos estan protegidos. <br> Porfavor lea nuestro <br> <ins><a href="#">Aviso de Privacidad</a></ins>.</p>
+                         <p>*Campo Obligatorio. <br> Sus datos estan protegidos. <br> Porfavor lea nuestro <br> <ins><a id="btnVirtual6" href="#" onclick="document.getElementById('myModalPrivacity').style.display='block'">
+                        Aviso de Privacidad
+                    </a></ins>.</p>
                 	</div>
 
 

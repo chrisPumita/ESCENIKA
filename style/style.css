@@ -23,6 +23,12 @@
         background-color: var(--blackSolid) !important;
     }
 
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
 .colorDegradado{
     background: rgba(38,38,38,1);
 background: -moz-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
@@ -45,6 +51,18 @@ background: -o-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 2
 background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* IE 10+ */
 
 }
+
+.amenidadColor{
+    background: rgba(86,175,49,1);
+background: -moz-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(86,175,49,1)), color-stop(89%, rgba(129,141,135,0.19)), color-stop(100%, rgba(134,137,146,0.19)));
+background: -webkit-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+background: -o-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+background: -ms-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+background: linear-gradient(to bottom, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', endColorstr='#868992', GradientType=0 );
+}
+
     .contTriangulo{
         height: 50%; */
         /* width: 100%; */
@@ -160,6 +178,7 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
     -webkit-box-shadow: 0px 0px 32px 12px rgba(0,0,0,0.35);
     -moz-box-shadow: 0px 0px 32px 12px rgba(0,0,0,0.35);
     box-shadow: 0px 0px 32px 12px rgba(0,0,0,0.35);
+        border: var(--blackSolid) solid 1px;
 }
 
     .btn2{
@@ -194,6 +213,7 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
         z-index: 9999;
         float: right;
         top: 0px;
+        border: var(--green) solid 1px;
     }
     /*          INICIA el HEADER MENU DE DEMAS*/
     #contentHeader{
@@ -264,7 +284,6 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
         align-items: center;
     }
     .contMjeAbout{
-        background: var(--degrayBlackLow);
         height: 100%;
         text-align: center;
         display: flex;
@@ -553,11 +572,6 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
         box-shadow: -1px 0px 34px -5px rgba(0,0,0,1);
     }
 
-    .boxFront:hover{
-        -webkit-box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
-        -moz-box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
-        box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
-    }
 
     .boxBackIMG{
         width: 100%;
@@ -665,7 +679,7 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
 
     .divEstilo{
         width: 100%;
-        height: 100vh;
+        height: auto;
         background-color: var(--grey);
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -690,20 +704,20 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
     }
 
     .mjeBoxing{
-        z-index: 3;
+        z-index: 2;
         color: var(--whitteSolid);
-        right: 0px;
-        bottom: 98vh;
+        right: 20px;
+        bottom: -3vh;
         text-align: center;
         position: absolute;
-        width: 30%;
+        width: 25%;
     }
 
     .contTrainguloAmenidades{
-        z-index: 3;
+        z-index: 2;
         width: 45%;
         height: 400px;
-        bottom: 100vh;
+        bottom: 0vh;
         left: 55%;
         position: absolute;
     }
@@ -712,14 +726,13 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
         z-index: 1;
         width: 552px;
         height: 189px;
-        right: 77%;
-        top: -260%;
-        /* bottom: 41%; */
+        right: 78%;
+        top: -150%;
         position: absolute;
     }
 
     .pBoxesMje{
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--whitteSolid);
     }
     .tituloInsideTriangulo{
@@ -764,7 +777,8 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
     }
 
     .imgMap{
-        height: 100%;
+        width: 100%;
+        height: auto;
         position: relative;
     }
 .contPinBoxes1{
@@ -777,6 +791,7 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
 }
 .contenedorMapaScroll{
     width: 100%;
+    height: 100%;
     display: inline-block;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -800,15 +815,17 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
 }
 
     .imgPin{
-        width: 25px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
         position: relative;
         cursor: pointer;
         z-index: 3;
     }
 
     .boxPin{
-        margin-left: 20px;
+        padding: 15px;
+        margin-left: 15px;
         color: var(--whitteSolid);
         text-align: center;
         width: 100%;
@@ -817,6 +834,31 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
         cursor: pointer;
         background-color: var(--degrayBlackLow);
     }
+
+    .checkPoint:hover, .boxPin:hover .checkPoint{
+        position: relative;
+        margin-top: -10%;
+        display: inline-block;
+        text-align: center;
+        height: 40px;
+        width: 40px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        /* align-items: center; */
+        border: #2196F3 solid 5px;
+        border-style: groove;
+    }
+
+    .boxPin:hover{
+    display: inline-block;
+    text-align: center;
+    background-repeat: no-repeat;
+    border: #2196F3 solid 5px;
+    border-style: groove;
+    }
+
+
 /*  ESTILOS DE LA SECCION DE CONTACTO    */
     #contentContacto{
         width: 100%;
@@ -957,8 +999,8 @@ background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 
 .iconContact{
     top: 10px;
     left: 10px;
-    width: 25px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     position: relative;
 }
 
@@ -1184,6 +1226,7 @@ blockquote{
     -ms-transform: translateX(0%);
     -o-transform: translateX(0%);
     transform: translateX(0%);
+    padding-bottom: 30px;
 }
 
 .contentFooter{
@@ -1295,11 +1338,25 @@ font-size: 2em;
 .containerBoxCaract:hover .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+      -webkit-box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
+    box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
+}
+
+.boxBackIMG:hover .card  {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+      -webkit-box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
+    box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
 }
 
 .card:hover {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+      -webkit-box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
+    box-shadow: 0px 0px 62px 19px rgba(0,0,0,0.65);
 }
 
 .front,
@@ -1450,7 +1507,7 @@ PARADAX
  }
 
 .caja {
-width: 280px;
+    width: 95%;
     margin: 15px 0px 15px 0px;
     border: 1px solid #4CAF50;
     height: auto;
@@ -1485,7 +1542,7 @@ width: 280px;
 
 .txtArea{
     margin: 0px;
-    width: 270px;
+    width: 95%;
     height: 100px;
 }
 
@@ -1514,7 +1571,7 @@ select::-ms-expand {
 }
 
 .contAmenidades{
-    width: 33.2%;
+    width: 50%;
     height: 100%;
 }
 
@@ -1525,18 +1582,11 @@ select::-ms-expand {
 
 .infoG, .infoV{
     color: white;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 3%;
-    width: 91%;
-}
-
-.infoV{
-    background-color: var(--green);
-}
-
-.infoG{
-    background-color: var(--greyHigh);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    width: 80%;
+    height: 100%;
 }
 
 .boxImageAmenidad{
@@ -1554,7 +1604,7 @@ select::-ms-expand {
     -o-transform:scale(1.2); 
 }
 .contAmenidades, .boxAmenidad {
-    overflow:auto;
+    overflow:hidden;
 }
 
 
@@ -1630,6 +1680,7 @@ select::-ms-expand {
     /* right: 8px; */
     left: 0px;
     position: absolute;
+        font-size: 2em;
 }
 
 .ContBoxAmeni{
@@ -1722,14 +1773,17 @@ select::-ms-expand {
 }
 
 .contentDescription {
-    width: 25%;
-    margin: 10px;
+    width: 30%;
+    margin: 39px;
     padding: 0px;
     cursor: pointer;
+    padding-top: 40px;
 }
 
 .contenCaract {
-    font-size: 10px;
+        font-size: 10px;
+    display: -webkit-inline-box;
+    overflow-x: scroll;
 }
 
 .containerBoxCaract {
@@ -1760,10 +1814,9 @@ select::-ms-expand {
 
 .contTrainguloAmenidades {
     height: 380px;
-    bottom: 100vh;
 }
 .pBoxesMje {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 /**/
@@ -1834,12 +1887,30 @@ select::-ms-expand {
     width: 561px;
     height: 200px;
     right: 60%;
-    top: -273%;
+    top: -153%;
     /* bottom: 24%; */
     position: absolute;
 }
 .iconAuthors {
     width: 60px;
 }
+
+.iconContact{
+    width: 25px;
+    height: 25px;
+}
+
+/* ModalInfo Content/Box */
+.modalInfo-content {
+    width: 400px;
+    float: right;
+}
+.containerFlag{
+        width: 400px;
+}
+.flag {
+    width: 400px;
+    }
+
 
 }
