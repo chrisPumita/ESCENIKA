@@ -1739,7 +1739,7 @@ select::-ms-expand {
 /*++++++++++++++++++++++++++++++ RESPONSIVE ++++++++++++       
     *******************     PARA IPADS / TABLETAS
 */
-@media only screen and (min-width:670px) and (max-width:770px){
+@media  (min-width:470px) and (max-width:770px) {
      *{
             transition: width 2s;
  }
@@ -1916,8 +1916,8 @@ select::-ms-expand {
     }
 
 }
-
-@media screen and (max-width:470px), and (orientation: portrait){
+/*Portatil de forma vertical */
+@media screen and (max-width:669px), and (orientation: portrait){
     .contentMenu {
         text-align: center;
         display: block;
@@ -2043,7 +2043,7 @@ select::-ms-expand {
 }
 
 /*     media para pantalla pequeña y horizontal */
-@media screen  and (max-width:760px), and (orientation: landscape){
+@media (min-width:470px) and (max-width:770px)  and (orientation: landscape){
  *{
             transition: width 2s;
  }
