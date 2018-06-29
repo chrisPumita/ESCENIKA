@@ -627,6 +627,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
         width: 100%;
         height: 30%;
         background-color: var(--grey);
+            position: relative;
     }
 
     .iconsDescDepto{
@@ -1735,9 +1736,13 @@ select::-ms-expand {
 }
 
 
-/*++++++++++++++++++++++++++++++ RESPONSIVE ++++++++++++       */
-
-@media only screen and (max-width:770px){
+/*++++++++++++++++++++++++++++++ RESPONSIVE ++++++++++++       
+    *******************     PARA IPADS / TABLETAS
+*/
+@media only screen and (min-width:670px) and (max-width:770px){
+     *{
+            transition: width 2s;
+ }
     .contTriangulo {
         right: 0%;
         bottom: 0%;
@@ -1773,11 +1778,11 @@ select::-ms-expand {
 }
 
 .contentDescription {
-    width: 30%;
+    width: 40%;
     margin: 39px;
     padding: 0px;
     cursor: pointer;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 .contenCaract {
@@ -1788,7 +1793,7 @@ select::-ms-expand {
 
 .containerBoxCaract {
     margin: 1%;
-    width: 47%;
+    width: 45%;
     height: 75%;
 }
 
@@ -1840,12 +1845,10 @@ select::-ms-expand {
 .ContInfoInsideMap {
     bottom: 10vh;
     display: flex;
-    position: absolute;
+    position: relative;
     width: 90%;
     height: auto;
-    margin-right: 5%;
     margin-left: 5%;
-
 }
 
 .contAgentePerson {
@@ -1912,5 +1915,283 @@ select::-ms-expand {
     width: 400px;
     }
 
+}
+
+@media screen and (max-width:470px), and (orientation: portrait){
+    .contentMenu {
+        text-align: center;
+        display: block;
+        background: var(--blackSolid);
+        width: 100%;
+        height: 15%;
+        position: relative;
+    }
+    .contLogoH {
+        margin-left: 20%;
+        margin-right: 20%;
+        /* text-align: center; */
+        width: 50%;
+        height: auto;
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        top: 10px;
+        -webkit-transform: translateX(10%);
+        -moz-transform: translateX(10%);
+        -ms-transform: translateX(10%);
+        -o-transform: translateX(10%);
+        transform: translateX(10%);
+    }
+
+    .menus {
+        top: 15px;
+        font-size: 6px;
+    }
+
+    .contLogoMenus {
+        width: 100%;
+        height: auto;
+    }
+
+    .contTriangulo {
+        right: 0%;
+        bottom: 0%;
+        position: absolute;
+        width: 110%;
+        height: 50%;
+    }
+
+    .btn3 {
+        width: 100px;
+        margin: 2px;
+    }
+    .contMjeAbout {
+        height: 85%;
+    }
+    .positionContMje {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .contPanoTraingulo {
+        height: 100%;
+        width: 100%;
+        top: 40%;
+    }
+
+    .contentNosotros {
+        font-size: .7em;
+    }
+
+    .contenCaract {
+        font-size: 12px;
+    }
+
+    .contentDescription {
+    width: 40%;
+    padding: 0px;
+    padding-top: 40px;
+    padding-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+
+    .banderaText {
+        padding-bottom: 5px;
+    }
+
+    .iconPerfect, .iconVista,.iconParque,.iconCalentador {
+        background-size: 40%;
+    }
+
+    .iconLogoC {
+        margin-top: -45%;
+        height: 80px;
+        width: 80px;
+        border: var(--green) solid 3px;
+        }
+
+        .titleDeptos {
+            display: inline-flex;
+            width: 100%;
+            height: 40px;
+        }
+        .trianguloImg {
+            height: 40px;
+        }
+    .contTituloSubtitulo {
+        height: 40px;
+    }
+
+    .subtittle {
+        padding-left: 15px;
+        padding-top: 7px;
+        font-size: 0.5em;
+    }
+    .tittle {
+        padding-left: 15px;
+        font-size: 1em;
+        font-weight: bold;
+        color: var(--whitteSolid);
+        text-align: left;
+    }
+    .contGralDeptosBox {
+        height: 84%;
+        overflow-x: scroll;
+        width: 200%;
+    }
+}
+
+/*     media para pantalla pequeña y horizontal */
+@media screen  and (max-width:760px), and (orientation: landscape){
+ *{
+            transition: width 2s;
+ }
+
+
+.contTriangulo {
+    width: 932px;
+    height: 50%;
+    transition: width 2s;
+}
+
+.contentNosotros {
+    font-size: .8em;
+}
+
+.contPanoTraingulo {
+    top: 16%;
+}
+
+#contentProyect {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.contentDescription {
+    margin-left: 45px;
+    width: 30%;
+    padding-top: 60px;
+}
+
+.banderaText {
+    padding-bottom: 10px;
+}
+
+.contGralDeptosBox {
+    font-size: 10px;
+}
+
+.titleDeptos {
+    width: 80%;
+    height: 40px;
+}
+.boxDescDepto{
+    height: 40%;
+}
+
+
+ .txtDesc {
+      font-size: 7px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tittle, .subtittle{
+    text-align: center;
+}
+.boxBackIMG, .boxBackDepto2 {
+    height: 50%;
+}
+.contTituloSubtitulo {
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+.containerBoxCaract {
+    margin: 1%;
+    width: 40%;
+    height: 80%;
+}
+
+.boxBackPlano, .boxBackPlano2 {
+    height: 50%;
+}
+
+.boxDescPlano {
+    font-size: 100%;
+    display: flex;
+    padding: 0px;
+}
+
+.boton{
+    font-size: 70%;
+}
+
+.contTituloSubtitulo2 {
+    display: flex;
+    font-size: .6em;
+    height: 40px;
+}
+.tittleDeptosIzq {
+    height: 40px;
+}
+
+.boxPin {
+    font-size: .6em;
+}
+
+.trianguloImg {
+    height: 40px;
+}
+
+ .menus {
+    top: 5px;
+    font-size: 60%;
+        transition: width 2s;
+}
+
+.btn3 {
+    width: 93px;
+    margin: 10px;    
+    transition: width 2s;
+}
+
+.contentMenu {
+    height: 60px;
+}
+
+    .boxDataContact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    transition: width 2s;
+}
+.contentDataContact {
+    font-size: 85%;
+    position: relative;
+    display: block;
+    height: auto;
+    transition: width 2s;
+}
+.ContInfoInsideMap {
+    bottom: 0vh;
+    display: block;
+    width: 30%;
+    height: auto;
+    float: right;
+    top: 80px;
+    position: relative;
+    margin-right: 1%;
+    margin-left: 0%;
+    transition: width 2s;
+    }
+    .pBoxesMje {
+        font-size: 1.5em;
+        transition: width 2s;
+    }
 
 }
+
+
+
