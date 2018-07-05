@@ -570,7 +570,7 @@ body{
 							</div>
 							<div class="boxDescDepto">
 								<div class="txtDescDepto">
-									<div class="subtittle">
+									<div class="subtittle ajusteSubtittle">
 										DEPARTAMENTO
 									</div>
 									<div class="tittle">
@@ -597,6 +597,9 @@ body{
 								<div class="txtDataDepto">
 									<img class="iconDepto" src="icons/ducha.png" alt=""> 2
 								</div>
+                               <div class="txtDataDepto">
+                                    <img class="iconDepto" src="icons/more.png" alt="">más
+                                </div>
 							</div>
 					    </div>
 					    <div class="back boxBack">
@@ -616,7 +619,7 @@ body{
 									</ul>
 								</div>
 								<div class="tittlePlano">
-									<div class="subtittle">
+									<div class="subtittle ajusteSubtittle">
 										DEPARTAMENTO
 									</div>
 									<div class="tittle">
@@ -638,7 +641,7 @@ body{
 							</div>
 							<div class="boxDescDepto">
 								<div class="txtDescDepto">
-									<div class="subtittle">
+									<div class="subtittle ajusteSubtittle">
 										DEPARTAMENTO
 									</div>
 									<div class="tittle">
@@ -665,6 +668,9 @@ body{
 								<div class="txtDataDepto">
 									<img class="iconDepto" src="icons/ducha.png" alt=""> 1 1/2
 								</div>
+                                <div class="txtDataDepto">
+                                    <img class="iconDepto" src="icons/more.png" alt="">más
+                                </div>
 							</div>
 					    </div>
 					    <div class="back boxBack">
@@ -683,7 +689,7 @@ body{
 									</ul>
 								</div>
 								<div class="tittlePlano">
-									<div class="subtittle">
+									<div class="subtittle ajusteSubtittle">
 										DEPARTAMENTO
 									</div>
 									<div class="tittle">
@@ -840,9 +846,9 @@ body{
 							<div class="contentAsesoresRandoom">
 				<!-- 	AGENTE 1 DATA ESTATICO -->
 								<div class="contAgentePerson">
-									<div class="boxFrontAgent zoom">
+									<div class="boxFrontAgent">
 										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/executivePhotos/juanp.jpg" >
+											<img class="imagenAjustada img" src="image/executivePhotos/juanp.jpg" >
 										</div>
 										<div class="boxontactoAgente">
 											<div class="txtContactoAgente">
@@ -860,9 +866,9 @@ body{
 									</div>
 								</div>
 							<div class="contAgentePerson">
-									<div class="boxFrontAgent zoom">
+									<div class="boxFrontAgent">
 										<div class="boxBackIMG2">
-											<img class="imagenAjustada" src="image/executivePhotos/sandrac.jpg" >
+											<img class="imagenAjustada img" src="image/executivePhotos/sandrac.jpg" >
 										</div>
 										<div class="boxontactoAgente">
 											<div class="txtContactoAgente">
@@ -882,10 +888,10 @@ body{
 				<!-- 	AGENTE 2 DATA  ESTATIC -->
 								<?php require 'php/data.php';?>
 								<div class="contAgentePerson">
-									<div class="boxFrontAgent zoom">
+									<div class="boxFrontAgent">
 										<div class="boxBackIMG2">
 
-											<img class="imagenAjustada" src="image/executivePhotos/<?php echo $salesman[0][4]; ?>.jpg">
+											<img class="imagenAjustada img" src="image/executivePhotos/<?php echo $salesman[0][4]; ?>.jpg">
 										</div>
 										<div class="boxontactoAgente">
 											<div class="txtContactoAgente">
@@ -904,10 +910,10 @@ body{
 								</div>
 
 								<div class="contAgentePerson">
-									<div class="boxFrontAgent zoom">
+									<div class="boxFrontAgent">
 										<div class="boxBackIMG2">
 
-											<img class="imagenAjustada" src="image/executivePhotos/<?php echo $salesman[1][4]; ?>.jpg">
+											<img class="imagenAjustada img" src="image/executivePhotos/<?php echo $salesman[1][4]; ?>.jpg">
 										</div>
 										<div class="boxontactoAgente">
 											<div class="txtContactoAgente">
@@ -948,9 +954,9 @@ body{
 												echo '
 													<!-- 	AGENTE '.$j.' de '.$noSales.' CONTADOR ID: '.$contadorVendedor.' -->
 														<div class="contAgentePerson">
-															<div class="boxFrontAgent zoom">
+															<div class="boxFrontAgent">
 																<div class="boxBackIMG2">
-																	<img class="imagenAjustada" src="image/executivePhotos/'.$salesman[$j][4].'.jpg">
+																	<img class="imagenAjustada img" src="image/executivePhotos/'.$salesman[$j][4].'.jpg">
 																</div>
 																<div class="boxontactoAgente">
 																	<div class="txtContactoAgente">
