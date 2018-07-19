@@ -1,14 +1,15 @@
-<?php 
+<?php
 	$salesman = array
 	(
 		//FORMAT
 		//NAME, MAIL, TELEFONO
-		/*
+/*
 		array('1',"Juan Pérez","jperez@escenika.com","1106-2678","juanp"),
 		array('2',"Sandra Carrejo","scarrejo@escenika.com","1106-2678","sandrac"),
 		*/
+
 		array('3',"Alfredo Torres","atorres@escenika.com","1106-2678","alfredot"),
-		array('4',"Jazmin Torres","jtorres@escenika.com","1106-2678","karenm"),
+		array('4',"Karen Michelle","kmichelle@escenika.com","1106-2678","karenm"),
 		array('5',"Christian Avila","cavila@escenika.com","1106-2678","christiana"),
 		array('6',"Teresa Martínez","tmartinez@escenika.com","1106-2678","teresam"),
 		array('7',"Fernanda Sandobal","fsandobal@escenika.com","1106-2678","fernandas"),
@@ -21,17 +22,15 @@
 		array('14',"Maria Arellano","aarellano@escenika.com","1106-2678","mariaa")
 	);
 
-	  //INICIO DEL CICLO FOR shuffle Mezcla todos los elementos
-		$noSales = count($salesman); // muestra no de vendedores
-		$noSales+2; //sumo los dos que ya existen
-		$containers = ceil($noSales/4);
-		$containers;// ---> retorna 4 contenedores, se va a techo
-		/*
-		
-		echo "Muestro ".$containers."contenedores con 4 elementos. No de vendedores: ";
-		echo $noSales;
-		print_r($salesman);
-		 */
+
+		/* Mexclo los elementos */
 		shuffle($salesman);
+		/* Agrego los elementos Estaticos al inicio para no afectar el ciclo for*/
+		array_unshift ( $salesman , array('1',"Juan Principal","jperez@escenika.com","1106-2678","juanp") );
+		array_unshift ( $salesman , array('2',"Sandra Principal","scarrejo@escenika.com","1106-2678","sandrac") );
+		//INICIO DEL CICLO FOR shuffle Mezcla todos los elementos
+		$noSales = count($salesman); // muestra no de vendedores
+		$containers = ceil($noSales/4)-1;
+		$containers;// ---> retorna 4 contenedores, se va a techo
 
 ?>

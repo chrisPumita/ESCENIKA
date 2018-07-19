@@ -93,7 +93,7 @@
     -webkit-animation-delay: 0s;
         }
         /*
-        
+
          */
 	    @keyframes mov-izq{
 	    	    0% { background-position: 0em }
@@ -251,12 +251,12 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
 }
 
 @-webkit-keyframes animateInfozoom {
-    from {top: -500px;-webkit-transform: scale(0)} 
+    from {top: -500px;-webkit-transform: scale(0)}
     to {top: 0px;-webkit-transform: scale(1)}
 }
-    
+
 @keyframes animateInfozoom {
-    from {top: -500px; transform: scale(0)} 
+    from {top: -500px; transform: scale(0)}
     to {top: 0px;transform: scale(1)}
 }
 
@@ -293,7 +293,7 @@ body{
     transition: all 0.3s ease-out;
 }
 .triangulo-equilatero-bottom:hover .btn1{
-	
+
       background-color: black;
 }
 .triangulo-equilatero-bottom {
@@ -418,7 +418,7 @@ body{
 					<div class="botonMenu">
 						<a href="#content" id="btnStart" class="boton bTri btn1">INICIAR</a>
 						<a href="#contentDeptos" id="btnContact" class="boton bTri btn2">MODELOS</a>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</header>
@@ -448,7 +448,7 @@ body{
 							  Sorry, your browser does not support inline SVG.
 							</svg>
 							<p class="txtAbout tittleNosotros">
-								ACERCA DE 
+								ACERCA DE
 								<br>
 								<strong>ESCENIKA</strong>
 							</p>
@@ -464,7 +464,7 @@ body{
 					</div>
 				</div>
 			</div>
-            <!-- 
+            <!--
         <a href="#contentHeader" title="To Top">
             <button id="myBtnUp" title="Ir Arriba">
                 <i style="font-size:35px" class="fa">&#xf139;</i>
@@ -480,7 +480,7 @@ body{
 								<div class="iconLogoC iconPerfect">
 								</div>
 								<h2 class="tDesc">INTELIGENTE</h2>
-								<h3 class="stDesc">SISTEMA DOMÓTICO</h3>							
+								<h3 class="stDesc">SISTEMA DOMÓTICO</h3>
 								<hr class="lineaBandera">
 							<p class="txtDesc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -489,7 +489,7 @@ body{
 							</div>
 							<div class="bandera">
 							</div>
-						</div>	
+						</div>
 						<div class="contentDescription">
 							<div class="banderaText">
 								<div class="backIconLogoC">
@@ -497,7 +497,7 @@ body{
 								<div class="iconLogoC iconVista">
 								</div>
 								<h2 class="tDesc">VISTA</h2>
-								<h3 class="stDesc">PANORÁMICA</h3>							
+								<h3 class="stDesc">PANORÁMICA</h3>
 								<hr class="lineaBandera">
 							<p class="txtDesc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -506,7 +506,7 @@ body{
 							</div>
 							<div class="bandera">
 							</div>
-						</div>	
+						</div>
 
 						<div class="contentDescription">
                             <a href="#mapAmenidades">
@@ -516,7 +516,7 @@ body{
     								<div class="iconLogoC iconParque">
     								</div>
     								<h2 class="tDesc">AMPLIAS</h2>
-    								<h3 class="stDesc">ÁREAS VERDES</h3>							
+    								<h3 class="stDesc">ÁREAS VERDES</h3>
     								<hr class="lineaBandera">
     							<p class="txtDesc">
     								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -525,9 +525,9 @@ body{
     							</div>
     							<div class="bandera">
     							</div>
-                                
+
                             </a>
-						</div>	
+						</div>
 						<div class="contentDescription" onclick="document.getElementById('myModalAmenidades').style.display='block'">
 							<div class="banderaText">
 								<div class="backIconLogoC">
@@ -535,7 +535,7 @@ body{
 								<div class="iconLogoC iconCalentador">
 								</div>
 								<h2 class="tDesc">CALENTADOR</h2>
-								<h3 class="stDesc">SOLAR DE AGUA</h3>							
+								<h3 class="stDesc">SOLAR DE AGUA</h3>
 								<hr class="lineaBandera">
 							<p class="txtDesc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -544,7 +544,7 @@ body{
 							</div>
 							<div class="bandera">
 							</div>
-						</div>	
+						</div>
 				</div>
 			</div>
 
@@ -699,7 +699,7 @@ body{
 										<br>
 										<a href="#contentDeptos" id="btnVirtual" class="boton bTri btn1">RECORRIDO FOTOGRAFICO</a>
 									</div>
-										
+
 								</div>
 							</div>
 					    </div>
@@ -816,7 +816,7 @@ body{
             </div>
         </div>
     </div>
-  </div>  
+  </div>
 </div>
 
 
@@ -838,119 +838,21 @@ body{
 
 				<!-- 	SLIDERS DE VENDEDORES	-->
 					<div id="salesman" class="contentAsesores">
-						<div class="mySalesManSlider">
-						<!--
-*************************** > inicio
-						-->
-<!-- 	PARTE UNO DE VENDEDORES 4 de N -->
-							<div class="contentAsesoresRandoom">
-				<!-- 	AGENTE 1 DATA ESTATICO -->
-								<div class="contAgentePerson">
-									<div class="boxFrontAgent">
-										<div class="boxBackIMG2">
-											<img class="imagenAjustada img" src="image/executivePhotos/juanp.jpg" >
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													Juan Pérez
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														jperez@escenika.com.mx <br>
-														55 1212 2323
-													</p>
-													<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById('id01').style.display='block'">CONTACTAR</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							<div class="contAgentePerson">
-									<div class="boxFrontAgent">
-										<div class="boxBackIMG2">
-											<img class="imagenAjustada img" src="image/executivePhotos/sandrac.jpg" >
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													Sandra Carrejo
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														scarrejo@escenika.com <br>
-														55 2929 9838
-													</p>
-													<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById('id01').style.display='block'">CONTACTAR</a>
-											</div>
-										</div>
-									</div>
-								</div>
-				<!-- 	AGENTE 2 DATA  ESTATIC -->
-								<?php require 'php/data.php';?>
-								<div class="contAgentePerson">
-									<div class="boxFrontAgent">
-										<div class="boxBackIMG2">
-
-											<img class="imagenAjustada img" src="image/executivePhotos/<?php echo $salesman[0][4]; ?>.jpg">
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													<?php echo $salesman[0][1]; ?>
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														<?php echo $salesman[0][2]; ?> <br>
-														<?php echo $salesman[0][3]; ?>
-													</p>
-													<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById('id01').style.display='block'">CONTACTAR</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="contAgentePerson">
-									<div class="boxFrontAgent">
-										<div class="boxBackIMG2">
-
-											<img class="imagenAjustada img" src="image/executivePhotos/<?php echo $salesman[1][4]; ?>.jpg">
-										</div>
-										<div class="boxontactoAgente">
-											<div class="txtContactoAgente">
-												<div class="nameAgente">
-													<?php echo $salesman[1][1]; ?>
-												</div>
-												<hr class="lineaBandera">
-													<p class="txtDesc txtBoxFormat">
-														<?php echo $salesman[1][2]; ?> <br>
-														<?php echo $salesman[1][3]; ?>
-													</p>
-													<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById('id01').style.display='block'">CONTACTAR</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						  <!-- 	PARTE UNO DE VENDEDORES 4 de N -->
-						</div>
-
-						<?php 
+						<?php require 'php/data.php';?>
+						<?php
 							//GEenerando el contenedor, valor obtenido de $containers
-						$contadorVendedor = 6; //El ultimo vendedor ID
-						$contadosVendedor = 2; //Se traduce como el ID inicial del contenedor 1
-						$restanteVendedor = $noSales;
-							for ($i=2; $i <= $containers; $i++) {
+						$contadorVendedor = 4; //El ultimo vendedor ID
+						$contadosVendedor = 0; //Se traduce como el ID inicial del contenedor 1
+							for ($i=0; $i <= $containers; $i++) {
 								#pintando el contenedor sliders
 								echo '
 								  <!-- 	CONTENEDOR '.$i.' de '.$containers.' VENDEDOR '.$contadosVendedor.' de '.$noSales.' -->
 									<div class="mySalesManSlider">
-									<div class="contentAsesoresRandoom">
-									';
-							//	echo "CONTENEDOR".$i;
-								// Opero los que restan y deduzco si caben otros 4 en el contenedor
-									$restanteVendedor = ($noSales-2) - $contadosVendedor; //ME FALTAN POR MOSTRAR VENDEDORES
+									<div class="contentAsesoresRandoom">';
+
+									$restanteVendedor = $noSales-$contadosVendedor ; //ME FALTAN POR MOSTRAR VENDEDORES
 									if ($restanteVendedor >= 4) {
-											for ($j=$contadosVendedor; $j < $contadorVendedor; $j++) { 
+											for ($j=$contadosVendedor; $j < $contadorVendedor; $j++) {
 												echo '
 													<!-- 	AGENTE '.$j.' de '.$noSales.' CONTADOR ID: '.$contadorVendedor.' -->
 														<div class="contAgentePerson">
@@ -972,18 +874,15 @@ body{
 																	</div>
 																</div>
 															</div>
-														</div>
-										';
+														</div>';
 										++$contadosVendedor;
 											}
-											
 											$contadorVendedor = $contadorVendedor + 4;
-										//	$contadosVendedor = $contadosVendedor + 4;
 									}
 									else{
 									//echo "NO CANDITADO MENOS A 4";
 										//Ordenando los ultimos vendedores
-										for ($j=$contadosVendedor; $j < $noSales; $j++) { 
+										for ($j=$contadosVendedor; $j < $noSales; $j++) {
 												echo '
 													<!-- 	AGENTE '.$j.' de '.$noSales.' -->
 														<div class="contAgentePerson">
@@ -1007,6 +906,7 @@ body{
 															</div>
 														</div>
 												';
+												++$contadosVendedor;
 										}
 									}
 								echo '
@@ -1051,7 +951,7 @@ body{
 											<strong>
 												Horarios de Atención: <br>
 											</strong>
-											Lun-Vie 10:00 - 20:00 hrs.<br>  
+											Lun-Vie 10:00 - 20:00 hrs.<br>
 											Sab 10:00 - 18:00 hrs. y Dom 11:00 - 17:00 hrs.
 										</p>
 									</div>
@@ -1094,7 +994,7 @@ body{
 					<a id="btnVirtual5" href="#" onclick="document.getElementById('myModalPrivacity').style.display='block'">
 						Aviso de Privacidad
 					</a>
-					
+
 				</p>
 			</div>
 			<div class="contenedorArriba">
@@ -1104,7 +1004,7 @@ body{
 				</svg>
 				<div class="arrow"></div>
 				<a href="#escenika" class="to-top">Ir arriba</a>
-			</div>	
+			</div>
 		</footer>
 <!--
 		MODALS EMPLEADOS EN PARA VISUALIZAR OBJETOS
@@ -1121,7 +1021,7 @@ body{
 	    <p class="subtittle">RECORRIDO FOTOGRÁFICO VIRTUAL - DEPARTAMENTO CMYK MOD 2</p>
 			<iframe class="recorrido-iframe" style="width:  100%;height:  90%;" src="https://my.matterport.com/show/?m=H6PfMfCeZTi&lang=es" frameborder="0" allowfullscreen>
 			</iframe>
-	  </div>    
+	  </div>
 
 	</div>
 
@@ -1194,14 +1094,14 @@ body{
 				<h1><span style="display: inline-block;transform: rotate(180deg);">?</span>CON QUE FINALIDAD RECABAMOS LOS DATOS?</h1>
 				<p>Los datos personales podrán ser tratados y utilizados por nosotros y nuestras filiales o subsidiarias nacionales e Internacionales para llevar a cabo algunas o todas las actividades relacionadas con el cumplimiento de las obligaciones que deriven de la relación comercial que se originen y deriven de la prestación de servicios o venta de productos; con el propósito de informar a los clientes del lanzamiento de nuevos productos, servicios, promociones y ofertas de nosotros o terceros, realizar estudios de mercado, así como cualquier otra actividad tendiente a promover y mejorar los servicios. La transferencia de los datos personales del usuario se encuentra limitada a aquellos actos, hechos y/o procedimientos que se requieran implementar a efecto de estar en posibilidad de cumplir con las obligaciones contractuales, regulatorias y comerciales en el curso ordinario de las operaciones. Si el usuario no manifiesta su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello.</p>
 			</div>
-			
+
 
 			<div class="aviso-content">
 				<h1>MEDIOS PARA EJERCER LOS DERECHOS (A.R.C.O)</h1>
 				<p>Los datos personales que recabamos de los usuarios serán tratados en estricto apego a la Ley. En cualquier momento, el usuario tendrá el derecho a solicitar el ejercicio de los derechos que le confiere la Ley, para limitar el acceso, la rectificación, cancelación u oposición; enviando su solicitud correspondiente por escrito al siguiente correo electrónico: contacto@elements.com.mx o comunicándose vía telefónica al 01 (55) 1106-2678, donde con gusto lo atenderemos.</p>
 				<p>Si usted se registra vía telefónica o por algún medio digital y no desea recibir notificaciones y/o avisos sobre nosotros o marcas comerciales afiliadas, tendrá que indicarlo durante el proceso a la persona de Desarrolladora Elements S.A. de C.V. que esté tratando en ese momento, marcándolo en el formulario que este entregando y en todo caso, dirigiéndose con nuestro departamento de Atención al Cliente.</p>
 			</div>
-			
+
 
 			<div class="aviso-content" style="border:none">
 				<h1>MODIFICACIONES AL AVISO DE PRIVACIDAD</h1>
@@ -1266,7 +1166,7 @@ body{
 
 
                 </form>
-                
+
             </div>
             <div class="pieTriangulo">
             </div>
@@ -1292,7 +1192,7 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
 
 	<script>
         /*
-        
+
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {scrollFunction()};
         function scrollFunction() {
