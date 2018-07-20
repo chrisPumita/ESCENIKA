@@ -762,62 +762,229 @@ body{
 					<div class="ContimagePinMAP">
 						<div class="contenedorMapaScroll">
 							<img class="imgMap" src="image/amenidades/miniMap.png">
-                            <a href="#miModalAmeni1">
-                                <div class="contPinBoxes1">
-                                    <img class="imgPin checkPoint" src="icons/pin.png">
-                                    <div class="boxPin">
-                                        SALON DE USOS MUKTIMPLES
-                                    </div>
-                                </div>
-                            </a>
-							<div class="contPinBoxes2">
-								<img class="imgPin checkPoint" src="icons/pin.png">
-								<div class="boxPin">
-									AREAS VERDES
-								</div>
-							</div>
-							<div class="contPinBoxes3">
-								<img class="imgPin checkPoint" src="icons/pin.png">
-								<div class="boxPin">
-									ESTACIONAMIENTO
-								</div>
-							</div>
+							<!-- PIN 1 	-->
+                  <a href="#miModalAmeni1">
+                    <div class="contPinBoxes1">
+                        <img class="imgPin checkPoint" src="icons/pin.png">
+                        <div class="boxPin">
+                            ASADORES
+										  </div>
+										</div>
+								  </a>
+									<!-- FIN PIN 1-->
+									<!-- PIN 2 	-->
+                  <a href="#miModalAmeni2">
+                      <div class="contPinBoxes2">
+                          <img class="imgPin checkPoint" src="icons/pin.png">
+                          <div class="boxPin">
+                              SENDERO
+                          </div>
+                      </div>
+                  </a>
+									<!-- FIN PIN 2-->
+									<!-- PIN 3 	-->
+                  <a href="#miModalAmeni3">
+                      <div class="contPinBoxes3">
+                          <img class="imgPin checkPoint" src="icons/pin.png">
+                          <div class="boxPin">
+                              CANCHAS DE USOS MULTIPLES
+                          </div>
+                      </div>
+                  </a>
+									<!-- FIN PIN 3-->
+								<!-- PIN 4 	-->
+									<a href="#miModalAmeni4">
+											<div class="contPinBoxes4">
+													<img class="imgPin checkPoint" src="icons/pin.png">
+													<div class="boxPin">
+															ÁREA DE JUEGOS
+													</div>
+											</div>
+									</a>
+									<!-- FIN PIN 4-->
+									<!-- PIN 5 	-->
+									<a href="#miModalAmeni5">
+											<div class="contPinBoxes5">
+													<img class="imgPin checkPoint" src="icons/pin.png">
+													<div class="boxPin">
+															KIOSCO DE CONVIVENCIA
+													</div>
+											</div>
+									</a>
+									<!-- FIN PIN 5-->
 						</div>
 					</div>
 				</div>
 			</div>
-<!-- AMENIDADES ZONE BOX-->
+
+
+<!-- AMENIDADES ZONE BOX 1-->
 <div id="miModalAmeni1" class="modal1">
   <div class="modal-contenido">
     <div class="TModalAmen">
         <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
-        <p> AMENIDAD 1</p>
+        <p class="tiitleModalAmenidad"> ASADORES</p>
     </div>
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
             <div class="boxImageAmenidad box contAmenidades">
                 <img class="imagenAjustada img" src="image/amenidades/tenis.jpg">
                     <div class="cover top">
-                  <h2 class="tittle">Cancha de Tennis</h2>
+                  <h2 class="tittle">ASADORES</h2>
                   <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quis enim nam dolorem recusandae ducimus laudantium iure sint similique reiciendis quaerat dolorum cum aliquid officiis repudiandae in qui itaque maiores!</p>
                 </div>
             </div>
         </div>
         <div class="contModalAmeni">
             <div class="boxAmenidad">
-                        <div class="boxImageAmenidad contAmenidades">
-                            <img class="imagenAjustada img" src="image/amenidades/tenis-1.jpg">
-                        </div>
-                    </div>
+                  <div class="boxImageAmenidad contAmenidades">
+                  	<img class="imagenAjustada img" src="image/amenidades/tenis-1.jpg">
+                  </div>
+            </div>
             <div class="boxAmenidad">
-                        <div class="boxImageAmenidad contAmenidades">
-                            <img class="imagenAjustada img" src="image/amenidades/canchaTenis.jpg">
-                        </div>
+              <div class="boxImageAmenidad contAmenidades">
+                  <img class="imagenAjustada img" src="image/amenidades/canchaTenis.jpg">
+              </div>
             </div>
         </div>
     </div>
   </div>
 </div>
+<!-- AMENIDADES ZONE BOX 1-->
+
+<!-- AMENIDADES ZONE BOX 2-->
+<div id="miModalAmeni2" class="modal1">
+  <div class="modal-contenido">
+    <div class="TModalAmen">
+        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <p class="tiitleModalAmenidad">SENDERO</p>
+    </div>
+    <div class="ContBoxAmeni">
+        <div class="contModalAmeni">
+            <div class="boxImageAmenidad box contAmenidades">
+                <img class="imagenAjustada img" src="image/amenidades/tenis.jpg">
+                    <div class="cover top">
+                  <h2 class="tittle">SENDERO</h2>
+                  <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quis enim nam dolorem recusandae ducimus laudantium iure sint similique reiciendis quaerat dolorum cum aliquid officiis repudiandae in qui itaque maiores!</p>
+                </div>
+            </div>
+        </div>
+        <div class="contModalAmeni">
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+	                 <img class="imagenAjustada img" src="image/amenidades/tenis-1.jpg">
+                </div>
+            </div>
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+                    <img class="imagenAjustada img" src="image/amenidades/canchaTenis.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- AMENIDADES ZONE BOX 2-->
+
+<!-- AMENIDADES ZONE BOX 3-->
+<div id="miModalAmeni3" class="modal1">
+  <div class="modal-contenido">
+    <div class="TModalAmen">
+        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <p class="tiitleModalAmenidad">CANCHA DE USOS MULTIMPLES</p>
+    </div>
+    <div class="ContBoxAmeni">
+        <div class="contModalAmeni">
+            <div class="boxImageAmenidad box contAmenidades">
+                <img class="imagenAjustada img" src="image/amenidades/tenis.jpg">
+                    <div class="cover top">
+                  <h2 class="tittle">Cancha de Usos Multiples</h2>
+                  <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quis enim nam dolorem recusandae ducimus laudantium iure sint similique reiciendis quaerat dolorum cum aliquid officiis repudiandae in qui itaque maiores!</p>
+                </div>
+            </div>
+        </div>
+        <div class="contModalAmeni">
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+	                 <img class="imagenAjustada img" src="image/amenidades/tenis-1.jpg">
+                </div>
+            </div>
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+                    <img class="imagenAjustada img" src="image/amenidades/canchaTenis.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- AMENIDADES ZONE BOX 3-->
+<!-- AMENIDADES ZONE BOX 4-->
+<div id="miModalAmeni4" class="modal1">
+  <div class="modal-contenido">
+    <div class="TModalAmen">
+        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <p class="tiitleModalAmenidad">ÁREA DE JUEGOS</p>
+    </div>
+    <div class="ContBoxAmeni">
+        <div class="contModalAmeni">
+            <div class="boxImageAmenidad box contAmenidades">
+                <img class="imagenAjustada img" src="image/amenidades/tenis.jpg">
+                    <div class="cover top">
+                  <h2 class="tittle">AREA DE JUEGOS</h2>
+                  <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quis enim nam dolorem recusandae ducimus laudantium iure sint similique reiciendis quaerat dolorum cum aliquid officiis repudiandae in qui itaque maiores!</p>
+                </div>
+            </div>
+        </div>
+        <div class="contModalAmeni">
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+	                 <img class="imagenAjustada img" src="image/amenidades/tenis-1.jpg">
+                </div>
+            </div>
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+                    <img class="imagenAjustada img" src="image/amenidades/canchaTenis.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- AMENIDADES ZONE BOX 4-->
+<!-- AMENIDADES ZONE BOX 5-->
+<div id="miModalAmeni5" class="modal1">
+  <div class="modal-contenido">
+    <div class="TModalAmen">
+        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <p class="tiitleModalAmenidad">KIOSCO DE CONVIVENCIA</p>
+    </div>
+    <div class="ContBoxAmeni">
+        <div class="contModalAmeni">
+            <div class="boxImageAmenidad box contAmenidades">
+                <img class="imagenAjustada img" src="image/amenidades/tenis.jpg">
+                    <div class="cover top">
+                  <h2 class="tittle">Kiosco de Convivencia</h2>
+                  <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quis enim nam dolorem recusandae ducimus laudantium iure sint similique reiciendis quaerat dolorum cum aliquid officiis repudiandae in qui itaque maiores!</p>
+                </div>
+            </div>
+        </div>
+        <div class="contModalAmeni">
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+	                 <img class="imagenAjustada img" src="image/amenidades/tenis-1.jpg">
+                </div>
+            </div>
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+                    <img class="imagenAjustada img" src="image/amenidades/canchaTenis.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- AMENIDADES ZONE BOX 5-->
 
 
 			<div id="contentContacto">
@@ -886,7 +1053,7 @@ body{
 												echo '
 													<!-- 	AGENTE '.$j.' de '.$noSales.' -->
 														<div class="contAgentePerson">
-															<div class="boxFrontAgent zoom">
+															<div class="boxFrontAgent">
 																<div class="boxBackIMG2">
 																	<img class="imagenAjustada" src="image/executivePhotos/'.$salesman[$j][4].'.jpg">
 																</div>
@@ -1188,10 +1355,11 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
     }  // End if
   });
 });
+
 </script>
 
 	<script>
-        /*
+	/*
 
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {scrollFunction()};
@@ -1210,7 +1378,6 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
          */
 </script>
 
-		  <script src="javascripts/application.js" type="text/javascript" charset="utf-8" async defer></script>
 		  <script>
 		  	/*
 		  	//SCRIPT
@@ -1240,80 +1407,80 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
 		  	 */
 		  </script>
 
-		  <script>
-var x, i, j, selElmnt, a, b, c;
-/*look for any elements with the class "custom-select":*/
-x = document.getElementsByClassName("custom-select");
-for (i = 0; i < x.length; i++) {
-  selElmnt = x[i].getElementsByTagName("select")[0];
-  /*for each element, create a new DIV that will act as the selected item:*/
-  a = document.createElement("DIV");
-  a.setAttribute("class", "select-selected");
-  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-  x[i].appendChild(a);
-  /*for each element, create a new DIV that will contain the option list:*/
-  b = document.createElement("DIV");
-  b.setAttribute("class", "select-items select-hide");
-  for (j = 0; j < selElmnt.length; j++) {
-    /*for each option in the original select element,
-    create a new DIV that will act as an option item:*/
-    c = document.createElement("DIV");
-    c.innerHTML = selElmnt.options[j].innerHTML;
-    c.addEventListener("click", function(e) {
-        /*when an item is clicked, update the original select box,
-        and the selected item:*/
-        var y, i, k, s, h;
-        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-        h = this.parentNode.previousSibling;
-        for (i = 0; i < s.length; i++) {
-          if (s.options[i].innerHTML == this.innerHTML) {
-            s.selectedIndex = i;
-            h.innerHTML = this.innerHTML;
-            y = this.parentNode.getElementsByClassName("same-as-selected");
-            for (k = 0; k < y.length; k++) {
-              y[k].removeAttribute("class");
-            }
-            this.setAttribute("class", "same-as-selected");
-            break;
-          }
-        }
-        h.click();
-    });
-    b.appendChild(c);
-  }
-  x[i].appendChild(b);
-  a.addEventListener("click", function(e) {
-      /*when the select box is clicked, close any other select boxes,
-      and open/close the current select box:*/
-      e.stopPropagation();
-      closeAllSelect(this);
-      this.nextSibling.classList.toggle("select-hide");
-      this.classList.toggle("select-arrow-active");
-    });
-}
-function closeAllSelect(elmnt) {
-  /*a function that will close all select boxes in the document,
-  except the current select box:*/
-  var x, y, i, arrNo = [];
-  x = document.getElementsByClassName("select-items");
-  y = document.getElementsByClassName("select-selected");
-  for (i = 0; i < y.length; i++) {
-    if (elmnt == y[i]) {
-      arrNo.push(i)
-    } else {
-      y[i].classList.remove("select-arrow-active");
-    }
-  }
-  for (i = 0; i < x.length; i++) {
-    if (arrNo.indexOf(i)) {
-      x[i].classList.add("select-hide");
-    }
-  }
-}
-/*if the user clicks anywhere outside the select box,
-then close all select boxes:*/
-document.addEventListener("click", closeAllSelect);</script>
-		  </script>
+<script>
+	var x, i, j, selElmnt, a, b, c;
+	/*look for any elements with the class "custom-select":*/
+	x = document.getElementsByClassName("custom-select");
+	for (i = 0; i < x.length; i++) {
+	  selElmnt = x[i].getElementsByTagName("select")[0];
+	  /*for each element, create a new DIV that will act as the selected item:*/
+	  a = document.createElement("DIV");
+	  a.setAttribute("class", "select-selected");
+	  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+	  x[i].appendChild(a);
+	  /*for each element, create a new DIV that will contain the option list:*/
+	  b = document.createElement("DIV");
+	  b.setAttribute("class", "select-items select-hide");
+	  for (j = 0; j < selElmnt.length; j++) {
+	    /*for each option in the original select element,
+	    create a new DIV that will act as an option item:*/
+	    c = document.createElement("DIV");
+	    c.innerHTML = selElmnt.options[j].innerHTML;
+	    c.addEventListener("click", function(e) {
+	        /*when an item is clicked, update the original select box,
+	        and the selected item:*/
+	        var y, i, k, s, h;
+	        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+	        h = this.parentNode.previousSibling;
+	        for (i = 0; i < s.length; i++) {
+	          if (s.options[i].innerHTML == this.innerHTML) {
+	            s.selectedIndex = i;
+	            h.innerHTML = this.innerHTML;
+	            y = this.parentNode.getElementsByClassName("same-as-selected");
+	            for (k = 0; k < y.length; k++) {
+	              y[k].removeAttribute("class");
+	            }
+	            this.setAttribute("class", "same-as-selected");
+	            break;
+	          }
+	        }
+	        h.click();
+	    });
+	    b.appendChild(c);
+	  }
+	  x[i].appendChild(b);
+	  a.addEventListener("click", function(e) {
+	      /*when the select box is clicked, close any other select boxes,
+	      and open/close the current select box:*/
+	      e.stopPropagation();
+	      closeAllSelect(this);
+	      this.nextSibling.classList.toggle("select-hide");
+	      this.classList.toggle("select-arrow-active");
+	    });
+	}
+	function closeAllSelect(elmnt) {
+	  /*a function that will close all select boxes in the document,
+	  except the current select box:*/
+	  var x, y, i, arrNo = [];
+	  x = document.getElementsByClassName("select-items");
+	  y = document.getElementsByClassName("select-selected");
+	  for (i = 0; i < y.length; i++) {
+	    if (elmnt == y[i]) {
+	      arrNo.push(i)
+	    } else {
+	      y[i].classList.remove("select-arrow-active");
+	    }
+	  }
+	  for (i = 0; i < x.length; i++) {
+	    if (arrNo.indexOf(i)) {
+	      x[i].classList.add("select-hide");
+	    }
+	  }
+	}
+	/*if the user clicks anywhere outside the select box,
+	then close all select boxes:*/
+	document.addEventListener("click", closeAllSelect);</script>
+</script>
 
 	</body>
 </html>
