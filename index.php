@@ -1358,6 +1358,8 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
 
 </script>
 
+  <script src="javascripts/application.js" type="text/javascript" charset="utf-8" async defer></script>
+
 	<script>
 	/*
 
