@@ -399,6 +399,12 @@ body{
 
 </head>
 	<body id="escenika" data-spy="scroll" data-target=".navbar" data-offset="60">
+<?php
+//Elementos variables
+$mailSend = 'contacto@escenika.com.mx';
+echo "<!--SE ENVIA CORREO A '.$mailSend.'-->";
+ ?>
+
 		<header id="header" class="header">
 			<div class="backImg">
 					<svg class="contTriangulo" height="50%" width="100%">
@@ -1036,8 +1042,10 @@ body{
 																			<p class="txtDesc txtBoxFormat">
 																				'.$salesman[$j][2].' <br>
 																				'.$salesman[$j][3].'
-																			</p>
-																			<a href="#salesman" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+																			</p>';
+																			$mailSend = $salesman[$j][3];
+																			echo '
+																			<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById(\'id01\').style.display=\'block\'">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
@@ -1060,19 +1068,20 @@ body{
 																<div class="boxontactoAgente">
 																	<div class="txtContactoAgente">
 																		<div class="nameAgente">
-																			'.$salesman[$j][1].'
+																		---	'.$salesman[$j][1].'
 																		</div>
 																		<hr class="lineaBandera">
 																			<p class="txtDesc txtBoxFormat">
 																				'.$salesman[$j][2].' <br>
 																				'.$salesman[$j][3].'
-																			</p>
-																			<a href="#contentProyect" class="boton bTri btn1 btnContactAgente">CONTACTAR</a>
+																			</p>';
+																			$mailSend = $salesman[$j][3];
+																			echo '
+																			<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById(\'id01\').style.display=\'block\'">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
-														</div>
-												';
+														</div>';
 												++$contadosVendedor;
 										}
 									}
@@ -1284,62 +1293,56 @@ body{
 
 			<!-- The modalContacto -->
 <div id="id01" class="modalInfo animateInfo" style="z-index: 3; display: none">
-  <form class="modalInfo-content" action="/action_page.php">
+  <form class="modalInfo-content" action="send.php" method="POST">
         <div class="containerFlag">
             <div class="flag">
             	<div class="cerrarContactContenedor">
                 	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close ModalInfo">CERRAR</span>
             	</div>
-                <form action="/action_page.php">
-                	<div class="promocion">
-            	        <legend>APROVECHA NUESTROS <br> PRECIOS DE PREVENTA</legend>
-                	</div>
-                  	<div class="leyendContacto">
-        	            <legend>ENVIANOS TUS DATOS Y NOS COMUNICAREMOS CONTIGO</legend>
-                	</div>
+            	<div class="promocion">
+        	        <legend>APROVECHA NUESTROS <br> PRECIOS DE PREVENTA</legend>
+            	</div>
+	            <div class="leyendContacto">
+	  	            <legend>ENVIANOS TUS DATOS Y NOS COMUNICAREMOS CONTIGO</legend>
+	          	</div>
                 	<div class="txtForm">
-		            <label for="name"><b>Nombre:</b></label>
-                    <input type="text" placeholder="Escriba su nombre" name="name" required="Please">
+		            	<label for="name"><b>Nombre:</b></label>
+                  <input type="text" placeholder="Escriba su nombre" name="name" required="Please">
 
-                      <label for="tel"><b>Teléfono:</b></label>
-                      <input type="tel" placeholder="Enter Password" name="phone" required="Please">
+                <label for="tel"><b>Teléfono:</b></label>
+                <input type="tel" placeholder="Enter Password" name="phone" required="Please">
 
-	                <label for="email"><b>Email:</b></label>
-                      <input type="email" placeholder="Enter Email" name="email" required="Please">
-
-					<div class="caja">
-		  					<select name="conocimiento">
-		  						<option value="none">Cómo se enteró de nosotros?</option>
-								<option value="periodico">Periódico/Revista</option>
-								<option value="google">Google</option>
-								<option value="espectacular">Espectacular</option>
-								<option value="stand">Stand</option>
-								<option value="folleto">Folleto</option>
-								<option value="showroom">Showroom</option>
-								<option value="volante">Volante</option>
-								<option value="redes">Redes Sociales</option>
-								<option value="inmuebles">Portal de Inmuebles</option>
-								<option value="poster">Poster en la calle</option>
-								<option value="valla">Valla Publicitaria</option>
-		  					</select>
-		  				</div>
-                      <textarea class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
+                <label for="email"><b>Email:</b></label>
+              	<input type="email" placeholder="Enter Email" name="email" required="Please">
+								<div class="caja">
+			  					<select name="conocimiento">
+			  						<option value="none">Cómo se enteró de nosotros?</option>
+									<option value="periodico">Periódico/Revista</option>
+									<option value="google">Google</option>
+									<option value="espectacular">Espectacular</option>
+									<option value="stand">Stand</option>
+									<option value="folleto">Folleto</option>
+									<option value="showroom">Showroom</option>
+									<option value="volante">Volante</option>
+									<option value="redes">Redes Sociales</option>
+									<option value="inmuebles">Portal de Inmuebles</option>
+									<option value="poster">Poster en la calle</option>
+									<option value="valla">Valla Publicitaria</option>
+			  					</select>
+			  				</div>
+									<textarea class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
                 	</div>
                 	<div class="protectionInfo">
                          <p>*Campo Obligatorio. <br> Sus datos estan protegidos. <br> Porfavor lea nuestro <br> <ins><a id="btnVirtual6" href="#" onclick="document.getElementById('myModalPrivacity').style.display='block'">
                         Aviso de Privacidad
                     </a></ins>.</p>
                 	</div>
-
-
-                </form>
-
             </div>
             <div class="pieTriangulo">
             </div>
-              <div class="triangulo-equilatero-bottom">
-              	<a href="#content" id="btnSend" class="button bTri btn1">ENVIAR</a>
-          </div>
+            <div class="triangulo-equilatero-bottom">
+              	<a href="#content" id="btnSend" class="button bTri btn1" type="submit">ENVIAR</a>
+          	</div>
         </div>
   </form>
 </div>
