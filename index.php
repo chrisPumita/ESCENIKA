@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>ESCENIKA HOME</title>
+		<link rel="shortcut icon" href="favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="style/style.css">
 		<!-- meta para iphone, ipad quita estilo que da por defecto para telefonos -->
@@ -399,12 +400,6 @@ body{
 
 </head>
 	<body id="escenika" data-spy="scroll" data-target=".navbar" data-offset="60">
-<?php
-//Elementos variables
-$mailSend = 'contacto@escenika.com.mx';
-echo "<!--SE ENVIA CORREO A '.$mailSend.'-->";
- ?>
-
 		<header id="header" class="header">
 			<div class="backImg">
 					<svg class="contTriangulo" height="50%" width="100%">
@@ -1045,7 +1040,7 @@ echo "<!--SE ENVIA CORREO A '.$mailSend.'-->";
 																			</p>';
 																			$mailSend = $salesman[$j][3];
 																			echo '
-																			<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById(\'id01\').style.display=\'block\'">CONTACTAR</a>
+																			<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(btn'.$contadosVendedor.')">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
@@ -1075,9 +1070,8 @@ echo "<!--SE ENVIA CORREO A '.$mailSend.'-->";
 																				'.$salesman[$j][2].' <br>
 																				'.$salesman[$j][3].'
 																			</p>';
-																			$mailSend = $salesman[$j][3];
 																			echo '
-																			<a href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="document.getElementById(\'id01\').style.display=\'block\'">CONTACTAR</a>
+																				<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(btn'.$contadosVendedor.')">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
@@ -1151,7 +1145,7 @@ echo "<!--SE ENVIA CORREO A '.$mailSend.'-->";
 				<div class="footer2">
 					<p class="txtContactElectronic">
 						<span class="CONTACTO">CONTACTO</span><br>
-						<span class="TELEFONO">1106-2678</span><br>
+						<span class="TELEFONO">55-6915-7177</span><br>
 						<span class="CORREO">contacto@escenika.com.mx <br></span>
 					</p>
 				</div>
@@ -1306,17 +1300,17 @@ echo "<!--SE ENVIA CORREO A '.$mailSend.'-->";
 	  	            <legend>ENVIANOS TUS DATOS Y NOS COMUNICAREMOS CONTIGO</legend>
 	          	</div>
                 	<div class="txtForm">
-		            	<label for="name"><b>Nombre:</b></label>
-                  <input type="text" placeholder="Escriba su nombre" name="name" required="Please">
+		            	<label for="nombre"><b>Nombre:</b></label>
+                  <input type="text" placeholder="Escriba su nombre" name="nombre" required="Please">
 
                 <label for="tel"><b>Teléfono:</b></label>
-                <input type="tel" placeholder="Enter Password" name="phone" required="Please">
+                <input type="tel" placeholder="Enter Password" name="tel" required="Please">
 
-                <label for="email"><b>Email:</b></label>
-              	<input type="email" placeholder="Enter Email" name="email" required="Please">
+                <label for="correo"><b>Email:</b></label>
+              	<input type="email" placeholder="Enter Email" name="correo" required="Please">
 								<div class="caja">
 			  					<select name="conocimiento">
-			  						<option value="none">Cómo se enteró de nosotros?</option>
+			  					<option value="none">Cómo se enteró de nosotros?</option>
 									<option value="periodico">Periódico/Revista</option>
 									<option value="google">Google</option>
 									<option value="espectacular">Espectacular</option>
@@ -1330,7 +1324,7 @@ echo "<!--SE ENVIA CORREO A '.$mailSend.'-->";
 									<option value="valla">Valla Publicitaria</option>
 			  					</select>
 			  				</div>
-									<textarea class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
+									<textarea id="txt1" class="txtArea" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
                 	</div>
                 	<div class="protectionInfo">
                          <p>*Campo Obligatorio. <br> Sus datos estan protegidos. <br> Porfavor lea nuestro <br> <ins><a id="btnVirtual6" href="#" onclick="document.getElementById('myModalPrivacity').style.display='block'">
@@ -1341,7 +1335,7 @@ echo "<!--SE ENVIA CORREO A '.$mailSend.'-->";
             <div class="pieTriangulo">
             </div>
             <div class="triangulo-equilatero-bottom">
-              	<a href="#content" id="btnSend" class="button bTri btn1" type="submit">ENVIAR</a>
+              	<input  id="btnSend" class="button bTri btn1" type="submit">
           	</div>
         </div>
   </form>
@@ -1485,6 +1479,16 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
 	/*if the user clicks anywhere outside the select box,
 	then close all select boxes:*/
 	document.addEventListener("click", closeAllSelect);</script>
+</script>
+
+<script>
+function someFun(id){
+	mail = "HOLA"
+	document.getElementById('id01').style.display='block';
+	var elem = document.getElementById("txt1");
+	elem.innerHTML = mail;
+//	insertText("txt1", id);
+}
 </script>
 
 	</body>
