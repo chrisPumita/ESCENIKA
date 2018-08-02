@@ -34,37 +34,35 @@
 }
 
 .colorDegradado{
-    background: rgba(38,38,38,1);
-background: -moz-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(38,38,38,1)), color-stop(20%, rgba(32,32,32,0.8)), color-stop(50%, rgba(23,23,23,0.8)), color-stop(80%, rgba(10,10,10,0.8)));
-background: -webkit-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
-background: -o-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
-background: -ms-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
-background: linear-gradient(to bottom, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#0a0a0a', GradientType=0 );
+  background: rgba(38,38,38,1);
+  background: -moz-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(38,38,38,1)), color-stop(20%, rgba(32,32,32,0.8)), color-stop(50%, rgba(23,23,23,0.8)), color-stop(80%, rgba(10,10,10,0.8)));
+  background: -webkit-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
+  background: -o-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
+  background: -ms-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
+  background: linear-gradient(to bottom, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#0a0a0a', GradientType=0 );
 }
 
 .colorPaisajeDegradado{
-
-
-background: rgba(143,143,143,0.3);/* Old Browsers */
-background: -moz-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* FF3.6+ */
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,143,143,0.3)), color-stop(25%, rgba(0,0,0,0.37)), color-stop(66%, rgba(0,0,0,0.47)), color-stop(100%, rgba(31,31,31,0.56)));/* Chrome, Safari4+ */
-background: -webkit-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* IE 10+ */
+  background: rgba(143,143,143,0.3);/* Old Browsers */
+  background: -moz-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* FF3.6+ */
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,143,143,0.3)), color-stop(25%, rgba(0,0,0,0.37)), color-stop(66%, rgba(0,0,0,0.47)), color-stop(100%, rgba(31,31,31,0.56)));/* Chrome, Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* IE 10+ */
 
 }
 
 .amenidadColor{
-    background: rgba(86,175,49,1);
-background: -moz-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(86,175,49,1)), color-stop(89%, rgba(129,141,135,0.19)), color-stop(100%, rgba(134,137,146,0.19)));
-background: -webkit-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
-background: -o-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
-background: -ms-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
-background: linear-gradient(to bottom, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', endColorstr='#868992', GradientType=0 );
+  background: rgba(86,175,49,1);
+  background: -moz-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(86,175,49,1)), color-stop(89%, rgba(129,141,135,0.19)), color-stop(100%, rgba(134,137,146,0.19)));
+  background: -webkit-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+  background: -o-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+  background: -ms-linear-gradient(top, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+  background: linear-gradient(to bottom, rgba(86,175,49,1) 0%, rgba(129,141,135,0.19) 89%, rgba(134,137,146,0.19) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', endColorstr='#868992', GradientType=0 );
 }
 
     .contTriangulo{
@@ -268,6 +266,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
         -webkit-transform: translateX(0%);
     }
 
+    .rPhotoBtn{
+          font-size: .8em;
+    }
 
     .logoImgH{
         width: 85%;
@@ -318,7 +319,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
     .tittleNosotros{
         padding-bottom: 15px;
         border-bottom: var(--green) solid 3px;
-        font-size: 1.5em;
+        font-size: 3em;
+        line-height: 30px;
     }
 
     .contentNosotros{
@@ -326,13 +328,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
     }
 
     .txtAbout{
-        color: var(--whitteSolid);
-        width: 100%;
+      color: var(--whitteSolid);
+      width: 100%;
     }
     /*     INICIOA EL PROYECTO     */
     #contentProyect{
         padding-top: 10%;
-        padding-bottom: 10%;
         background-color: var(--whitteSolid);
         text-align: center;
         -webkit-transform: translateX(0%);
@@ -411,6 +412,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
         max-width: 42rem;
      }
 
+.noLink{
+  cursor: default;
+}
     .backIconLogoC{
         display: none;
     }
@@ -598,7 +602,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
 
     .boxBackPlano {
         width: 100%;
-        height: 75%;
+        height: 50%;
         position: relative;
         background: url(../image/A-1.jpg) center no-repeat;
         background-size: cover;
@@ -614,7 +618,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
 
     .boxBackPlano2 {
         width: 100%;
-        height: 75%;
+        height: 50%;
         position: relative;
         background: url(../image/A-2.jpg) center no-repeat;
         background-size: cover;
@@ -640,7 +644,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
     }
     .boxDescDepto{
         width: 100%;
-        height: 30%;
+        height: 25%;
         background-color: var(--grey);
             position: relative;
     }
@@ -650,7 +654,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 10%;
+        height: 15%;
         background-color: var(--green);
     }
 
@@ -658,6 +662,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
+        font-size: 2em;
     }
 
     .txtBoxFormat{
@@ -721,13 +726,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
     }
 
     .mjeBoxing{
-        z-index: 2;
-        color: var(--whitteSolid);
-        right: 20px;
-        bottom: -3vh;
-        text-align: center;
-        position: absolute;
-        width: 25%;
+      z-index: 2;
+      color: var(--whitteSolid);
+      right: 20px;
+      bottom: 0vh;
+      text-align: center;
+      position: absolute;
+      width: 25%;
+      line-height: 50px;
+    }
+    .TXTri1{
+      font-size: 1.5em;
+    }
+    .TXTri2{
+      font-size: 2em;
+    }
+    .TXTri3{
+      font-size: 3.5em;
     }
 
     .contTrainguloAmenidades{
@@ -749,7 +764,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56af31', end
     }
 
     .pBoxesMje{
-    font-size: 2.5em;
     color: var(--whitteSolid);
     }
     .tituloInsideTriangulo{
@@ -1619,7 +1633,6 @@ select::-ms-expand {
     color: white;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 10%;
     width: 80%;
     height: 100%;
 }
@@ -1774,18 +1787,64 @@ select::-ms-expand {
 }
 
 
-/*++++++++++++++++++++++++++++++ RESPONSIVE ++++++++++++
-    *******************     PARA IPADS / TABLETAS
-*/
+
+/* ++++++++++++++++++++++++++++++ RESPONSIVE ++++++++++++
+    *******************     PARA IPADS / TABLETAS      */
+    /*TABLET HORIZONTAL*/
+@media (min-width:861px) and (max-width:1024px) {
+  .boxBackPlano {
+      height: 42%;
+  }
+  .rPhotoBtn {
+      font-size: .6em;
+  }
+
+  .tittleNosotros {
+    line-height: 45px;
+  }
+  .TXTri3 {
+    font-size: 3em;
+  }
+  .TXTri2 {
+    font-size: 1.7em;
+  }
+  .mjeBoxing {
+    line-height: 36px;
+  }
+}
 @media  (min-width:470px) and (max-width:860px) {
      *{
             transition: width 2s;
  }
+
+   .ultxt{
+    font-size: .9em;
+   }
+   .rPhotoBtn {
+    font-size: 0.6em;
+}
+ .mjeBoxing {
+    line-height: 25px;
+  }
     .contTriangulo {
         right: 0%;
         bottom: 0%;
         position: absolute;
     }
+
+.tittleNosotros {
+  line-height: 50px;
+}
+
+.TXTri3 {
+  font-size: 2.3em;
+}
+.TXTri2 {
+    font-size: 1.2em;
+}
+.TXTri1 {
+    font-size: 1.2em;
+}
 
 .logoH {
     top: 20%;
@@ -1848,7 +1907,7 @@ select::-ms-expand {
 }
 
 .boxBackPlano, .boxBackPlano2 {
-    height: 60%;
+    height: 35%;
 }
 
 .boxDescPlano {
@@ -1859,9 +1918,6 @@ select::-ms-expand {
 
 .contTrainguloAmenidades {
     height: 380px;
-}
-.pBoxesMje {
-    font-size: 2em;
 }
 
 /**/
@@ -1966,6 +2022,56 @@ select::-ms-expand {
     }
 
 }
+
+.contentArqui{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+.contTDetails{
+  width: 100%;
+  height: auto;
+  background-color: var(--whitteSolid);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.CArq{
+  width: 70%;
+  height: auto;
+  margin: 5%;
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  color: var(--greyHigh);
+}
+
+.CArq:hover{
+  background-color: var(--grey);
+  color: var(--whitteSolid);
+}
+.CArqD{
+      margin-left: 15%;
+      margin-left: 15%;
+}
+.imgArq{
+  width: 100px;
+  height: 100px;
+  border-right: var(--green) solid 3px;
+  padding-right: 13px;
+}
+.txtArq{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1em;
+}
+
+#contentArqui{
+  display: flex;
+}
+
+
+
+
 /*Portatil de forma vertical */
 @media screen and (max-width:669px), and (orientation: portrait){
     .contentMenu {
@@ -1976,6 +2082,11 @@ select::-ms-expand {
         height: 15%;
         position: relative;
     }
+
+    .tittleNosotros {
+    font-size: 2.5em;
+    line-height: 35px;
+}
     .contLogoH {
         margin-left: 20%;
         margin-right: 20%;
@@ -2117,12 +2228,26 @@ select::-ms-expand {
         height: 200vh;
     }
 
+    #contentArqui {
+      display: block;
+    }
+    .CArq {
+      margin-left: 5%;
+          width: 90%;
+    }
+    .txtArq {
+        margin-right: 0px;
+        font-size: 0.9em;
+    }
     .boxBackIMG, .boxBackDepto2 {
-        height: 50%;
+        height: 65%;
     }
     .boxDescDepto {
-        height: 40%;
+        height: 20%;
     }
+    .txtDescDepto {
+    font-size: 1.5em;
+  }
 
     .txtDataDepto {
         margin-left: 0%;
@@ -2134,7 +2259,7 @@ select::-ms-expand {
     }
 
     .boxBackPlano, .boxBackPlano2 {
-        height: 60%;
+        height: 35%;
     }
 
     .boxDescPlano {
@@ -2143,19 +2268,25 @@ select::-ms-expand {
 
     .mjeBoxing {
         bottom: 8vh;
-        width: 25%;
+        width: 60%;
+        line-height: 28px;
     }
 
     .contTrainguloAmenidades {
         width: 100%;
-        height: 300px;
+        height: 400px;
         bottom: 7vh;
         left: 0px;
     }
-
-    .pBoxesMje {
-        font-size: 1em;
+    .TXTri3 {
+        font-size: 2.5em;
     }
+    .TXTri2 {
+        font-size: 1.5em;
+    }
+    .TXTri1 {
+      font-size: 1.4em;
+  }
 
     .contTituloSubtitulo2 {
         display: inline-grid;
@@ -2272,6 +2403,7 @@ select::-ms-expand {
     height: 50%;
     transition: width 2s;
 }
+
 
 .contentNosotros {
     font-size: .8em;
@@ -2453,9 +2585,25 @@ select::-ms-expand {
 
     .mjeBoxing {
         bottom: 0vh;
-        width: 25%;
+        width: 30%;
+        line-height: 20px;
+    }
+    .TXTri3 {
+      font-size: 1.5em;
+    }
+    .TXTri2 {
+      font-size: .8em;
+    }
+    .TXTri1 {
+      font-size: .6em;
     }
     .tiitleModalAmenidad{
           margin: 0px;
+    }
+    .tittleNosotros {
+      line-height: 19px;
+    }
+    .tittleNosotros {
+        font-size: 2em;
     }
 }
