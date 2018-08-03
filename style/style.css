@@ -830,8 +830,8 @@
 .contPinBoxes2{
   position: fixed;
   display: inline-flex;
-  top: 80%;
-  left: 51%;
+  top: 70%;
+  left: 52%;
   width: 18%;
   height: 6%;
 }
@@ -857,20 +857,20 @@
 .contPinBoxes5{
   position: fixed;
   display: inline-flex;
-  top: 17%;
-  left: 67%;
+  top: 21%;
+  left: 62%;
   width: 18%;
   height: 6%;
 }
 
-    .imgPin{
-        width: 30px;
-        height: 30px;
-        margin-top: 10px;
-        position: relative;
-        cursor: pointer;
-        z-index: 3;
-    }
+.imgPin{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+    z-index: 3;
+}
 
     .boxPin{
         padding: 15px;
@@ -2031,7 +2031,6 @@ select::-ms-expand {
 .contTDetails{
   width: 100%;
   height: auto;
-  background-color: var(--whitteSolid);
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -2042,7 +2041,7 @@ select::-ms-expand {
   margin-left: 30%;
   display: flex;
   align-items: center;
-  color: var(--greyHigh);
+  color: var(--google);
 }
 
 .CArq:hover{
@@ -2067,6 +2066,7 @@ select::-ms-expand {
 
 #contentArqui{
   display: flex;
+      background-color: var(--greyLow);
 }
 
 
@@ -2074,6 +2074,32 @@ select::-ms-expand {
 
 /*Portatil de forma vertical */
 @media screen and (max-width:669px), and (orientation: portrait){
+  .modalInfo-content {
+      width: 300px !important;
+      float: right !important;
+  }
+  .containerFlag {
+    width: 300px !important;
+ }
+ .flag {
+    width: 300px !important;
+ }
+
+ .pieTriangulo {
+   border-right: 200px solid var(--greyLow)!important;
+   border-left: 100px solid var(--greyLow)!important;
+   border-bottom: 100px solid #090c0700 !important;
+}
+.triangulo-equilatero-bottom {
+    top: 580px !important;
+    border-right: 200px solid transparent !important;
+    border-left: 100px solid transparent !important;
+    border-bottom: 100px solid #59AF31 !important;
+}
+.button {
+    margin: 40px 0px 0px -30px !important;
+}
+
     .contentMenu {
         text-align: center;
         display: block;
@@ -2384,6 +2410,40 @@ select::-ms-expand {
         font-size: 1em;
     }
 
+    .imgMap {
+        -moz-transform: scale(1.7);
+        -webkit-transform: scale(1.7);
+        -o-transform: scale(1.7);
+        -ms-transform: scale(1.7);
+        transform: scale(1.7);
+        right: 38px;
+        margin-top: 50px;
+    }
+    .ContimagePinMAP {
+        height: 43vh;
+    }
+
+    .contPinBoxes1 {
+      top: 0%;
+      left: 20%;
+  }
+    .contPinBoxes2 {
+      top: 70%;
+      left: 40%;
+  }
+    .contPinBoxes3 {
+      top: 35%;
+      left: 32%;
+  }
+    .contPinBoxes4 {
+      top: 52%;
+      left: 7%;
+  }
+    .contPinBoxes5 {
+      top: 8%;
+      left: 57%;
+  }
+
 }
 
 /*     media para pantalla pequeña y horizontal */
@@ -2391,8 +2451,40 @@ select::-ms-expand {
  *{
             transition: width 2s;
  }
+ .ContimagePinMAP {
+     height: 100vh;
+ }
 
+ .imgMap {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    right: 0px;
+    margin-top: 0px;
+}
 
+.contPinBoxes1 {
+    top: 17%;
+    left: 34%;
+}
+.contPinBoxes2 {
+    top: 60%;
+    left: 49%;
+}
+.contPinBoxes3 {
+    top: 30%;
+    left: 45%;
+}
+.contPinBoxes4 {
+    top: 44%;
+    left: 32%;
+}
+.contPinBoxes5 {
+    top: 10%;
+    left: 63%;
+}
 
 .contenCaract {
     width: 100%;

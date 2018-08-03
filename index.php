@@ -544,20 +544,20 @@ body{
 				<div class="contTDetails">
 					<div class="CArq">
 							<img class="imgArq" src="icons/areasVerdes-min.png" alt="Icono Dimenciones">
-							<p class="txtArq">3.5 hectáreas de terreno</p>
+							<p class="txtArq">3.5 hectáreas de terreno.</p>
 					</div>
 					<div class="CArq">
 							<img class="imgArq" src="icons/edificio-min.png"alt="Icono Dimenciones">
 							<p class="txtArq">
-								20 torres de lujo <br>
-								10 niveles cada una <br>
-								4 departamentos inteligentes por nivel
+								20 torres de lujo. <br>
+								10 niveles cada una. <br>
+								4 departamentos inteligentes por nivel.
 							</p>
 					</div>
 					<div class="CArq">
 							<img class="imgArq" src="icons/recamaras-min.png" alt="Icono Dimenciones">
 							<p class="txtArq">
-								Modelos de 68 y 98 m2 aprox.  <br>	2 ó 3 recámaras  <br>	2 elevadores por torre
+								Modelos de 68 y 98 m2 aprox.  <br>	2 ó 3 recámaras . <br>	2 elevadores por torre.
 							</p>
 					</div>
 				</div>
@@ -566,21 +566,21 @@ body{
 					<div class="CArq CArqD">
 							<img class="imgArq" src="icons/arquitecturaPlano-min.png" alt="Icono Dimenciones">
 							<p class="txtArq">
-								El boulevard de acceso especialmente trazado
+								El boulevard de acceso especialmente trazado.
 							</p>
 					</div>
 					<div class="CArq CArqD">
 							<img class="imgArq" src="icons/pluma-min.png" alt="Icono Dimenciones">
 							<p class="txtArq">
-								Pórtico de ingreso controlado con pluma y portón <br>
-								Barda perimetral
+								Pórtico de ingreso controlado con pluma y portón. <br>
+								Barda perimetral.
 							</p>
 					</div>
 					<div class="CArq CArqD">
 							<img class="imgArq" src="icons/policia-min.png" alt="Icono Dimenciones">
 							<p class="txtArq">
-								Caseta de vigilancia con acceso controlado <br>
-								Sistema de seguridad con equipo de vanguardia
+								Caseta de vigilancia con acceso controlado.<br>
+								Sistema de seguridad con equipo de vanguardia.
 							</p>
 					</div>
 				</div>
@@ -643,7 +643,7 @@ body{
 							</div>
 							<div class="boxDescPlano">
 								<div class="listPlano">
-									<ul class="ultxt">
+									<ul class="ul">
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -716,7 +716,7 @@ body{
 							</div>
 							<div class="boxDescPlano">
 								<div class="listPlano">
-									<ul class="ultxt">
+									<ul class="ul">
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -756,7 +756,7 @@ body{
 				-->
           <div class="divEstilo div1Estilo">
   				<svg class="contTrainguloAmenidades" height="50%" width="100%">
-  				  <polygon class="trianguloSolid" points="390,90 900,400 0,400"></polygon>
+  				  <polygon id="amenidadPoligon" class="trianguloSolid" points="390,90 900,400 0,400"></polygon>
   				  Sorry, your browser does not support inline SVG.
   				</svg>
   				<div class="mjeBoxing">
@@ -867,7 +867,7 @@ body{
 <div id="miModalAmeni1" class="modal1">
   <div class="modal-contenido">
     <div class="TModalAmen">
-        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <a class="linkCloseAmeni" href="#amenidadPoligon">&times;</a>
     </div>
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
@@ -903,7 +903,7 @@ body{
 <div id="miModalAmeni2" class="modal1">
   <div class="modal-contenido">
     <div class="TModalAmen">
-        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <a class="linkCloseAmeni" href="#amenidadPoligon">&times;</a>
     </div>
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
@@ -942,7 +942,7 @@ body{
 <div id="miModalAmeni3" class="modal1">
   <div class="modal-contenido">
     <div class="TModalAmen">
-        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <a class="linkCloseAmeni" href="#amenidadPoligon">&times;</a>
     </div>
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
@@ -979,7 +979,7 @@ body{
 <div id="miModalAmeni4" class="modal1">
   <div class="modal-contenido">
     <div class="TModalAmen">
-        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <a class="linkCloseAmeni" href="#amenidadPoligon">&times;</a>
     </div>
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
@@ -1015,7 +1015,7 @@ body{
 <div id="miModalAmeni5" class="modal1">
   <div class="modal-contenido">
     <div class="TModalAmen">
-        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+        <a class="linkCloseAmeni" href="#amenidadPoligon">&times;</a>
         <p class="tiitleModalAmenidad">KIOSCO DE CONVIVENCIA</p>
     </div>
     <div class="ContBoxAmeni">
