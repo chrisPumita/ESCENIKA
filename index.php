@@ -73,33 +73,33 @@
 		    background-size: cover;
         }
         .imagenPano{
-    -webkit-animation: animatedBackground 280s alternate ease-in-out infinite;
-    animation-name: mov-izq;
-    animation-duration: 280s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    -moz-animation-name: mov-izq;
-    -moz-animation-duration: 280s;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
-    -moz-animation-delay: 0s;
-    -webkit-animation-name: mov-izq;
-    -webkit-animation-duration: 280s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-delay: 0s;
+			    -webkit-animation: animatedBackground 280s alternate ease-in-out infinite;
+			    animation-name: mov-izq;
+			    animation-duration: 280s;
+			    animation-iteration-count: infinite;
+			    animation-timing-function: linear;
+			    animation-delay: 0s;
+			    -moz-animation-name: mov-izq;
+			    -moz-animation-duration: 280s;
+			    -moz-animation-iteration-count: infinite;
+			    -moz-animation-timing-function: linear;
+			    -moz-animation-delay: 0s;
+			    -webkit-animation-name: mov-izq;
+			    -webkit-animation-duration: 280s;
+			    -webkit-animation-iteration-count: infinite;
+			    -webkit-animation-timing-function: linear;
+			    -webkit-animation-delay: 0s;
         }
         /*
 
          */
 	    @keyframes mov-izq{
 	    	    0% { background-position: 0em }
-          100%{background-position:-200em}
+          100%{background-position:-3800px}
         }
         @-webkit-keyframes mov-izq{
         	    0% { background-position: 0em }
-            100%{background-position:-200em}
+            100%{background-position:-3800px}
         }
 
 
@@ -118,29 +118,7 @@
 		    border-radius: 10px;
         }
 		#myBtnUp:hover{background-color:var(--green);}
-</style>
 
-<style>
-/*
-.imagenPano:{
-    width: 100%;
-    padding-bottom: 0px;
-    overflow: hidden;
-    text-align: center;
-    background-color: white;
-    background-image: url("../image/15.jpg");
-    background-repeat: no-repeat;
-    background-size: auto 150%;
-    animation: slider .5s infinite alternate;
-    transition: background-image 0.5s ease;
-    -webkit-transition: background-image 0.5s cubic-bezier(0.46, 1.26, 0.66, -0.2);
-    -moz-transition: background-image 0s linear;
-}
- */
-
-</style>
-
-<style>
 	.banSlider {
     background-image: url(image/15.jpg);
     /* width: 200%; */
@@ -208,14 +186,10 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
     top: 0px;
     width: 100%;
     overflow-y: auto;
-    /* width: 500px; */
     height: 100%;
-    /* z-index: 3; */
-    /* display: none; */
     right: 10px;
 }
 
-/* ModalInfo Content/Box */
 .modalInfo-content {
     width: 500px;
     float: right;
@@ -223,12 +197,10 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[ty
 
 /* The Close Button (x) */
 .close {
-    /* text-align: -webkit-auto; */
     position: relative;
     bottom: 0px;
     top: 0px;
     font-size: 0.5em;
-    /* font-weight: bold; */
     color: #ffffff;
     background-color: black;
 }
@@ -401,13 +373,15 @@ body{
 					</a>
 					<button id="btnStart" class="boton bTri btn1 btnInformes" onclick="document.getElementById('id01').style.display='block'" >INFORMES</button>
 				</div>
-				<div class="contLogo colorDegradado">
-					<div class="logoEsc">
-						<img class="logoImg" src="image/Escenika-LogoHome.png" alt="Logo de Escenika">
-					</div>
-					<div class="botonMenu">
-						<a href="#content" id="btnStart" class="boton bTri btn1">INICIAR</a>
-						<a href="#contentDeptos" id="btnContact" class="boton bTri btn2">MODELOS</a>
+				<div class="backgroundHome colorDegradado">
+					<div class="contLogo">
+						<div class="logoEsc">
+							<img class="logoImg" src="image/Escenika-LogoHome.png" alt="Logo de Escenika">
+						</div>
+						<div class="botonMenu">
+							<a href="#content" id="btnStart" class="boton bTri btn1">INICIAR</a>
+							<a href="#contentDeptos" id="btnContact" class="boton bTri btn2">MODELOS</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -438,8 +412,7 @@ body{
 							  Sorry, your browser does not support inline SVG.
 							</svg>
 							<p class="txtAbout tittleNosotros">
-								DONDE EL PROTAGONISTA<br>
-								<br>
+								DONDE EL PROTAGONISTA
 								<strong>ERES TÚ</strong>
 							</p>
 							<p class="txtAbout contentNosotros">
@@ -508,11 +481,9 @@ body{
     								<h3 class="stDesc">ÁREAS VERDES</h3>
     								<hr class="lineaBandera">
     							<p class="txtDesc">
-										<strong>Naturaleza y paisaje.</strong>
 										Los espacios abiertos de Escenika en conjunto suman una superficie mayor a los
 										35,000 m<sup>2</sup> de áreas verdes, los cuales rodean y envuelven todo el desarrollo
-										de una forma natural y amigable, lleva a cabo el máximo placer y
-										confort, cualquier actividad deportiva y recreativa, social o familiar.
+										de una forma natural y amigable, para practicar actividades deportivas y recreativas.
     							</p>
     							</div>
     							<div class="bandera">
@@ -557,16 +528,16 @@ body{
 					<div class="CArq">
 							<img class="imgArq" src="icons/recamaras-min.png" alt="Icono Dimenciones">
 							<p class="txtArq">
-								Modelos de 68 y 98 m2 aprox.  <br>	2 ó 3 recámaras . <br>	2 elevadores por torre.
+								Modelos de 68 y 98 m<sup>2</sup>  aprox.  <br>	2 ó 3 recámaras . <br>	2 elevadores por torre.
 							</p>
 					</div>
 				</div>
 				<!--CONTENEDOR DOS-->
 				<div class="contTDetails">
 					<div class="CArq CArqD">
-							<img class="imgArq" src="icons/arquitecturaPlano-min.png" alt="Icono Dimenciones">
+							<img class="imgArq" src="icons/cocheIcon-min.png" alt="Icono Estacionamiento">
 							<p class="txtArq">
-								El boulevard de acceso especialmente trazado.
+								Dos estacionamientos por departamento.
 							</p>
 					</div>
 					<div class="CArq CArqD">
@@ -619,7 +590,7 @@ body{
 							</div>
 							<div class="iconsDescDepto">
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/rule.png" alt=""> 95 m2
+									<img class="iconDepto" src="icons/rule.png" alt=""> 95 m<sup>2</sup>
 								</div>
 								<div class="txtDataDepto">
 									<img class="iconDepto" src="icons/bed.png" alt=""> 3
@@ -643,7 +614,13 @@ body{
 							</div>
 							<div class="boxDescPlano">
 								<div class="listPlano">
-									<ul class="ul">
+									<div class="subtittle ajusteSubtittle">
+										DEPARTAMENTO
+									</div>
+									<div class="tittle">
+										TIPO A MODELO CMYK <br>
+									</div>
+									<ul class="ultxt">
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -660,14 +637,7 @@ body{
 									</ul>
 								</div>
 								<div class="tittlePlano">
-									<div class="subtittle ajusteSubtittle">
-										DEPARTAMENTO
-									</div>
-									<div class="tittle">
-										TIPO A MODELO CMYK <br>
-									</div>
 									<div>
-										<br>
 										<a href="#contentDeptos" id="btnVirtual2" class="boton bTri btn1 rPhotoBtn">RECORRIDO FOTOGRAFICO</a>
 									</div>
 								</div>
@@ -692,7 +662,7 @@ body{
 							</div>
 							<div class="iconsDescDepto">
 								<div class="txtDataDepto">
-									<img class="iconDepto" src="icons/rule.png" alt=""> 65 m2
+									<img class="iconDepto" src="icons/rule.png" alt=""> 65 m<sup>2</sup>
 								</div>
 								<div class="txtDataDepto">
 									<img class="iconDepto" src="icons/bed.png" alt=""> 2
@@ -716,7 +686,13 @@ body{
 							</div>
 							<div class="boxDescPlano">
 								<div class="listPlano">
-									<ul class="ul">
+									<div class="subtittle ajusteSubtittle">
+										DEPARTAMENTO
+									</div>
+									<div class="tittle">
+										TIPO A MODELO CMYK <br>
+									</div>
+									<ul class="ultxt">
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -733,14 +709,7 @@ body{
 									</ul>
 								</div>
 								<div class="tittlePlano">
-									<div class="subtittle ajusteSubtittle">
-										DEPARTAMENTO
-									</div>
-									<div class="tittle">
-										TIPO A MODELO CMYK <br>
-									</div>
 									<div>
-										<br>
 										<a href="#contentDeptos" id="btnVirtual" class="boton bTri btn1 rPhotoBtn">RECORRIDO FOTOGRAFICO</a>
 									</div>
 
@@ -781,25 +750,25 @@ body{
 					</div>
 					<div class="containerSlidersFull amenidadColor">
 						<div class="mySlides fade">
-						  <img alt="jardin"  class="imagenAjustada" src="image/amenidades/gym.jpg">
+						  <img alt="jardin"  class="imagenAjustada" src="image/amenidades/gym.jpg" alt="GYM de Escenika">
 						</div>
 
 						<div class="mySlides fade">
-						  <img alt="casa inteligente"  class="imagenAjustada" src="image/amenidades/homeInteligent.jpg">
+						  <img alt="casa inteligente"  class="imagenAjustada" src="image/amenidades/casaInteligente.jpg" alt="Sistema Domotico Escenika">
 						</div>
 
 						<div class="mySlides fade">
-						  <img alt="niños jugando" class="imagenAjustada" src="image/amenidades/ninios_111661380.jpg">
+						  <img alt="niños jugando" class="imagenAjustada" src="image/amenidades/niniosJugando.jpg" alt="Niños Jugando">
 						</div>
 
 						<div class="mySlides fade">
-						  <img alt="familia"  class="imagenAjustada" src="image/amenidades/family.jpg">
+						  <img alt="familia"  class="imagenAjustada" src="image/amenidades/familia.jpg" alt="foto de Familia">
 						</div>
 						<div class="mySlides fade">
-						  <img alt="salon de ventos"  class="imagenAjustada" src="image/amenidades/salon.jpg">
+						  <img alt="salon de ventos"  class="imagenAjustada" src="image/amenidades/salon.jpg" alt="Salon de Eventos Escenika">
 						</div>
 						<div class="mySlides fade">
-						  <img alt="cancha de tennis"  class="imagenAjustada" src="image/amenidades/petfriendly.jpg">
+						  <img alt="cancha de tennis"  class="imagenAjustada" src="image/amenidades/asadoresAmigos.jpg" alt="Conviviendo con amigos">
 						</div>
 					</div>
 				</div>
@@ -876,8 +845,7 @@ body{
                     <div class="cover top">
                   <h2 class="tittle">ASADORES</h2>
                   <p class="intro">
-										Qué puede ser más agradable que reunirse con amigos o familiares y disfrutar de una parrillada al aire libre.
-										A lo largo de la extensión de áreas verdes se contará con decks externos para momentos de convivencia y placer.
+										Qué puede ser más agradable que reunirse con amigos o familiares y disfrutar de una parrillada al aire libre, obtén una vida en armonía sin dejar tu entorno.
 									</p>
                 </div>
             </div>
@@ -890,7 +858,7 @@ body{
             </div>
             <div class="boxAmenidad">
               <div class="boxImageAmenidad contAmenidades">
-                  <img class="imagenAjustada img" src="image/amenidades/parrillaFamilia.jpg">
+                  <img class="imagenAjustada img" src="image/amenidades/asador1.jpg">
               </div>
             </div>
         </div>
@@ -908,7 +876,7 @@ body{
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
             <div class="boxImageAmenidad box contAmenidades">
-                <img class="imagenAjustada img" src="image/amenidades/iluminado.jpg">
+                <img class="imagenAjustada img" src="image/amenidades/corriendoSendero.jpg">
                     <div class="cover top">
                   <h2 class="tittle">SENDERO PANORÁMICO</h2>
                   <p class="intro">
@@ -929,7 +897,7 @@ body{
             </div>
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
-                    <img class="imagenAjustada img" src="image/amenidades/sendero.jpg">
+                    <img class="imagenAjustada img" src="image/amenidades/sendero1.jpg">
                 </div>
             </div>
         </div>
@@ -947,7 +915,7 @@ body{
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
             <div class="boxImageAmenidad box contAmenidades">
-                <img class="imagenAjustada img" src="image/amenidades/basquetbol.jpg">
+                <img class="imagenAjustada img" src="image/amenidades/canchas1.jpg">
                     <div class="cover top">
                   <h2 class="tittle">Canchas deportivas de usos múltiples</h2>
                   <p class="intro">
@@ -1016,15 +984,16 @@ body{
   <div class="modal-contenido">
     <div class="TModalAmen">
         <a class="linkCloseAmeni" href="#amenidadPoligon">&times;</a>
-        <p class="tiitleModalAmenidad">KIOSCO DE CONVIVENCIA</p>
     </div>
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
             <div class="boxImageAmenidad box contAmenidades">
                 <img class="imagenAjustada img" src="image/amenidades/tenis.jpg">
                     <div class="cover top">
-                  <h2 class="tittle">Kiosco de Convivencia</h2>
-                  <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quis enim nam dolorem recusandae ducimus laudantium iure sint similique reiciendis quaerat dolorum cum aliquid officiis repudiandae in qui itaque maiores!</p>
+                  <h2 class="tittle">Kioscos de Convivencia</h2>
+                  <p class="intro">
+										Ubicados a lo largo de la extensión de áreas verdes se contará con decks techados externos para momentos de convivencia y placer.
+									</p>
                 </div>
             </div>
         </div>
@@ -1052,10 +1021,10 @@ body{
 						</div>
 						<div class="contTituloSubtitulo">
 							<div class="subtittle">
-								PARA MAS INFORMACIÓN
+								NUESTROS ASESORES ESTAN
 							</div>
 							<div class="tittle">
-								CONTACTANOS
+								A TU SERVICIO
 							</div>
 						</div>
 					</div>
@@ -1096,7 +1065,7 @@ body{
 																			</p>';
 																			$mailSend = $salesman[$j][3];
 																			echo '
-																			<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(btn'.$contadosVendedor.')">CONTACTAR</a>
+																			<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(&quot; '.$salesman[$j][1].' ('.$salesman[$j][2] .')&quot;)">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
@@ -1127,7 +1096,7 @@ body{
 																				'.$salesman[$j][3].'
 																			</p>';
 																			echo '
-																				<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(btn'.$contadosVendedor.')">CONTACTAR</a>
+																				<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(&quot;'.$salesman[$j][1].'('.$salesman[$j][2] .')&quot;)">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
@@ -1538,7 +1507,7 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
 
 <script>
 function someFun(id){
-	mail = "HOLA"
+	mail = " SOLICITO ASESORAMIENTO DE: "+ id;
 	document.getElementById('id01').style.display='block';
 	var elem = document.getElementById("txt1");
 	elem.innerHTML = mail;
