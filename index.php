@@ -442,11 +442,11 @@ body{
 								<h2 class="tDesc">INTELIGENTE</h2>
 								<h3 class="stDesc">SISTEMA DOMÓTICO</h3>
 								<hr class="lineaBandera">
-							<p class="txtDesc">
-								Todos los departamentos están equipados con un sistema de domótica (departamentos inteligentes),
-								para brindar armonía y comodidad. El poder de transformar cualquier espacio con luz ahora es tuyo,
-								con solo tocar un botón
-							</p>
+									<p class="txtDesc">
+										Todos los departamentos están equipados con un sistema de domótica (departamentos inteligentes),
+										para brindar armonía y comodidad. El poder de transformar cualquier espacio con luz ahora es tuyo,
+										con solo tocar un botón
+									</p>
 							</div>
 							<div class="bandera">
 							</div>
@@ -460,11 +460,11 @@ body{
 								<h2 class="tDesc">VISTA</h2>
 								<h3 class="stDesc">PANORÁMICA</h3>
 								<hr class="lineaBandera">
-							<p class="txtDesc">
-								Comienza a apreciar lo que nos rodea y a disfrutar los paisajes que nos regala el horizonte.
-								En Escenika las vistas que se pueden contemplar son únicas y se disfrutan en todos los
-								departamentos y sus habitaciones.
-							</p>
+									<p class="txtDesc">
+										Comienza a apreciar lo que nos rodea y a disfrutar los paisajes que nos regala el horizonte.
+										En Escenika las vistas que se pueden contemplar son únicas y se disfrutan en todos los
+										departamentos y sus habitaciones.
+									</p>
 							</div>
 							<div class="bandera">
 							</div>
@@ -831,7 +831,40 @@ body{
 				</div>
 			</div>
 
-
+			<!-- AMENIDADES CALENTADOR-->
+			<div id="miModalCalentador" class="modal1">
+			  <div class="modal-contenido">
+			    <div class="TModalAmen">
+			        <a class="linkCloseAmeni" href="#amenidadPoligon">&times;</a>
+			    </div>
+			    <div class="ContBoxAmeni">
+			        <div class="contModalAmeni">
+			            <div class="boxImageAmenidad box contAmenidades">
+			                <img class="imagenAjustada img" src="image/amenidades/asadores.jpg">
+			                    <div class="cover top">
+			                  <h2 class="tittle">ASADORES</h2>
+			                  <p class="intro">
+													Qué puede ser más agradable que reunirse con amigos o familiares y disfrutar de una parrillada al aire libre, obtén una vida en armonía sin dejar tu entorno.
+												</p>
+			                </div>
+			            </div>
+			        </div>
+			        <div class="contModalAmeni">
+			            <div class="boxAmenidad">
+			                  <div class="boxImageAmenidad contAmenidades">
+			                  	<img class="imagenAjustada img" src="image/amenidades/parrilaAmigos.jpg">
+			                  </div>
+			            </div>
+			            <div class="boxAmenidad">
+			              <div class="boxImageAmenidad contAmenidades">
+			                  <img class="imagenAjustada img" src="image/amenidades/asador1.jpg">
+			              </div>
+			            </div>
+			        </div>
+			    </div>
+			  </div>
+			</div>
+			<!-- AMENIDADES CALENTADOR-->
 <!-- AMENIDADES ZONE BOX 1-->
 <div id="miModalAmeni1" class="modal1">
   <div class="modal-contenido">
@@ -1058,11 +1091,13 @@ body{
 																		<div class="nameAgente">
 																			'.$salesman[$j][1].'
 																		</div>
-																		<hr class="lineaBandera">
+																		<hr class="lineaBandera">';
+																		/*
 																			<p class="txtDesc txtBoxFormat">
 																				'.$salesman[$j][2].' <br>
 																				'.$salesman[$j][3].'
 																			</p>';
+																			*/
 																			$mailSend = $salesman[$j][3];
 																			echo '
 																			<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(&quot; '.$salesman[$j][1].' ('.$salesman[$j][2] .')&quot;)">CONTACTAR</a>

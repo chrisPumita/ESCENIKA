@@ -9,8 +9,8 @@
 		*/
 
 		array('3',"Alfredo Torres","atorres@escenika.com","55-6915-7177","alfredot"),
-		array('4',"Karen Michelle","kmichelle@escenika.com","55-6915-7177","karenm"),
-		array('5',"Christian Avila","cavila@escenika.com","55-6915-7177","christiana"),
+		array('4',"Jazmin Torres","kmichelle@escenika.com","55-6915-7177","karenm"),
+		array('5',"Christian RCGS","cavila@escenika.com","55-6915-7177","christiana"),
 		array('6',"Teresa Martínez","tmartinez@escenika.com","55-6915-7177","teresam"),
 		array('7',"Fernanda Sandobal","fsandobal@escenika.com","55-6915-7177","fernandas"),
 		array('8',"Jorge Guerrero","jguerrero@escenika.com","55-6915-7177","jorgeg"),
