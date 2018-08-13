@@ -8,26 +8,20 @@
 		array('2',"Sandra Carrejo","scarrejo@escenika.com","1106-2678","sandrac"),
 		*/
 
-		array('3',"Alfredo Torres","atorres@escenika.com","55-6915-7177","alfredot"),
-		array('4',"Jazmin Torres","kmichelle@escenika.com","55-6915-7177","karenm"),
-		array('5',"Christian RCGS","cavila@escenika.com","55-6915-7177","christiana"),
-		array('6',"Teresa Martínez","tmartinez@escenika.com","55-6915-7177","teresam"),
-		array('7',"Fernanda Sandobal","fsandobal@escenika.com","55-6915-7177","fernandas"),
-		array('8',"Jorge Guerrero","jguerrero@escenika.com","55-6915-7177","jorgeg"),
-		array('9',"Karla Camino","kcamino@escenika.com","55-6915-7177","karlac"),
-		array('10',"Camila de la Cruz","ecruz@escenika.com","55-6915-7177","camilac"),
-		array('11',"Jaqueline Avalos","javalos@escenika.com","55-6915-7177","jaquelinea"),
-		array('12',"Guadalupe Demetrio","gdemetrio@escenika.com","55-6915-7177","guadaluped"),
-		array('13',"Claudia Espinoza","cespinoza@escenika.com","55-6915-7177","clauudiae"),
-		array('14',"Maria Arellano","aarellano@escenika.com","55-6915-7177","mariaa")
+		array('2',"Enrique Corona","atorres@escenika.com","55-6915-7177","1-min"),
+		array('3',"Blanca Mora","atorres@escenika.com","55-6915-7177","2-min"),
+		array('4',"Florencia Quiñones","kmichelle@escenika.com","55-6915-7177","3-min"),
+		array('5',"Marisela Sánchez","cavila@escenika.com","55-6915-7177","5-min"),
+		array('6',"Miguel Puig","tmartinez@escenika.com","55-6915-7177","6-min"),
+		array('7',"Jorge Corona","fsandobal@escenika.com","55-6915-7177","7-min"),
+		array('8',"Claudia Álvarez","jguerrero@escenika.com","55-6915-7177","8-min")
 	);
 
 
 		/* Mexclo los elementos */
 		shuffle($salesman);
 		/* Agrego los elementos Estaticos al inicio para no afectar el ciclo for*/
-		array_unshift ( $salesman , array('1',"Juan Principal","jperez@escenika.com","55-6915-7177","juanp") );
-		array_unshift ( $salesman , array('2',"Sandra Principal","scarrejo@escenika.com","55-6915-7177","sandrac") );
+		array_unshift ( $salesman , array('1',"Mónica Torres","mtorres@escenika.com","55-6915-7177","4-min") );
 		//INICIO DEL CICLO FOR shuffle Mezcla todos los elementos
 		$noSales = count($salesman); // muestra no de vendedores
 		$containers = ceil($noSales/4)-1;
