@@ -856,7 +856,7 @@ body{
         <div class="contModalAmeni">
             <div class="boxAmenidad">
                   <div class="boxImageAmenidad contAmenidades">
-                	<img class="imagenAjustada img" src="image/amenidades/asadores.jpg">
+                	<img class="imagenAjustada img" src="image/amenidades/asadorParque.jpg">
                   </div>
             </div>
             <div class="boxAmenidad">
@@ -955,7 +955,7 @@ body{
     <div class="ContBoxAmeni">
         <div class="contModalAmeni">
             <div class="boxImageAmenidad box contAmenidades">
-                <img class="imagenAjustada img" src="image/amenidades/resbaladilla.jpg">
+                <img class="imagenAjustada img" src="image/amenidades/jueguito.jpg">
                     <div class="cover top">
 											<h2 class="tittle">ÁREA DE JUEGOS</h2>
                   <p class="intro">
@@ -974,7 +974,7 @@ body{
             </div>
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
-                    <img class="imagenAjustada img" src="image/amenidades/resbaladilla2.jpg">
+                    <img class="imagenAjustada img" src="image/amenidades/resbaladilla.jpg">
                 </div>
             </div>
         </div>
