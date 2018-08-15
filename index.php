@@ -1242,10 +1242,10 @@ body{
 				</div>
 				<div class="contAmenidades">
 					<div class="boxAmenidad">
-    	                 <div class="boxAmenidad infoG">
+    	       <div class="boxAmenidad infoG">
 							 <h1 class="tDesc">Calentadores solares</h1>
 							 Siendo una tendencia Eco Friendly el uso delos recursos naturales con un enfoque de conciencia para el medio ambiente, cada uno de los departamentos se encuentra equipado con calentadores solares de agua, en la que se aprovecha la energía solar limpia y renovable para calentar el agua, sin necesidad de gas o electricidad, esto permite ser una buena opción para obtener ahorros cuidando a nuestro planeta.
-                        </div>
+            </div>
 					</div>
 				</div>
 			</div>
@@ -1297,24 +1297,46 @@ body{
 
 			<div class="aviso-content">
 				<h1>DESCRIPCIÓN DEL AVISO</h1>
-				<p>En Desarrolladora Elements S.A. de C.V. contamos con domicilio en (PUENTE DE VIGAS) Av. Adolfo López Mateos 6 Casi esq. Calz. Las Armas, Col. San José Puente de Vigas, Tlalnepantla, C.P. 54090, Estado de México, es responsable del tratamiento de sus datos personales. Hacemos de su conocimiento que no solicitamos ni hacemos uso de datos personales sensibles. Los términos que se utilicen en el presente aviso, tendrán la definición que a los mismos le asigna la Ley Federal de Protección de Datos Personales en Posesión de Particulares.</p>
+				<p>En Desarrolladora Escenika S.A. de C.V. contamos con domicilio en
+					Av. Hacienda de Lindavista S/N, Esq. Hacienda de la Gavia, Col. Hacienda del parque 2da Sección, Cuautitlán Izcalli, CP 54769, Edo de Méx.
+					es responsable del tratamiento de sus datos personales. Hacemos de su conocimiento que no solicitamos ni hacemos uso de datos personales sensibles.
+					Los términos que se utilicen en el presente aviso, tendrán la definición que a los mismos le asigna la Ley Federal de Protección de Datos Personales
+					en Posesión de Particulares.</p>
 			</div>
 
 			<div class="aviso-content">
 				<h1>DATOS PERSONALES QUE RECABAMOS</h1>
-				<p>Los datos personales que podemos llegar a recabar por la relación comercial que se lleva acabo se mantendrán como privados y solo solicitaremos información necesaria para llevar a cabo los requerimientos solicitados por los clientes; dentro los que encuentran: Nombres, Apellidos, Domicilios, teléfonos, correos electrónicos, fecha de nacimiento, información bancaria, Intereses sobre los productos, clave de Registro Federal de Contribuyentes, Información de formas de pago y toda aquella información que el usuario nos proporcione a lo largo de la relación contractual o comercial que se establezca.</p>
+				<p>Los datos personales que podemos llegar a recabar por la relación comercial que se lleva acabo se mantendrán como privados
+					y solo solicitaremos información necesaria para llevar a cabo los requerimientos solicitados por los clientes;
+					dentro los que encuentran: Nombres, Apellidos, Domicilios, teléfonos, correos electrónicos, fecha de nacimiento,
+					información bancaria, Intereses sobre los productos, clave de Registro Federal de Contribuyentes, Información de
+					formas de pago y toda aquella información que el usuario nos proporcione a lo largo de la relación contractual o comercial que se establezca.</p>
 			</div>
 
 			<div class="aviso-content">
 				<h1><span style="display: inline-block;transform: rotate(180deg);">?</span>CON QUE FINALIDAD RECABAMOS LOS DATOS?</h1>
-				<p>Los datos personales podrán ser tratados y utilizados por nosotros y nuestras filiales o subsidiarias nacionales e Internacionales para llevar a cabo algunas o todas las actividades relacionadas con el cumplimiento de las obligaciones que deriven de la relación comercial que se originen y deriven de la prestación de servicios o venta de productos; con el propósito de informar a los clientes del lanzamiento de nuevos productos, servicios, promociones y ofertas de nosotros o terceros, realizar estudios de mercado, así como cualquier otra actividad tendiente a promover y mejorar los servicios. La transferencia de los datos personales del usuario se encuentra limitada a aquellos actos, hechos y/o procedimientos que se requieran implementar a efecto de estar en posibilidad de cumplir con las obligaciones contractuales, regulatorias y comerciales en el curso ordinario de las operaciones. Si el usuario no manifiesta su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello.</p>
+				<p>Los datos personales podrán ser tratados y utilizados por nosotros y nuestras filiales o subsidiarias nacionales e
+					Internacionales para llevar a cabo algunas o todas las actividades relacionadas con el cumplimiento de las obligaciones
+					que deriven de la relación comercial que se originen y deriven de la prestación de servicios o venta de productos;
+					con el propósito de informar a los clientes del lanzamiento de nuevos productos, servicios, promociones y ofertas
+					de nosotros o terceros, realizar estudios de mercado, así como cualquier otra actividad tendiente a promover y mejorar
+					los servicios. La transferencia de los datos personales del usuario se encuentra limitada a aquellos actos, hechos
+					y/o procedimientos que se requieran implementar a efecto de estar en posibilidad de cumplir con las obligaciones
+					contractuales, regulatorias y comerciales en el curso ordinario de las operaciones. Si el usuario no manifiesta
+					su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello.</p>
 			</div>
 
 
 			<div class="aviso-content">
 				<h1>MEDIOS PARA EJERCER LOS DERECHOS (A.R.C.O)</h1>
-				<p>Los datos personales que recabamos de los usuarios serán tratados en estricto apego a la Ley. En cualquier momento, el usuario tendrá el derecho a solicitar el ejercicio de los derechos que le confiere la Ley, para limitar el acceso, la rectificación, cancelación u oposición; enviando su solicitud correspondiente por escrito al siguiente correo electrónico: contacto@elements.com.mx o comunicándose vía telefónica al 01 (55) 1106-2678, donde con gusto lo atenderemos.</p>
-				<p>Si usted se registra vía telefónica o por algún medio digital y no desea recibir notificaciones y/o avisos sobre nosotros o marcas comerciales afiliadas, tendrá que indicarlo durante el proceso a la persona de Desarrolladora Elements S.A. de C.V. que esté tratando en ese momento, marcándolo en el formulario que este entregando y en todo caso, dirigiéndose con nuestro departamento de Atención al Cliente.</p>
+				<p>Los datos personales que recabamos de los usuarios serán tratados en estricto apego a la Ley. En cualquier momento, el usuario
+					tendrá el derecho a solicitar el ejercicio de los derechos que le confiere la Ley, para limitar el acceso, la rectificación,
+					cancelación u oposición; enviando su solicitud correspondiente por escrito al siguiente correo electrónico: contacto@elements.com.mx
+					o comunicándose vía telefónica al 01 (55) 1106-2678, donde con gusto lo atenderemos.</p>
+				<p>Si usted se registra vía telefónica o por algún medio digital y no desea recibir notificaciones y/o avisos sobre
+					nosotros o marcas comerciales afiliadas, tendrá que indicarlo durante el proceso a la persona de Desarrolladora Escenika S.A. de C.V.
+					que esté tratando en ese momento, marcándolo en el formulario que este entregando y en todo caso, dirigiéndose con nuestro departamento
+					de Atención al Cliente.</p>
 			</div>
 
 
