@@ -229,12 +229,6 @@
         height: 100vh;
         position: relative;
         background-color: black;
-        /*
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        */
     }
     .contentMenu{
         text-align: center;
@@ -249,7 +243,6 @@
         height: 100%;
         /* background-color: red; */
         position: relative;
-        background: url(../image/fondoX.png) 100% 0% no-repeat;
         /* background-size: cover; */
         /* margin: 24px; */
         display: block;
@@ -502,7 +495,7 @@
 
     #contentDeptos{
         width: 100%;
-        height: 100vh;
+        height: 200vh;
         background-color: var(--greyLow);
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -604,7 +597,7 @@
         width: 100%;
         height: 60%;
         position: relative;
-        background: url(../image/DEPTOA1_int.png) center no-repeat;
+        background: url(../image/prototipos/m3.png) center no-repeat;
         background-size: cover;
     }
 
@@ -612,7 +605,7 @@
         width: 100%;
         height: 50%;
         position: relative;
-        background: url(../image/DEPTOA1.png) center no-repeat;
+        background: url(../image/prototipos/m3P.png) center no-repeat;
         background-size: cover;
     }
 
@@ -620,7 +613,7 @@
         width: 100%;
         height: 60%;
         position: relative;
-        background: url(../image/DEPTOB1_int.png) center no-repeat;
+        background: url(../image/prototipos/m2.png) center no-repeat;
         background-size: cover;
     }
 
@@ -628,9 +621,40 @@
         width: 100%;
         height: 50%;
         position: relative;
-        background: url(../image/DEPTOB1.png) center no-repeat;
+        background: url(../image/prototipos/m2P.png) center no-repeat;
         background-size: cover;
     }
+    .boxBackDepto3{
+        width: 100%;
+        height: 60%;
+        position: relative;
+        background: url(../image/prototipos/m1.png) center no-repeat;
+        background-size: cover;
+    }
+
+    .boxBackPlano3 {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        background: url(../image/prototipos/m1P.png) center no-repeat;
+        background-size: cover;
+    }
+    .boxBackDepto4{
+        width: 100%;
+        height: 60%;
+        position: relative;
+        background: url(../image/prototipos/m4.png) center no-repeat;
+        background-size: cover;
+    }
+
+    .boxBackPlano4 {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        background: url(../image/prototipos/m4P.png) center no-repeat;
+        background-size: cover;
+    }
+
 
 .boxDescPlano {
     color: white;
@@ -1019,7 +1043,21 @@
     box-shadow: 0px 0px 96px -1px rgba(0,0,0,1);
 }
 
-
+.RutasInfo{
+  width: 90%;
+  position: relative;
+  height: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.Rutastxt{
+  font-size: 1em;
+  color: var(--greyHigh);
+}
+.littleWord{
+  font-size: .5em;
+}
 .googleMap:hover{
     border: var(--grey) solid 1px;
 }
@@ -1920,7 +1958,7 @@ select::-ms-expand {
     height: 2vh;
 }
 
-.boxBackPlano, .boxBackPlano2 {
+.boxBackPlano, .boxBackPlano2, .boxBackPlano3, .boxBackPlano4 {
     height: 35%;
 }
 
@@ -2045,16 +2083,16 @@ select::-ms-expand {
   background-color: green;
 }
 .contTDetails{
-  width: 100%;
+  width: 50%;
   height: auto;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 .CArq{
-  width: 70%;
+  width: 80%;
   height: auto;
   margin: 5%;
-  margin-left: 30%;
+  margin-left: 15%;
   display: flex;
   align-items: center;
   color: var(--google);
@@ -2251,7 +2289,7 @@ select::-ms-expand {
         text-align: left;
     }
     .contGralDeptosBox {
-        height: 110%;
+        height: 50%;
         overflow-x: scroll;
         width: 100%;
         display: block;
@@ -2270,7 +2308,7 @@ select::-ms-expand {
 }
 
     #contentDeptos {
-        height: 200vh;
+        height: 400vh;
     }
 
     #contentArqui {
@@ -2284,11 +2322,11 @@ select::-ms-expand {
         margin-right: 0px;
         font-size: 0.9em;
     }
-    .boxBackIMG, .boxBackDepto2 {
-        height: 65%;
+    .boxBackIMG, .boxBackDepto2, .boxBackDepto3, .boxBackDepto4 {
+        height: 75%;
     }
     .boxDescDepto {
-        height: 20%;
+        height: 10%;
     }
     .txtDescDepto {
     font-size: 1.5em;
@@ -2303,7 +2341,7 @@ select::-ms-expand {
         text-align: center;
     }
 
-    .boxBackPlano, .boxBackPlano2 {
+    .boxBackPlano, .boxBackPlano2, .boxBackPlano3, .boxBackPlano4 {
         height: 35%;
     }
 
@@ -2557,7 +2595,7 @@ select::-ms-expand {
     height: 40px;
 }
 .boxDescDepto{
-    height: 40%;
+    height: 10%;
 }
 
 .txtDataDepto {
@@ -2578,7 +2616,7 @@ select::-ms-expand {
     text-align: center;
 }
 .boxBackIMG, .boxBackDepto2 {
-    height: 50%;
+    height: 80%;
 }
 .contTituloSubtitulo {
     display: flex;

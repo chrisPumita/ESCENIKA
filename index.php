@@ -510,13 +510,13 @@ body{
 				<div class="contTDetails">
 					<div class="CArq">
 							<img class="imgArq" src="icons/areasVerdes-min.png" alt="Icono Dimenciones">
-							<p class="txtArq">3.5 hectáreas de terreno.</p>
+							<p class="txtArq">3.5 hectáreas de terreno y amenidades.</p>
 					</div>
 					<div class="CArq">
 							<img class="imgArq" src="icons/edificio-min.png"alt="Icono Dimenciones">
 							<p class="txtArq">
 								20 torres de lujo. <br>
-								10 niveles cada una. <br>
+								9 y 10 niveles cada una. <br>
 								4 departamentos inteligentes por nivel.
 							</p>
 					</div>
@@ -567,6 +567,7 @@ body{
 						</div>
 					</div>
 				</div>
+				<!--INICIO DE DEPARTAMENTOS-->
 				<div class="contGralDeptosBox">
 					<div class="containerBoxCaract">
 					  <div class="card">
@@ -576,7 +577,7 @@ body{
 							<div class="boxDescDepto">
 								<div class="txtDescDepto">
 									<div class="tittle">
-										MODELO 68 m<sup>2</sup>
+										MODELO 62.77 m<sup>2</sup>
 									</div>
 								</div>
 							</div>
@@ -604,7 +605,7 @@ body{
 							<div class="boxDescPlano">
 								<div class="listPlano">
 									<div class="tittle">
-										MODELO 68 m<sup>2</sup> <br>
+										MODELO 62.77 m<sup>2</sup> <br>
 									</div>
 									<ul class="ultxt">
 										<li>Recámara principal con baño y vestidor</li>
@@ -615,7 +616,7 @@ body{
 										<li>Cuarto de lavado</li>
 										<li>Altura interior de 2.7 metros</li>
 										<li>Cancelaría de aluminio de pared a pared y piso a techo</li>
-										<li>Closets en mdf recubiertos con laminado plástico</li>
+										<li>Closets en MDF recubiertos con laminado plástico</li>
 										<li>Calentador solar de agua</li>
 										<li>Persianas incluidas</li>
 										<li>Sistema de domótica</li>
@@ -638,7 +639,136 @@ body{
 							<div class="boxDescDepto">
 								<div class="txtDescDepto">
 									<div class="tittle">
-										MODELO 95  m<sup>2</sup>
+										MODELO 65.19 m<sup>2</sup>
+									</div>
+								</div>
+							</div>
+							<div class="iconsDescDepto">
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/bed.png" alt=""> 2
+								</div>
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/car.png" alt=""> 2
+								</div>
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/ducha.png" alt=""> 2
+								</div>
+                <div class="txtDataDepto">
+                    <img class="iconDepto" src="icons/more.png" alt="">más
+                </div>
+							</div>
+					    </div>
+					    <div class="back boxBack">
+					    						   			 <!--
+					   			 	FRONT BACK
+					   			 	-->
+					   		<div class="boxBackPlano2">
+							</div>
+							<div class="boxDescPlano">
+								<div class="listPlano">
+									<div class="tittle">
+										MODELO 65.19 m<sup>2</sup> <br>
+									</div>
+									<ul class="ultxt">
+										<li>Recámara principal con baño y vestidor</li>
+										<li>Piso de tecnología tipo madera y porcelanato</li>
+										<li>Cocina tipo isla de granito con barra desayunador</li>
+										<li>2 baños</li>
+										<li>1 balcon por departamento</li>
+										<li>Cuarto de lavado</li>
+										<li>Altura interior de 2.7 metros</li>
+										<li>Cancelaría de aluminio de pared a pared y piso a techo</li>
+										<li>Closets en MDF recubiertos con laminado plástico</li>
+										<li>Calentador solar de agua</li>
+										<li>Persianas incluidas</li>
+										<li>Sistema de domótica</li>
+									</ul>
+								</div>
+								<div class="tittlePlano">
+									<div>
+										<a href="#contentDeptos" id="btnVirtual" class="boton bTri btn1 rPhotoBtn">RECORRIDO FOTOGRAFICO</a>
+									</div>
+
+								</div>
+							</div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+<!--SEGUNDA ETAPA DE DEPTOS-->
+<div class="contGralDeptosBox">
+					<div class="containerBoxCaract">
+					  <div class="card">
+					    <div class="front boxFront">
+							<div class="boxBackDepto3">
+							</div>
+							<div class="boxDescDepto">
+								<div class="txtDescDepto">
+									<div class="tittle">
+										MODELO 66.69 m<sup>2</sup>
+									</div>
+								</div>
+							</div>
+							<div class="iconsDescDepto">
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/bed.png" alt=""> 2
+								</div>
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/car.png" alt=""> 2
+								</div>
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/ducha.png" alt=""> 2
+								</div>
+               <div class="txtDataDepto">
+                    <img class="iconDepto" src="icons/more.png" alt="">más
+                </div>
+							</div>
+					    </div>
+					    <div class="back boxBack">
+					    						   			 <!--
+					   			 	FRONT BACK
+					   			 	-->
+					   		<div class="boxBackPlano3">
+							</div>
+							<div class="boxDescPlano">
+								<div class="listPlano">
+									<div class="tittle">
+										MODELO 66.69 m<sup>2</sup> <br>
+									</div>
+									<ul class="ultxt">
+										<li>Recámara principal con baño y vestidor</li>
+										<li>Piso de tecnología tipo madera y porcelanato</li>
+										<li>Cocina tipo isla de granito con barra desayunador</li>
+										<li>2 baños</li>
+										<li>1 balcon por departamento</li>
+										<li>Cuarto de lavado</li>
+										<li>Altura interior de 2.7 metros</li>
+										<li>Cancelaría de aluminio de pared a pared y piso a techo</li>
+										<li>Closets en MDF recubiertos con laminado plástico</li>
+										<li>Calentador solar de agua</li>
+										<li>Persianas incluidas</li>
+										<li>Sistema de domótica</li>
+									</ul>
+								</div>
+								<div class="tittlePlano">
+									<div>
+										<a href="#contentDeptos" id="btnVirtual2" class="boton bTri btn1 rPhotoBtn">RECORRIDO FOTOGRAFICO</a>
+									</div>
+								</div>
+							</div>
+					    </div>
+					  </div>
+					</div>
+					<div class="containerBoxCaract">
+					  <div class="card">
+					    <div class="front boxFront">
+							<div class="boxBackDepto4">
+							</div>
+							<div class="boxDescDepto">
+								<div class="txtDescDepto">
+									<div class="tittle">
+										MODELO 98  m<sup>2</sup>
 									</div>
 								</div>
 							</div>
@@ -661,12 +791,12 @@ body{
 					    						   			 <!--
 					   			 	FRONT BACK
 					   			 	-->
-					   		<div class="boxBackPlano2">
+					   		<div class="boxBackPlano4">
 							</div>
 							<div class="boxDescPlano">
 								<div class="listPlano">
 									<div class="tittle">
-										MODELO 95 m<sup>2</sup> <br>
+										MODELO 98 m<sup>2</sup> <br>
 									</div>
 									<ul class="ultxt">
 										<li>Recámara principal con baño y vestidor</li>
@@ -677,7 +807,7 @@ body{
 										<li>Cuarto de lavado</li>
 										<li>Altura interior de 2.7 metros</li>
 										<li>Cancelaría de aluminio de pared a pared y piso a techo</li>
-										<li>Closets en mdf recubiertos con laminado plástico</li>
+										<li>Closets en MDF recubiertos con laminado plástico</li>
 										<li>Calentador solar de agua</li>
 										<li>Persianas incluidas</li>
 										<li>Sistema de domótica</li>
@@ -694,6 +824,7 @@ body{
 					  </div>
 					</div>
 				</div>
+<!--FIN DEPARATEMTOS-->
 			</div>
 			<div id="contentEstilo">
 				<!--
@@ -724,21 +855,26 @@ body{
 					</div>
 					<div class="containerSlidersFull amenidadColor">
 						<div class="mySlides fade">
-						  <img alt="jardin"  class="imagenAjustada" src="image/amenidades/gym.jpg" alt="GYM de Escenika">
+						  <img class="imagenAjustada" src="image/amenidades/gym.jpg" alt="GYM de Escenika">
+						</div>
+						<div class="mySlides fade">
+						  <img  class="imagenAjustada" src="image/DEPTOB1_int.png" alt="Interior departamento">
+						</div>
+						<div class="mySlides fade">
+						  <img  class="imagenAjustada" src="image/amenidades/niniosJugando.jpg" alt="Niños Jugando">
 						</div>
 
 						<div class="mySlides fade">
-						  <img alt="niños jugando" class="imagenAjustada" src="image/amenidades/niniosJugando.jpg" alt="Niños Jugando">
-						</div>
-
-						<div class="mySlides fade">
-						  <img alt="familia"  class="imagenAjustada" src="image/amenidades/familia.jpg" alt="foto de Familia">
+						  <img  class="imagenAjustada" src="image/amenidades/familia.jpg" alt="foto de Familia">
 						</div>
 						<div class="mySlides fade">
-						  <img alt="salon de ventos"  class="imagenAjustada" src="image/amenidades/salon.jpg" alt="Salon de Eventos Escenika">
+						  <img class="imagenAjustada" src="image/amenidades/salon.jpg" alt="Salon de Eventos Escenika">
 						</div>
 						<div class="mySlides fade">
-						  <img alt="cancha de tennis"  class="imagenAjustada" src="image/amenidades/asadoresAmigos.jpg" alt="Conviviendo con amigos">
+						  <img class="imagenAjustada" src="image/amenidades/asadoresAmigos.jpg" alt="Conviviendo con amigos">
+						</div>
+						<div class="mySlides fade">
+						  <img  class="imagenAjustada" src="image/DEPTOA1_int.png" alt="Interior departamento">
 						</div>
 					</div>
 				</div>
@@ -1121,7 +1257,22 @@ body{
 						<a class="sigSalesMan" onclick="plusSlides(1)">❯</a>
 					</div>
 				</div>
+				<!---BANNER---->
+				<div class="RutasInfo">
+					<div class="Rutastxt">
+						• 5 vías de acceso: Aut. Lechería-Chamapa, Perif. Manuel Ávila Camacho, Viaducto Elevado Bicentenario, Vía Gustavo Baz, Av. José López Portillo.
+						<br><br>
+						• Santa Fe en 40 minutos mediante Nortebus vía Chamapa-Lecheria. * <br><br>
+						• Reforma e Insurgentes en 40 minutos y Polanco en 45 minutos vía Tren Suburbano. * <br>
+						<hr class="lineContact">
+						<span class="littleWord">
+							*parametrica llegando a las 9:00 A.M. al lugar de destino según usuarios.
+						</span>
+					</div>
 
+				</div>
+
+				<!---BANNER---->
 				<div  id="locationGoo" class="contentMapa">
 					<div class="contInstruccions">
 						<p class="instructions">
@@ -1556,6 +1707,5 @@ function someFun(id){
 //	insertText("txt1", id);
 }
 </script>
-
 	</body>
 </html>
