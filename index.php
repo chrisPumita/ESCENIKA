@@ -403,7 +403,7 @@ body{
 					<div class="contMjeAbout colorPaisajeDegradado">
 						<div class="positionContMje">
 							<svg class="contPanoTraingulo">
-							  <polygon class="triangulo" points="350,100 900,350 70,350"></polygon>
+							  <polygon class="trianguloPano" points="350,100 900,350 70,350"></polygon>
 							  Sorry, your browser does not support inline SVG.
 							</svg>
 							<p class="txtAbout tittleNosotros">
@@ -420,11 +420,13 @@ body{
 					</div>
 				</div>
 			</div>
+			<!--
         <a href="#contentHeader" title="To Top">
             <button id="myBtnUp" title="Ir Arriba">
                 <i style="font-size:35px" class="fa">&#xf139;</i>
             </button>
         </a>
+			-->
 			<div id="contentProyect">
 				<div class="contenCaract">
 					<div id="btnVirtual3" class="contentDescription">
@@ -590,8 +592,8 @@ body{
 								<div class="txtDataDepto">
 									<img class="iconDepto" src="icons/ducha.png" alt=""> 2
 								</div>
-               <div class="txtDataDepto">
-                    <img class="iconDepto" src="icons/more.png" alt="">más
+               <div class="txtDataDepto vieMore" >
+                    <img class="iconDepto" src="icons/more.png" alt=""> ver más
                 </div>
 							</div>
 					    </div>
@@ -652,8 +654,8 @@ body{
 								<div class="txtDataDepto">
 									<img class="iconDepto" src="icons/ducha.png" alt=""> 2
 								</div>
-                <div class="txtDataDepto">
-                    <img class="iconDepto" src="icons/more.png" alt="">más
+                <div class="txtDataDepto vieMore" >
+                    <img class="iconDepto " src="icons/more.png" alt=""> ver más
                 </div>
 							</div>
 					    </div>
@@ -719,8 +721,8 @@ body{
 								<div class="txtDataDepto">
 									<img class="iconDepto" src="icons/ducha.png" alt=""> 2
 								</div>
-               <div class="txtDataDepto">
-                    <img class="iconDepto" src="icons/more.png" alt="">más
+               <div class="txtDataDepto vieMore">
+                    <img class="iconDepto" src="icons/more.png" alt=""> ver más
                 </div>
 							</div>
 					    </div>
@@ -781,8 +783,8 @@ body{
 								<div class="txtDataDepto">
 									<img class="iconDepto" src="icons/ducha.png" alt=""> 2 1/2
 								</div>
-                <div class="txtDataDepto">
-                    <img class="iconDepto" src="icons/more.png" alt="">más
+                <div class="txtDataDepto vieMore">
+                    <img class="iconDepto" src="icons/more.png" alt=""> ver más
                 </div>
 							</div>
 					    </div>
@@ -931,6 +933,16 @@ body{
 								</div>
 						</a>
 						<!-- FIN PIN 5-->
+						<!-- PIN 6 	-->
+						<a href="#miModalAmeni6">
+								<div class="contPinBoxes6">
+										<img class="imgPin checkPoint" src="icons/pin.png">
+										<div class="boxPin">
+												Plaza Comercial
+										</div>
+								</div>
+						</a>
+						<!-- FIN PIN 6-->
 						</div>
 					</div>
 				</div>
@@ -1151,6 +1163,43 @@ body{
   </div>
 </div>
 <!-- AMENIDADES ZONE BOX 5-->
+
+<!-- AMENIDADES ZONE BOX 6-->
+<div id="miModalAmeni6" class="modal1">
+  <div class="modal-contenido">
+    <div class="TModalAmen">
+        <a class="linkCloseAmeni" href="#amenidadPoligon">&times;</a>
+    </div>
+    <div class="ContBoxAmeni">
+        <div class="contModalAmeni">
+            <div class="boxImageAmenidad box contAmenidades">
+                <img class="imagenAjustada img" src="image/amenidades/c1.jpg">
+                    <div class="cover top">
+                  <h2 class="tittle">Centros Comerciales</h2>
+                  <p class="intro">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+                </div>
+            </div>
+        </div>
+        <div class="contModalAmeni">
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+	                 <img class="imagenAjustada img" src="image/amenidades/c2.jpg">
+                </div>
+            </div>
+            <div class="boxAmenidad">
+                <div class="boxImageAmenidad contAmenidades">
+                  <img class="imagenAjustada img" src="image/amenidades/c3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- AMENIDADES ZONE BOX 6-->
+
+
 			<div id="contentContacto">
 				<div class="contentContact">
 					<div class="titleDeptos">
@@ -1266,9 +1315,9 @@ body{
 						<br><br>
 						• Santa Fe en 40 minutos mediante Nortebus vía Chamapa-Lecheria. * <br><br>
 						• Reforma e Insurgentes en 40 minutos y Polanco en 45 minutos vía Tren Suburbano. * <br>
-						<hr class="lineContact">
 						<span class="littleWord">
-							*parametrica llegando a las 9:00 A.M. al lugar de destino según usuarios.
+							*parametrica llegando a las 9:00 A.M. al lugar de destino según usuarios.<br><br>
+							<hr class="lineContact">
 						</span>
 					</div>
 
@@ -1576,7 +1625,7 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
 </script>
 
   <script src="javascripts/application.js" type="text/javascript" charset="utf-8" async defer></script>
-
+<!--
 	<script>
 
         // When the user scrolls down 20px from the top of the document, show the button
@@ -1595,6 +1644,7 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
         }
 
 </script>
+-->
 
 		  <script>
 		  	/*

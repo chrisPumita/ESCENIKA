@@ -12,6 +12,7 @@
         --textFocus:  #000000;
         --degrayBlackLow:  #0000007d;
         --greenTrasparente:  #56af31e3;
+        --greenTrasp:  #56af3178;
         --google: #4F6A77;
     }
 
@@ -45,13 +46,14 @@
 }
 
 .colorPaisajeDegradado{
-  background: rgba(143,143,143,0.3);/* Old Browsers */
-  background: -moz-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* FF3.6+ */
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,143,143,0.3)), color-stop(25%, rgba(0,0,0,0.37)), color-stop(66%, rgba(0,0,0,0.47)), color-stop(100%, rgba(31,31,31,0.56)));/* Chrome, Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%); /* IE 10+ */
-
+  background: rgba(26,26,26,0.37);
+  background: -moz-linear-gradient(top, rgba(26,26,26,0.37) 26%, rgba(61,61,61,0.37) 51%, rgba(82,82,82,0.37) 59%, rgba(102,102,102,0.3) 67%, rgba(255,255,255,0) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(26%, rgba(26,26,26,0.37)), color-stop(51%, rgba(61,61,61,0.37)), color-stop(59%, rgba(82,82,82,0.37)), color-stop(67%, rgba(102,102,102,0.3)), color-stop(100%, rgba(255,255,255,0)));
+  background: -webkit-linear-gradient(top, rgba(26,26,26,0.37) 26%, rgba(61,61,61,0.37) 51%, rgba(82,82,82,0.37) 59%, rgba(102,102,102,0.3) 67%, rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(top, rgba(26,26,26,0.37) 26%, rgba(61,61,61,0.37) 51%, rgba(82,82,82,0.37) 59%, rgba(102,102,102,0.3) 67%, rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(top, rgba(26,26,26,0.37) 26%, rgba(61,61,61,0.37) 51%, rgba(82,82,82,0.37) 59%, rgba(102,102,102,0.3) 67%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom, rgba(26,26,26,0.37) 26%, rgba(61,61,61,0.37) 51%, rgba(82,82,82,0.37) 59%, rgba(102,102,102,0.3) 67%, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#ffffff', GradientType=0 );
 }
 
 .amenidadColor{
@@ -89,6 +91,12 @@
         fill: var(--greenTrasparente);
         stroke: var(--greenTrasparente);
         stroke-width: 0;
+    }
+
+    .trianguloPano{
+      fill: #56ae3173;
+      stroke: #56ae3173;
+      stroke-width: 0;
     }
 
     .contPanoTraingulo{
@@ -535,7 +543,7 @@
 }
     .tittle{
         padding-left: 15px;
-        font-size: 1.5em;
+    font-size: 1.2em;
         font-weight: bold;
         color: var(--whitteSolid);
         text-align: left;
@@ -679,7 +687,7 @@
         width: 100%;
         height: 25%;
         background-color: var(--grey);
-            position: relative;
+        position: relative;
     }
 
     .iconsDescDepto{
@@ -714,6 +722,10 @@
         margin-left: 2%;
         font-size: 1.5em;
         color: var(--textHover);
+    }
+
+    .vieMore{
+          color: var(--grey);
     }
 
     /* ESTILO DE VIDA SECCION */
@@ -858,8 +870,6 @@
     width: 100%;
     height: 100%;
     display: inline-block;
-    overflow-x: scroll;
-    overflow-y: hidden;
 }
 .contPinBoxes2{
   position: fixed;
@@ -893,6 +903,14 @@
   display: inline-flex;
   top: 21%;
   left: 62%;
+  width: 18%;
+  height: 6%;
+}
+.contPinBoxes6{
+  position: fixed;
+  display: inline-flex;
+  top: 20%;
+  left: 14%;
   width: 18%;
   height: 6%;
 }
@@ -1715,7 +1733,8 @@ select::-ms-expand {
 #miModalAmeni2:target,
 #miModalAmeni3:target,
 #miModalAmeni4:target,
-#miModalAmeni5:target{
+#miModalAmeni5:target,
+#miModalAmeni6:target{
   opacity:1;
   pointer-events:auto;
 }
@@ -1825,6 +1844,14 @@ select::-ms-expand {
      *{
             transition: width 2s;
  }
+
+
+ .zoomMap{
+    transform : scale(1.5);
+    -moz-transform : scale(1.5);      /* Firefox */
+    -webkit-transform : scale(1.5);   /* Chrome - Safari */
+    -o-transform : scale(1.5);        /* Opera */
+}
 .contentContact {
     height: 90vh;
     padding-top: 10vh;
@@ -1860,13 +1887,13 @@ select::-ms-expand {
 }
 
 .TXTri3 {
-  font-size: 2.3em;
+  font-size: 2em;
 }
 .TXTri2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .TXTri1 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .logoH {
@@ -2336,13 +2363,13 @@ select::-ms-expand {
         left: 0px;
     }
     .TXTri3 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .TXTri2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .TXTri1 {
-      font-size: 1.4em;
+      font-size: 1.1em;
   }
 
     .contTituloSubtitulo2 {
@@ -2448,7 +2475,7 @@ select::-ms-expand {
         -ms-transform: scale(1.7);
         transform: scale(1.7);
         right: 38px;
-        margin-top: 50px;
+        margin-top: 62px;
     }
     .ContimagePinMAP {
         height: 43vh;
