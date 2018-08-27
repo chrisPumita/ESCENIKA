@@ -95,11 +95,11 @@
          */
 	    @keyframes mov-izq{
 	    	    0% { background-position: 0em }
-          100%{background-position:-3000px}
+          100%{background-position:-2500px}
         }
         @-webkit-keyframes mov-izq{
         	    0% { background-position: 0em }
-            100%{background-position:-3000px}
+            100%{background-position:-2500px}
         }
 
 
@@ -383,7 +383,7 @@ body{
 		</header>
 	<!-- /header -->
 		<content id="content">
-			<div id="contentHeader" class="imagenPano">
+			<div id="contentHeader" class="">
 				<div class="contentMenu">
 					<div class="contLogoH">
 						<div class="logoH">
@@ -399,8 +399,8 @@ body{
 						</div>
 					</div>
 				</div>
-				<div class="contPano colorPaisajeDegradado">
-					<div class="contMjeAbout">
+				<div class="contPano imagenPano">
+					<div class="contMjeAbout colorPaisajeDegradado">
 						<div class="positionContMje">
 							<svg class="contPanoTraingulo">
 							  <polygon class="triangulo" points="350,100 900,350 70,350"></polygon>
@@ -414,8 +414,7 @@ body{
 								Escenika, es un lugar conectado con lo que más quieres, rodeado de espacios únicos,
 								para disfrutar de un estilo de vida diferente, donde los contrastes de la vida son posibles,
 								los ritmos y los silencios crean un escenario para contemplar una vista panorámica increíble,
-								logrando transmitir un tu entorno en armonía. <br><br>
-								El proyecto se encuentra ubicado en un cluster residencial ubicado al norte de la ciudad, que cuenta con privacidad y seguridad en una zona exclusiva, consolidada y provista de un contexto moderno, funcional y conectado a excelentes vías de comunicación.
+								logrando transmitir un tu entorno en armonía.
 							</p>
 						</div>
 					</div>
@@ -446,63 +445,63 @@ body{
 						<div class="bandera">
 						</div>
 					</div>
-						<div class="contentDescription noLink">
-							<div class="banderaText">
-								<div class="backIconLogoC">
-								</div>
-								<div class="iconLogoC iconVista">
-								</div>
-								<h2 class="tDesc">VISTA</h2>
-								<h3 class="stDesc">PANORÁMICA</h3>
-								<hr class="lineaBandera">
-									<p class="txtDesc">
-										Comienza a apreciar lo que nos rodea y a disfrutar los paisajes que nos regala el horizonte.
-										En Escenika las vistas que se pueden contemplar son únicas y se disfrutan en todos los
-										departamentos y sus habitaciones.
-									</p>
+					<div class="contentDescription noLink">
+						<div class="banderaText">
+							<div class="backIconLogoC">
 							</div>
-							<div class="bandera">
+							<div class="iconLogoC iconVista">
 							</div>
+							<h2 class="tDesc">VISTA</h2>
+							<h3 class="stDesc">PANORÁMICA</h3>
+							<hr class="lineaBandera">
+								<p class="txtDesc">
+									Comienza a apreciar lo que nos rodea y a disfrutar los paisajes que nos regala el horizonte.
+									En Escenika las vistas que se pueden contemplar son únicas y se disfrutan en todos los
+									departamentos y sus habitaciones.
+								</p>
 						</div>
+						<div class="bandera">
+						</div>
+					</div>
 
-						<div class="contentDescription">
-                <a href="#mapAmenidades">
-    							<div class="banderaText">
-    								<div class="backIconLogoC">
-    								</div>
-    								<div class="iconLogoC iconParque">
-    								</div>
-    								<h2 class="tDesc">AMPLIAS</h2>
-    								<h3 class="stDesc">ÁREAS VERDES</h3>
-    								<hr class="lineaBandera">
-    							<p class="txtDesc">
-										Los espacios abiertos de Escenika en conjunto suman una superficie mayor a los
-										35,000 m<sup>2</sup> de áreas verdes, los cuales rodean y envuelven todo el desarrollo
-										de una forma natural y amigable, para practicar actividades deportivas y recreativas.
-    							</p>
-    							</div>
-    							<div class="bandera">
-    							</div>
-                </a>
-						</div>
-						<div class="contentDescription" onclick="document.getElementById('myModalPhotoVirtual2').style.display='block'">
+					<div class="contentDescription">
+            			<a href="#mapAmenidades">
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
-								<div class="iconLogoC iconCalentador">
+								<div class="iconLogoC iconParque">
 								</div>
-								<h2 class="tDesc">CALENTADOR</h2>
-								<h3 class="stDesc">SOLAR DE AGUA</h3>
+								<h2 class="tDesc">AMPLIAS</h2>
+								<h3 class="stDesc">ÁREAS VERDES</h3>
 								<hr class="lineaBandera">
 							<p class="txtDesc">
-								Cada uno de los departamentos se encuentra equipado con calentadores solares,
-								lo que permite que el agua que se consuma sea calentada por radiación solar
-								logrando un ahorro de más del 50% mensual de combustible, tendiendo conciencia con el medio ambiente.
+									Los espacios abiertos de Escenika en conjunto suman una superficie mayor a los
+									35,000 m<sup>2</sup> de áreas verdes, los cuales rodean y envuelven todo el desarrollo
+									de una forma natural y amigable, para practicar actividades deportivas y recreativas.
 							</p>
 							</div>
 							<div class="bandera">
 							</div>
+            			</a>
+					</div>
+					<div class="contentDescription" onclick="document.getElementById('myModalPhotoVirtual2').style.display='block'">
+						<div class="banderaText">
+							<div class="backIconLogoC">
+							</div>
+							<div class="iconLogoC iconCalentador">
+							</div>
+							<h2 class="tDesc">CALENTADOR</h2>
+							<h3 class="stDesc">SOLAR DE AGUA</h3>
+							<hr class="lineaBandera">
+						<p class="txtDesc">
+							Cada uno de los departamentos se encuentra equipado con calentadores solares,
+							lo que permite que el agua que se consuma sea calentada por radiación solar
+							logrando un ahorro de más del 50% mensual de combustible, tendiendo conciencia con el medio ambiente.
+						</p>
 						</div>
+						<div class="bandera">
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -523,7 +522,7 @@ body{
 					<div class="CArq">
 							<img class="imgArq" src="icons/recamaras-min.png" alt="Icono Dimenciones">
 							<p class="txtArq">
-								Modelos de 68 y 98 m<sup>2</sup>  aprox.  <br>	2 ó 3 recámaras . <br>	2 elevadores por torre.
+								Modelos de 65 y 98 m<sup>2</sup>  aproximadamente.<br>	2 ó 3 recámaras.<br>2 elevadores por torre.
 							</p>
 					</div>
 				</div>
@@ -1260,6 +1259,9 @@ body{
 				<!---BANNER---->
 				<div class="RutasInfo">
 					<div class="Rutastxt">
+						<div class="tiitle3Rutas">
+								NUESTRA UBICACIÓN
+							</div>
 						• 5 vías de acceso: Aut. Lechería-Chamapa, Perif. Manuel Ávila Camacho, Viaducto Elevado Bicentenario, Vía Gustavo Baz, Av. José López Portillo.
 						<br><br>
 						• Santa Fe en 40 minutos mediante Nortebus vía Chamapa-Lecheria. * <br><br>

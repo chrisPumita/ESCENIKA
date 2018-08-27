@@ -302,7 +302,6 @@
         height: 100%;
         text-align: center;
         display: flex;
-        align-items: center;
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
         -ms-transform: translateX(0%);
@@ -311,8 +310,10 @@
     }
 
     .positionContMje{
-        padding-left: 20%;
-        padding-right: 20%;
+        height: 95%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 5%;
     }
 
     .tittleNosotros{
@@ -1044,16 +1045,26 @@
 }
 
 .RutasInfo{
-  width: 90%;
-  position: relative;
-  height: auto;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-bottom: 5%;
+    width: 90%;
+    position: relative;
+    height: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: var(--google);
 }
 .Rutastxt{
   font-size: 1em;
-  color: var(--greyHigh);
+  color: var(--whitteSolid);
+}
+
+.tiitle3Rutas{
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--whitteSolid);
 }
 .littleWord{
   font-size: .5em;
@@ -1226,58 +1237,6 @@ blockquote{
   }
 }
 
-
-
-
-
-/*  EFECTOS*/
-
-/*  FLECHAS*/
-/*
-.arrow,
-.arrow:before {
-  position: absolute;
-  left: 50%;
-}
-
-.arrow {
-  width: 40px;
-  height: 40px;
-  top: 50%;
-  margin: -20px 0 0 -20px;
-  -webkit-transform: rotate(45deg);
-  border-left: none;
-  border-top: none;
-  border-right: 2px #fff solid;
-  border-bottom: 2px #fff solid;
-}
-
-.arrow:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  margin: -10px 0 0 -10px;
-  border-left: none;
-  border-top: none;
-  border-right: 1px #fff solid;
-  border-bottom: 1px #fff solid;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: arrow;
-}
-
-@keyframes arrow {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translate(-10px, -10px);
-  }
-}
-
- */
 .to-top{
     color:white;
     padding-top:1.8em;
@@ -1413,9 +1372,9 @@ font-size: 2em;
 
 
 .containerBoxCaract {
-    margin: 3%;
+    margin: 1%;
     width: 40%;
-    height: 80%;
+    height: 95%;
     justify-content: center;
     align-items: center;
     background-attachment: scroll;
@@ -1838,6 +1797,10 @@ select::-ms-expand {
     *******************     PARA IPADS / TABLETAS      */
     /*TABLET HORIZONTAL*/
 @media (min-width:861px) and (max-width:1024px) {
+
+.positionContMje {
+    margin-top: 15%;
+}
   .boxBackPlano {
     height: 50%;
   }
@@ -1862,6 +1825,14 @@ select::-ms-expand {
      *{
             transition: width 2s;
  }
+.contentContact {
+    height: 90vh;
+    padding-top: 10vh;
+}
+
+ .positionContMje {
+    margin-top: 33%;
+}
  .pBoxesMje {
      line-height: 28px;
  }
@@ -1982,7 +1953,7 @@ select::-ms-expand {
 }
 
 .contentAsesoresRandoom {
-    top: 20%;
+    margin-top: 10%;
     width: 100%;
     display: inline-block;
     margin-left: 0%;
@@ -2167,7 +2138,7 @@ select::-ms-expand {
     }
 
     .tittleNosotros {
-    font-size: 2.5em;
+    font-size: 1.5em;
     line-height: 35px;
 }
     .contLogoH {
@@ -2213,6 +2184,7 @@ select::-ms-expand {
         height: 85%;
     }
     .positionContMje {
+        margin-top: 5%;
         padding-left: 2%;
         padding-right: 2%;
     }
@@ -2229,21 +2201,23 @@ select::-ms-expand {
 
     .contenCaract {
         margin-top: 100px;
-        width: 150%;
-        display: -webkit-box;
+        width: 100%;
+        display: grid;
         justify-content: center;
         align-items: center;
         font-size: 12px;
     }
 
     .contentDescription {
-        width: 40%;
+        width: 100%;
         padding: 0px;
-        padding-top: 0px;
+        padding-top: 100px;
         margin-left: 0px;
         margin-right: 0px;
     }
-
+.contTDetails {
+    width: 100%;
+}
     .banderaText {
         padding-bottom: 5px;
     }
@@ -2760,9 +2734,6 @@ select::-ms-expand {
           margin: 0px;
     }
     .tittleNosotros {
-      line-height: 19px;
-    }
-    .tittleNosotros {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 }
