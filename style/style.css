@@ -23,6 +23,7 @@
     	display: contents;
     	overflow-x: hidden;
         background-color: var(--blackSolid) !important;
+            transition: background-color .5s;
     }
          *{
             transition: width 2s;
@@ -139,7 +140,7 @@
 
     .logoEsc{
         width: 100%;
-        z-index: 1;
+        z-index: 0;
         text-align: center;
         position: relative;
         top: 25%;
@@ -336,9 +337,8 @@
     }
 
     .txtAbout{
-      color: var(--whitteSolid);
+      color: #484848;
       width: 100%;
-      text-shadow: 2px 2px 2px var(--grey);
     }
     /*     INICIOA EL PROYECTO     */
     #contentProyect{
@@ -914,6 +914,30 @@
   width: 18%;
   height: 6%;
 }
+.contPinBoxes7{
+  position: fixed;
+  display: inline-flex;
+  top: 2%;
+  left: 23%;
+  width: 18%;
+  height: 6%;
+}
+.contPinBoxes8{
+  position: fixed;
+  display: inline-flex;
+  top: 80%;
+  left: 42%;
+  width: 18%;
+  height: 6%;
+}
+.contPinBoxes9{
+  position: fixed;
+  display: inline-flex;
+  top: 33%;
+  left: 19%;
+  width: 18%;
+  height: 6%;
+}
 
 .imgPin{
     width: 30px;
@@ -1189,7 +1213,7 @@
 
 .nameAgente {
     padding-top: 15px;
-    font-size: 150%;
+    font-size: 1em;
     font-weight: bold;
     color: var(--whitteSolid);
 }
@@ -1320,6 +1344,11 @@ blockquote{
     align-items: center;
     font-size: 80%;
 }
+
+.contRespo{
+  display: block;
+}
+
 .proyectAuthors{
 padding-right: 25px;
     font-size: 1.5em;
@@ -1629,12 +1658,6 @@ PARADAX
 select::-ms-expand {
     display: none;
 }
-
-
-/*
-        Estilo de vida pop up amenidades
- */
-
 .containerAmenidades{
     width: 100%;
     height: 90%;
@@ -1651,6 +1674,10 @@ select::-ms-expand {
 .boxAmenidad{
     width: 100%;
     height: 50%;
+}
+
+.textComplete{
+      height: 100%;
 }
 
 .infoG, .infoV{
@@ -1679,7 +1706,17 @@ select::-ms-expand {
     overflow:hidden;
 }
 
-
+.conttxtAmeni{
+  width: 90%;
+  height: 95%;
+  position: relative;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-content: center;
+  vertical-align: middle;
+  background-color: var(--green);
+}
 
 .img{
     display:block;
@@ -1705,13 +1742,15 @@ select::-ms-expand {
 /*  MODAL DE AMENIDADES VARIOS */
 
 .modal-contenido{
-    background-color: var(--grey);
-    width: 90%;
-    height: 75%;
-    padding: 2%;
-    margin: 5% auto;
-    position: relative;
-    overflow: auto;
+  background-color: var(--grey);
+  width: 90%;
+  height: 80%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+  overflow: auto;
 }
 .modal1{
     width: 100%;
@@ -1734,7 +1773,10 @@ select::-ms-expand {
 #miModalAmeni3:target,
 #miModalAmeni4:target,
 #miModalAmeni5:target,
-#miModalAmeni6:target{
+#miModalAmeni6:target,
+#miModalAmeni7:target,
+#miModalAmeni8:target,
+#miModalAmeni9:target{
   opacity:1;
   pointer-events:auto;
 }
@@ -1747,7 +1789,7 @@ select::-ms-expand {
 
 .TModalAmen{
     width: 80%;
-    height: 10%;
+    height: 0%;
     padding-left: 10%;
     padding-right: 10%;
     background-color: var(--grey);
@@ -1762,11 +1804,11 @@ select::-ms-expand {
 
 .ContBoxAmeni{
     width: 100%;
-    height: 84%;
+    height: 90%;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: #2196F3;
+    background-color: var(--green);
     position: absolute;
     display: inline-table;
     display: flex;
@@ -2031,7 +2073,7 @@ select::-ms-expand {
 .footer1, .footer2 {
     width: 100%;
     font-size: 10px;
-        display: block;
+    display: flex;
 }
 
 .footer3 {
@@ -2088,7 +2130,7 @@ select::-ms-expand {
 }
 .CArq{
   width: 80%;
-  height: auto;
+  height: 150px;
   margin: 5%;
   margin-left: 15%;
   display: flex;
@@ -2168,22 +2210,22 @@ select::-ms-expand {
     font-size: 1.5em;
     line-height: 35px;
 }
-    .contLogoH {
-        margin-left: 20%;
-        margin-right: 20%;
-        /* text-align: center; */
-        width: 50%;
-        height: auto;
-        z-index: 1;
-        text-align: center;
-        position: relative;
-        top: 10px;
-        -webkit-transform: translateX(10%);
-        -moz-transform: translateX(10%);
-        -ms-transform: translateX(10%);
-        -o-transform: translateX(10%);
-        transform: translateX(10%);
-    }
+.contLogoH {
+    margin-left: 20%;
+    margin-right: 20%;
+    /* text-align: center; */
+    width: 50%;
+    height: auto;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    -webkit-transform: translateX(10%);
+    -moz-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    -o-transform: translateX(10%);
+    transform: translateX(10%);
+}
 
     .menus {
         top: 15px;
@@ -2193,8 +2235,17 @@ select::-ms-expand {
     .contLogoMenus {
         width: 100%;
         height: auto;
+        display: none;
+    }
+    .logoImgH {
+      width: 100%;
+      padding-bottom: 10%;
+      padding-top: 10%;
     }
 
+    #main {
+    	display: flex !important;
+    }
     .contTriangulo {
         right: 0%;
         bottom: 0%;
@@ -2408,7 +2459,7 @@ select::-ms-expand {
 
     .nameAgente {
         padding-top: 9px;
-        font-size: 120%;
+    font-size: .8em;
     }
 
     .txtBoxFormat {
@@ -2477,6 +2528,14 @@ select::-ms-expand {
         right: 38px;
         margin-top: 62px;
     }
+
+    .contenedorMapaScroll {
+      height: 95%;
+      display: flex !important;
+    }
+.imgMapNomobile{
+  display: none;
+}
     .ContimagePinMAP {
         height: 43vh;
     }
@@ -2514,6 +2573,11 @@ select::-ms-expand {
 }
  .ContimagePinMAP {
      height: 100vh;
+ }
+
+ .footer1 {
+     width: 100%;
+     display: flex;
  }
 
  .imgMap {
