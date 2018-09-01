@@ -573,6 +573,89 @@ body{
 						</div>
 					</div>
 				</div>
+<!--Esclusive ipad
+				<div class="contenCaract ipad">
+									<div class="contentDescription">
+				      			<a href="#mapAmenidades">
+											<div class="banderaText">
+												<div class="backIconLogoC">
+												</div>
+												<div class="iconLogoC iconParque">
+												</div>
+												<h2 class="tDesc">AMPLIAS</h2>
+												<h3 class="stDesc">ÁREAS VERDES</h3>
+												<hr class="lineaBandera">
+											<p class="txtDesc">
+												Parque privado con más de 35000 m<sup>2</sup> a lo largo del desarrollo, diseñado por biólogos del
+												Jardín Botánico de la UNAM, equipado para practicar actividades deportivas y recreativas;
+												único en la zona.
+											</p>
+											</div>
+											<div class="bandera">
+											</div>
+				      			</a>
+									</div>
+									<div class="contentDescription noLink">
+										<div class="banderaText">
+											<div class="backIconLogoC">
+											</div>
+											<div class="iconLogoC iconVista">
+											</div>
+											<h2 class="tDesc">VISTA</h2>
+											<h3 class="stDesc">PANORÁMICA</h3>
+											<hr class="lineaBandera">
+												<p class="txtDesc">
+													Comienza a apreciar lo que nos rodea y a disfrutar los paisajes que nos regala el horizonte.
+													En Escenika las vistas que se pueden contemplar son únicas y se disfrutan en todos los
+													departamentos y sus habitaciones.
+												</p>
+										</div>
+										<div class="bandera">
+										</div>
+									</div>
+
+									<div id="btnVirtual3" class="contentDescription">
+										<div class="banderaText">
+											<div class="backIconLogoC">
+											</div>
+											<div class="iconLogoC iconPerfect">
+											</div>
+											<h2 class="tDesc">INTELIGENTE</h2>
+											<h3 class="stDesc">SISTEMA DOMÓTICO</h3>
+											<hr class="lineaBandera">
+												<p class="txtDesc">
+													Todos los departamentos están equipados con un sistema de domótica (departamentos inteligentes),
+													para brindar armonía y comodidad. El poder de transformar cualquier espacio con luz ahora es tuyo,
+													con solo tocar un botón.
+												</p>
+										</div>
+										<div class="bandera">
+										</div>
+									</div>
+
+									<div class="contentDescription" onclick="document.getElementById('myModalPhotoVirtual2').style.display='block'">
+										<div class="banderaText">
+											<div class="backIconLogoC">
+											</div>
+											<div class="iconLogoC iconCalentador">
+											</div>
+											<h2 class="tDesc">CALENTADOR</h2>
+											<h3 class="stDesc">SOLAR DE AGUA</h3>
+											<hr class="lineaBandera">
+										<p class="txtDesc">
+											Cada uno de los departamentos se encuentra equipado con calentadores solares,
+											lo que permite que el agua que se consuma sea calentada por radiación solar
+											logrando un ahorro de más del 50% mensual de combustible, tendiendo conciencia con el medio ambiente.
+										</p>
+										</div>
+										<div class="bandera">
+										</div>
+									</div>
+								</div>
+
+-->
+
+
 			</div>
 
 			<div id="contentArqui">
@@ -891,6 +974,75 @@ body{
 					</div>
 				</div>
 <!--FIN DEPARATEMTOS-->
+<!--INICIO TERCETRA DEPARATEMTOS-->
+<div class="contGralDeptosBox">
+
+						<div class="containerBoxCaract pentHOuseDiv">
+						  <div class="card">
+						    <div class="front boxFront">
+								<div class="boxBackDepto5">
+								</div>
+								<div class="boxDescDepto">
+									<div class="txtDescDepto">
+										<div class="tittle">
+											MODELO 5 PENTHOUSE - 98m<sup>2</sup>
+										</div>
+									</div>
+								</div>
+								<div class="iconsDescDepto">
+									<div class="txtDataDepto">
+										<img class="iconDepto" src="icons/bed.png" alt=""> 2
+									</div>
+									<div class="txtDataDepto">
+										<img class="iconDepto" src="icons/car.png" alt=""> 2
+									</div>
+									<div class="txtDataDepto">
+										<img class="iconDepto" src="icons/ducha.png" alt=""> 2 1/2
+									</div>
+	               <div class="txtDataDepto vieMore">
+	                    <img class="iconDepto" src="icons/more.png" alt=""> ver más
+	                </div>
+								</div>
+						    </div>
+						    <div class="back boxBack">
+						    						   			 <!--
+						   			 	FRONT BACK
+						   			 	-->
+						   		<div class="boxBackPlano5">
+								</div>
+								<div class="boxDescPlano">
+									<div class="listPlano">
+										<ul class="ultxt">
+											<li>MODELO 5 PENTHOUSE 98m<sup>2</sup></li>
+											<li>Recámara principal con baño y vestidor</li>
+											<li>Piso de tecnología tipo madera y porcelanato</li>
+											<li>Cocina tipo isla de granito con barra desayunador</li>
+											<li>2 y 1/2 baños</li>
+											<li>2 balcones por departamento</li>
+											<li>Cuarto de lavado</li>
+											<li>Altura interior de 2.7 metros</li>
+											<li>Cancelaría de aluminio de pared a pared y piso a techo</li>
+											<li>Closets en MDF recubiertos con laminado plástico</li>
+											<li>Calentador solar de agua</li>
+											<li>Persianas incluidas</li>
+											<li>Sistema de domótica</li>
+											<li>Terraza</li>
+											<li>Cuarto de Lavado</li>
+											<li>2 pisos (98m<sup>2</sup> en total)</li>
+										</ul>
+									</div>
+									<div class="tittlePlano">
+										<div>
+											<a href="#contentDeptos" id="btnVirtual2" class="boton bTri btn1 rPhotoBtn">RECORRIDO FOTOGRAFICO</a>
+										</div>
+									</div>
+								</div>
+						    </div>
+						  </div>
+						</div>
+				</div>
+<!--FIN 3ra PARTE DEPARATEMTOS-->
+
 			</div>
 			<div id="contentEstilo">
 				<!--
@@ -1315,7 +1467,7 @@ body{
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
 									<div class="conttxtAmeni">
-										<h2 class="tittle">7</h2>
+										<h2 class="tittle">GIMNACIO</h2>
 										<p class="intro">
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 										</p>
