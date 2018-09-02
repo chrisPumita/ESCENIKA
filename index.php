@@ -495,175 +495,123 @@ body{
         </a>
 			-->
 			<div id="contentProyect">
-				<div class="contenCaract">
-					<div class="contentDescription">
-      			<a href="#mapAmenidades">
+				<div class="contenCaract containerCuentas">
+					<div class="area-g0">
+						<div class="contentDescription">
+			      			<a href="#mapAmenidades">
+								<div class="banderaText">
+									<div class="backIconLogoC">
+									</div>
+									<div class="iconLogoC iconParque">
+									</div>
+									<h2 class="tDesc">AMPLIAS</h2>
+									<h3 class="stDesc">ÁREAS VERDES</h3>
+									<hr class="lineaBandera">
+								<p class="txtDesc">
+									Parque privado con más de 35000 m<sup>2</sup> a lo largo del desarrollo, diseñado por biólogos del
+									Jardín Botánico de la UNAM, equipado para practicar actividades deportivas y recreativas;
+									único en la zona.
+								</p>
+								</div>
+								<div class="bandera">
+								</div>
+			      			</a>
+						</div>
+					</div>
+
+					<div class="area-g1">
+						<div class="contentDescription noLink">
 							<div class="banderaText">
 								<div class="backIconLogoC">
 								</div>
-								<div class="iconLogoC iconParque">
+								<div class="iconLogoC iconVista">
 								</div>
-								<h2 class="tDesc">AMPLIAS</h2>
-								<h3 class="stDesc">ÁREAS VERDES</h3>
+								<h2 class="tDesc">VISTA</h2>
+								<h3 class="stDesc">PANORÁMICA</h3>
+								<hr class="lineaBandera">
+									<p class="txtDesc">
+										Comienza a apreciar lo que nos rodea y a disfrutar los paisajes que nos regala el horizonte.
+										En Escenika las vistas que se pueden contemplar son únicas y se disfrutan en todos los
+										departamentos y sus habitaciones.
+									</p>
+							</div>
+							<div class="bandera">
+							</div>
+						</div>
+					</div>
+
+					<div class="area-g2">
+						<div id="btnVirtual3" class="contentDescription Yesipad">
+							<div class="banderaText">
+								<div class="backIconLogoC">
+								</div>
+								<div class="iconLogoC iconPerfect">
+								</div>
+								<h2 class="tDesc">INTELIGENTE</h2>
+								<h3 class="stDesc">SISTEMA DOMÓTICO</h3>
+								<hr class="lineaBandera">
+									<p class="txtDesc">
+										Todos los departamentos están equipados con un sistema de domótica (departamentos inteligentes),
+										para brindar armonía y comodidad. El poder de transformar cualquier espacio con luz ahora es tuyo,
+										con solo tocar un botón.
+									</p>
+							</div>
+							<div class="bandera">
+							</div>
+						</div>
+					</div>
+
+					<div class="area-g3">
+						<div class="contentDescription Yesipad" onclick="document.getElementById('myModalPhotoVirtual2').style.display='block'">
+							<div class="banderaText">
+								<div class="backIconLogoC">
+								</div>
+								<div class="iconLogoC iconCalentador">
+								</div>
+								<h2 class="tDesc">CALENTADOR</h2>
+								<h3 class="stDesc">SOLAR DE AGUA</h3>
 								<hr class="lineaBandera">
 							<p class="txtDesc">
-								Parque privado con más de 35000 m<sup>2</sup> a lo largo del desarrollo, diseñado por biólogos del
-								Jardín Botánico de la UNAM, equipado para practicar actividades deportivas y recreativas;
-								único en la zona.
+								Cada uno de los departamentos se encuentra equipado con calentadores solares,
+								lo que permite que el agua que se consuma sea calentada por radiación solar
+								logrando un ahorro de más del 50% mensual de combustible, tendiendo conciencia con el medio ambiente.
 							</p>
 							</div>
 							<div class="bandera">
 							</div>
-      			</a>
-					</div>
-					<div class="contentDescription noLink">
-						<div class="banderaText">
-							<div class="backIconLogoC">
-							</div>
-							<div class="iconLogoC iconVista">
-							</div>
-							<h2 class="tDesc">VISTA</h2>
-							<h3 class="stDesc">PANORÁMICA</h3>
-							<hr class="lineaBandera">
-								<p class="txtDesc">
-									Comienza a apreciar lo que nos rodea y a disfrutar los paisajes que nos regala el horizonte.
-									En Escenika las vistas que se pueden contemplar son únicas y se disfrutan en todos los
-									departamentos y sus habitaciones.
-								</p>
-						</div>
-						<div class="bandera">
 						</div>
 					</div>
 
-					<div id="btnVirtual3" class="contentDescription">
-						<div class="banderaText">
-							<div class="backIconLogoC">
-							</div>
-							<div class="iconLogoC iconPerfect">
-							</div>
-							<h2 class="tDesc">INTELIGENTE</h2>
-							<h3 class="stDesc">SISTEMA DOMÓTICO</h3>
-							<hr class="lineaBandera">
-								<p class="txtDesc">
-									Todos los departamentos están equipados con un sistema de domótica (departamentos inteligentes),
-									para brindar armonía y comodidad. El poder de transformar cualquier espacio con luz ahora es tuyo,
-									con solo tocar un botón.
-								</p>
-						</div>
-						<div class="bandera">
-						</div>
-					</div>
-
-					<div class="contentDescription" onclick="document.getElementById('myModalPhotoVirtual2').style.display='block'">
-						<div class="banderaText">
-							<div class="backIconLogoC">
-							</div>
-							<div class="iconLogoC iconCalentador">
-							</div>
-							<h2 class="tDesc">CALENTADOR</h2>
-							<h3 class="stDesc">SOLAR DE AGUA</h3>
-							<hr class="lineaBandera">
-						<p class="txtDesc">
-							Cada uno de los departamentos se encuentra equipado con calentadores solares,
-							lo que permite que el agua que se consuma sea calentada por radiación solar
-							logrando un ahorro de más del 50% mensual de combustible, tendiendo conciencia con el medio ambiente.
-						</p>
-						</div>
-						<div class="bandera">
-						</div>
-					</div>
 				</div>
-<!--Esclusive ipad
-				<div class="contenCaract ipad">
-									<div class="contentDescription">
-				      			<a href="#mapAmenidades">
-											<div class="banderaText">
-												<div class="backIconLogoC">
-												</div>
-												<div class="iconLogoC iconParque">
-												</div>
-												<h2 class="tDesc">AMPLIAS</h2>
-												<h3 class="stDesc">ÁREAS VERDES</h3>
-												<hr class="lineaBandera">
-											<p class="txtDesc">
-												Parque privado con más de 35000 m<sup>2</sup> a lo largo del desarrollo, diseñado por biólogos del
-												Jardín Botánico de la UNAM, equipado para practicar actividades deportivas y recreativas;
-												único en la zona.
-											</p>
-											</div>
-											<div class="bandera">
-											</div>
-				      			</a>
-									</div>
-									<div class="contentDescription noLink">
-										<div class="banderaText">
-											<div class="backIconLogoC">
-											</div>
-											<div class="iconLogoC iconVista">
-											</div>
-											<h2 class="tDesc">VISTA</h2>
-											<h3 class="stDesc">PANORÁMICA</h3>
-											<hr class="lineaBandera">
-												<p class="txtDesc">
-													Comienza a apreciar lo que nos rodea y a disfrutar los paisajes que nos regala el horizonte.
-													En Escenika las vistas que se pueden contemplar son únicas y se disfrutan en todos los
-													departamentos y sus habitaciones.
-												</p>
-										</div>
-										<div class="bandera">
-										</div>
-									</div>
 
-									<div id="btnVirtual3" class="contentDescription">
-										<div class="banderaText">
-											<div class="backIconLogoC">
-											</div>
-											<div class="iconLogoC iconPerfect">
-											</div>
-											<h2 class="tDesc">INTELIGENTE</h2>
-											<h3 class="stDesc">SISTEMA DOMÓTICO</h3>
-											<hr class="lineaBandera">
-												<p class="txtDesc">
-													Todos los departamentos están equipados con un sistema de domótica (departamentos inteligentes),
-													para brindar armonía y comodidad. El poder de transformar cualquier espacio con luz ahora es tuyo,
-													con solo tocar un botón.
-												</p>
-										</div>
-										<div class="bandera">
-										</div>
-									</div>
+<!-- EJERCICIO DIVS CON GRIDS-->
+<div class="containerCuentas">
+          <div class="area-g0">
+          	
+          </div>
+          <div class="area-g1">
 
-									<div class="contentDescription" onclick="document.getElementById('myModalPhotoVirtual2').style.display='block'">
-										<div class="banderaText">
-											<div class="backIconLogoC">
-											</div>
-											<div class="iconLogoC iconCalentador">
-											</div>
-											<h2 class="tDesc">CALENTADOR</h2>
-											<h3 class="stDesc">SOLAR DE AGUA</h3>
-											<hr class="lineaBandera">
-										<p class="txtDesc">
-											Cada uno de los departamentos se encuentra equipado con calentadores solares,
-											lo que permite que el agua que se consuma sea calentada por radiación solar
-											logrando un ahorro de más del 50% mensual de combustible, tendiendo conciencia con el medio ambiente.
-										</p>
-										</div>
-										<div class="bandera">
-										</div>
-									</div>
-								</div>
+          </div>
+          <div class="area-g2">
 
--->
-
+          </div>
+          <div class="area-g3">
+          	
+          </div>
+          <!--
+          <div class='area-g4'> <img class="imgCuenta" src="images/cuentas/c5.png" alt=""> </div>
+          <div class='area-g5'> <img class="imgCuenta" src="images/cuentas/c6.png" alt=""> </div>
+          <div class='area-g6'> <img class="imgCuenta" src="images/cuentas/c7.png" alt=""> </div>
+          <div class='area-g7'> <img class="imgCuenta" src="images/cuentas/c8.png" alt=""> </div>
+          <div class='area-g8'> <img class="imgCuenta" src="images/cuentas/c9.png" alt=""> </div>
+        -->
+        </div>
+<!-- END DIVS CON GRIDS-->
 
 			</div>
 
 			<div id="contentArqui">
 				<div class="contTDetails">
-					<div class="CArq">
-							<img class="imgArq" src="icons/column.png" alt="Diseño y Arquitectura">
-							<p class="txtArq">Acabados de primera. <br>1 o 2 balcones. </p>
-					</div>
 					<div class="CArq">
 							<img class="imgArq" src="icons/edificio-min.png"alt="Icono Dimenciones">
 							<p class="txtArq">
@@ -677,6 +625,10 @@ body{
 							<p class="txtArq">
 								Modelos de 65 y 98 m<sup>2</sup>  aproximadamente.<br>	2 ó 3 recámaras.<br>2 y 2 1/2 baños.
 							</p>
+					</div>
+					<div class="CArq">
+							<img class="imgArq" src="icons/column.png" alt="Diseño y Arquitectura">
+							<p class="txtArq">Acabados de primera. <br>1 o 2 balcones. </p>
 					</div>
 				</div>
 				<!--CONTENEDOR DOS-->
@@ -698,7 +650,8 @@ body{
 							<img class="imgArq" src="icons/policia-min.png" alt="Icono Dimenciones">
 							<p class="txtArq">
 								Caseta de vigilancia.<br>
-								Sistema de monitoreo C3
+								Sistema de monitoreo C3 <br>
+								(Centro de Control Comunicacion y Computo.)
 							</p>
 					</div>
 				</div>
@@ -730,7 +683,7 @@ body{
 							<div class="boxDescDepto">
 								<div class="txtDescDepto">
 									<div class="tittle">
-										MODELO 1 - 66m<sup>2</sup>
+										MODELO 1
 									</div>
 								</div>
 							</div>
@@ -758,7 +711,7 @@ body{
 							<div class="boxDescPlano">
 								<div class="listPlano">
 									<ul class="ultxt">
-										<li>MODELO 1 - 62.77m<sup>2</sup></li>
+										<li>MODELO 1 - 66m<sup>2</sup></li>
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -791,7 +744,7 @@ body{
 							<div class="boxDescDepto">
 								<div class="txtDescDepto">
 									<div class="tittle">
-										MODELO 2 - 65m<sup>2</sup>
+										MODELO 2
 									</div>
 								</div>
 							</div>
@@ -848,9 +801,6 @@ body{
 
 <!--SEGUNDA ETAPA DE DEPTOS-->
 <div class="contGralDeptosBox">
-
-
-
 						<div class="containerBoxCaract">
 						  <div class="card">
 						    <div class="front boxFront">
@@ -859,7 +809,7 @@ body{
 								<div class="boxDescDepto">
 									<div class="txtDescDepto">
 										<div class="tittle">
-											MODELO 3 - 62m<sup>2</sup>
+											MODELO 3
 										</div>
 									</div>
 								</div>
@@ -919,7 +869,7 @@ body{
 							<div class="boxDescDepto">
 								<div class="txtDescDepto">
 									<div class="tittle">
-										MODELO 4 - 98m<sup>2</sup>
+										MODELO 4
 									</div>
 								</div>
 							</div>
@@ -975,71 +925,70 @@ body{
 				</div>
 <!--FIN DEPARATEMTOS-->
 <!--INICIO TERCETRA DEPARATEMTOS-->
-<div class="contGralDeptosBox">
-
-						<div class="containerBoxCaract pentHOuseDiv">
-						  <div class="card">
-						    <div class="front boxFront">
-								<div class="boxBackDepto5">
-								</div>
-								<div class="boxDescDepto">
-									<div class="txtDescDepto">
-										<div class="tittle">
-											MODELO 5 PENTHOUSE - 98m<sup>2</sup>
-										</div>
+				<div class="contGralDeptosBox">
+					<div class="containerBoxCaract pentHOuseDiv">
+					  <div class="card">
+					    <div class="front boxFront">
+							<div class="boxBackDepto5">
+							</div>
+							<div class="boxDescDepto">
+								<div class="txtDescDepto">
+									<div class="tittle">
+										MODELO 5 PENTHOUSE
 									</div>
 								</div>
-								<div class="iconsDescDepto">
-									<div class="txtDataDepto">
-										<img class="iconDepto" src="icons/bed.png" alt=""> 2
-									</div>
-									<div class="txtDataDepto">
-										<img class="iconDepto" src="icons/car.png" alt=""> 2
-									</div>
-									<div class="txtDataDepto">
-										<img class="iconDepto" src="icons/ducha.png" alt=""> 2 1/2
-									</div>
-	               <div class="txtDataDepto vieMore">
-	                    <img class="iconDepto" src="icons/more.png" alt=""> ver más
-	                </div>
+							</div>
+							<div class="iconsDescDepto">
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/bed.png" alt=""> 2
 								</div>
-						    </div>
-						    <div class="back boxBack">
-						    						   			 <!--
-						   			 	FRONT BACK
-						   			 	-->
-						   		<div class="boxBackPlano5">
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/car.png" alt=""> 2
 								</div>
-								<div class="boxDescPlano">
-									<div class="listPlano">
-										<ul class="ultxt">
-											<li>MODELO 5 PENTHOUSE 98m<sup>2</sup></li>
-											<li>Recámara principal con baño y vestidor</li>
-											<li>Piso de tecnología tipo madera y porcelanato</li>
-											<li>Cocina tipo isla de granito con barra desayunador</li>
-											<li>2 y 1/2 baños</li>
-											<li>2 balcones por departamento</li>
-											<li>Cuarto de lavado</li>
-											<li>Altura interior de 2.7 metros</li>
-											<li>Cancelaría de aluminio de pared a pared y piso a techo</li>
-											<li>Closets en MDF recubiertos con laminado plástico</li>
-											<li>Calentador solar de agua</li>
-											<li>Persianas incluidas</li>
-											<li>Sistema de domótica</li>
-											<li>Terraza</li>
-											<li>Cuarto de Lavado</li>
-											<li>2 pisos (98m<sup>2</sup> en total)</li>
-										</ul>
-									</div>
-									<div class="tittlePlano">
-										<div>
-											<a href="#contentDeptos" id="btnVirtual2" class="boton bTri btn1 rPhotoBtn">RECORRIDO FOTOGRAFICO</a>
-										</div>
+								<div class="txtDataDepto">
+									<img class="iconDepto" src="icons/ducha.png" alt=""> 2 1/2
+								</div>
+               <div class="txtDataDepto vieMore">
+                    <img class="iconDepto" src="icons/more.png" alt=""> ver más
+                </div>
+							</div>
+					    </div>
+					    <div class="back boxBack">
+					    						   			 <!--
+					   			 	FRONT BACK
+					   			 	-->
+					   		<div class="boxBackPlano5">
+							</div>
+							<div class="boxDescPlano">
+								<div class="listPlano">
+									<ul class="ultxt">
+										<li>MODELO 5 PENTHOUSE 98m<sup>2</sup></li>
+										<li>Recámara principal con baño y vestidor</li>
+										<li>Piso de tecnología tipo madera y porcelanato</li>
+										<li>Cocina tipo isla de granito con barra desayunador</li>
+										<li>2 y 1/2 baños</li>
+										<li>2 balcones por departamento</li>
+										<li>Cuarto de lavado</li>
+										<li>Altura interior de 2.7 metros</li>
+										<li>Cancelaría de aluminio de pared a pared y piso a techo</li>
+										<li>Closets en MDF recubiertos con laminado plástico</li>
+										<li>Calentador solar de agua</li>
+										<li>Persianas incluidas</li>
+										<li>Sistema de domótica</li>
+										<li>Terraza</li>
+										<li>Cuarto de Lavado</li>
+										<li>2 pisos (98m<sup>2</sup> en total)</li>
+									</ul>
+								</div>
+								<div class="tittlePlano">
+									<div>
+										<a href="#contentDeptos" id="btnVirtual2" class="boton bTri btn1 rPhotoBtn">RECORRIDO FOTOGRAFICO</a>
 									</div>
 								</div>
-						    </div>
-						  </div>
-						</div>
+							</div>
+					    </div>
+					  </div>
+					</div>
 				</div>
 <!--FIN 3ra PARTE DEPARATEMTOS-->
 
@@ -1072,12 +1021,16 @@ body{
 						</div>
 					</div>
 					<div class="containerSlidersFull amenidadColor">
+						<!--
 						<div class="mySlides fade">
 						  <img class="imagenAjustada" src="image/amenidades/gym.jpg" alt="GYM de Escenika">
 						</div>
+						-->
+						<!--
 						<div class="mySlides fade">
 						  <img  class="imagenAjustada" src="image/DEPTOB1_int.png" alt="Interior departamento">
 						</div>
+						-->
 						<div class="mySlides fade">
 						  <img  class="imagenAjustada" src="image/amenidades/niniosJugando.jpg" alt="Niños Jugando">
 						</div>
@@ -1085,14 +1038,18 @@ body{
 						<div class="mySlides fade">
 						  <img  class="imagenAjustada" src="image/amenidades/familia.jpg" alt="foto de Familia">
 						</div>
+						<!--
 						<div class="mySlides fade">
 						  <img class="imagenAjustada" src="image/amenidades/salon.jpg" alt="Salon de Eventos Escenika">
 						</div>
+						-->
+						<!--
 						<div class="mySlides fade">
 						  <img class="imagenAjustada" src="image/amenidades/asadoresAmigos.jpg" alt="Conviviendo con amigos">
 						</div>
+						-->
 						<div class="mySlides fade">
-						  <img  class="imagenAjustada" src="image/DEPTOA1_int.png" alt="Interior departamento">
+						  <img  class="imagenAjustada" src="image/amenidades/familiRun.jpg" alt="Familia Corriendo">
 						</div>
 					</div>
 				</div>
@@ -1206,40 +1163,40 @@ body{
 				</div>
 			</div>
 
-			<!-- AMENIDADES CALENTADOR-->
-			<div id="miModalCalentador" class="modal1">
-			  <div class="modal-contenido">
-			    <div class="TModalAmen">
-			        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
-			    </div>
-			    <div class="ContBoxAmeni">
-			        <div class="contModalAmeni">
-			            <div class="boxImageAmenidad box contAmenidades">
-			                <img class="imagenAjustada img" src="image/amenidades/asadores.jpg">
-			                    <div class="cover top">
-			                  <h2 class="tittle">ASADORES</h2>
-			                  <p class="intro">
-													Qué puede ser más agradable que reunirse con amigos o familiares y disfrutar de una parrillada al aire libre, obtén una vida en armonía sin dejar tu entorno.
-												</p>
-			                </div>
-			            </div>
-			        </div>
-			        <div class="contModalAmeni">
-			            <div class="boxAmenidad">
-			                  <div class="boxImageAmenidad contAmenidades">
-			                  	<img class="imagenAjustada img" src="image/amenidades/parrilaAmigos.jpg">
-			                  </div>
-			            </div>
-			            <div class="boxAmenidad">
-			              <div class="boxImageAmenidad contAmenidades">
-			                  <img class="imagenAjustada img" src="image/amenidades/asador1.jpg">
-			              </div>
-			            </div>
-			        </div>
-			    </div>
-			  </div>
-			</div>
-			<!-- AMENIDADES CALENTADOR-->
+<!-- AMENIDADES CALENTADOR-->
+<div id="miModalCalentador" class="modal1">
+  <div class="modal-contenido">
+    <div class="TModalAmen">
+        <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
+    </div>
+    <div class="ContBoxAmeni">
+        <div class="contModalAmeni">
+            <div class="boxImageAmenidad box contAmenidades">
+                <img class="imagenAjustada img" src="image/amenidades/asadores.jpg">
+                    <div class="cover top">
+                  <h2 class="tittle">ASADORES</h2>
+                  <p class="intro">
+						Qué puede ser más agradable que reunirse con amigos o familiares y disfrutar de una parrillada al aire libre, obtén una vida en armonía sin dejar tu entorno.
+					</p>
+                </div>
+            </div>
+        </div>
+        <div class="contModalAmeni">
+            <div class="boxAmenidad">
+                  <div class="boxImageAmenidad contAmenidades">
+                  	<img class="imagenAjustada img" src="image/amenidades/parrilaAmigos.jpg">
+                  </div>
+            </div>
+            <div class="boxAmenidad">
+              <div class="boxImageAmenidad contAmenidades">
+                  <img class="imagenAjustada img" src="image/amenidades/asador1.jpg">
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- AMENIDADES CALENTADOR-->
 <!-- AMENIDADES ZONE BOX 1-->
 <div id="miModalAmeni1" class="modal1">
   <div class="modal-contenido">
@@ -1247,31 +1204,30 @@ body{
         <a class="linkCloseAmeni" href="#mapAmenidades">&times;</a>
     </div>
     <div class="ContBoxAmeni">
-				<div class="contModalAmeni">
-					<div class="boxAmenidad">
-						<div class="boxImageAmenidad contAmenidades">
-							<img class="imagenAjustada img" src="image/amenidades/asadorParque.jpg">
-						</div>
-					</div>
-					<div class="boxAmenidad">
-						<div class="boxImageAmenidad contAmenidades">
-							<div class="conttxtAmeni">
-								<h2 class="tittle">ASADORES</h2>
-								<p class="intro">
-									Qué puede ser más agradable que reunirse con amigos o familiares y
-									disfrutar de una parrillada al aire libre, obtén una vida en armonía
-									sin dejar tu entorno.
-								</p>
-						</div>
-						</div>
-					</div>
+		<div class="contModalAmeni">
+			<div class="boxAmenidad">
+				<div class="boxImageAmenidad contAmenidades">
+					<img class="imagenAjustada img" src="image/amenidades/asadorParque.jpg">
 				</div>
+			</div>
+			<div class="boxAmenidad">
+				<div class="boxImageAmenidad contAmenidades">
+					<div class="conttxtAmeni">
+						<h2 class="tittle">ASADORES</h2>
+						<p class="intro">
+							Qué puede ser más agradable que reunirse con amigos o familiares y
+							disfrutar de una parrillada al aire libre, obtén una vida en armonía
+							sin dejar tu entorno.
+						</p>
+				</div>
+				</div>
+			</div>
+		</div>
         <div class="contModalAmeni">
             <div class="boxImageAmenidad box contAmenidades">
             	<img class="imagenAjustada img" src="image/amenidades/asador1.jpg">
             </div>
         </div>
-
     </div>
   </div>
 </div>
@@ -1295,20 +1251,20 @@ body{
 									<div class="conttxtAmeni">
 	                  <h2 class="tittle">SENDERO PANORÁMICO</h2>
 	                  <p class="intro">
-											Podrás caminar o correr a cualquier hora del día, disfrutando de la vegetación
-											y el hermoso paisajismo, haciendo de un sitio de ensueño para la recreación y la
-											convivencia. El andador esta cubierto con una suave arena fina y gran parte
-											se encuentra iluminado.
-										</p>
+						Podrás caminar o correr a cualquier hora del día, disfrutando de la vegetación
+						y el hermoso paisajismo, haciendo de un sitio de ensueño para la recreación y la
+						convivencia. El andador esta cubierto con una suave arena fina y gran parte
+						se encuentra iluminado.
+					</p>
                 </div>
                 </div>
             </div>
         </div>
-				<div class="contModalAmeni">
-						<div class="boxImageAmenidad box contAmenidades">
-								<img class="imagenAjustada img" src="image/amenidades/corriendoSendero.jpg">
-						</div>
+		<div class="contModalAmeni">
+				<div class="boxImageAmenidad box contAmenidades">
+						<img class="imagenAjustada img" src="image/amenidades/corriendoSendero.jpg">
 				</div>
+		</div>
     </div>
   </div>
 </div>
@@ -1329,14 +1285,14 @@ body{
             </div>
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
-									<div class="conttxtAmeni">
-										<h2 class="tittle">Canchas deportivas de usos múltiples</h2>
-										<p class="intro">
-											Queremos que los habitantes tengan tranquilidad y balance de vida,
-											por lo que buscamos el equilibrio impulsando a que realice actividades
-											deportivas, pudiendo practicar voleibol, fútbol rápido y básquetbol.
-										</p>
-									</div>
+						<div class="conttxtAmeni">
+							<h2 class="tittle">CANCHAS DEPORTIVIVAS DE USOS MULIPLES</h2>
+							<p class="intro">
+								Queremos que los habitantes tengan tranquilidad y balance de vida,
+								por lo que buscamos el equilibrio impulsando a que realice actividades
+								deportivas, pudiendo practicar voleibol, fútbol rápido y básquetbol.
+							</p>
+						</div>
             		</div>
             </div>
         </div>
@@ -1364,14 +1320,14 @@ body{
             </div>
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
-									<div class="conttxtAmeni">
-										<h2 class="tittle">ÁREA DE JUEGOS</h2>
-										<p class="intro">
-											Área especialmente diseñada y equipada para hacer de la diversión
-											de los pequeños una actividad física diferente, en donde aprenden
-											a compartir con nuevos amigos.
-										</p>
-									</div>
+					<div class="conttxtAmeni">
+						<h2 class="tittle">ÁREA DE JUEGOS</h2>
+						<p class="intro">
+							Área especialmente diseñada y equipada para hacer de la diversión
+							de los pequeños una actividad física diferente, en donde aprenden
+							a compartir con nuevos amigos.
+						</p>
+					</div>
                 </div>
             </div>
         </div>
@@ -1400,10 +1356,10 @@ body{
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
 									<div class="conttxtAmeni">
-	                  <h2 class="tittle">Kioscos de Convivencia</h2>
+	                  <h2 class="tittle">KIOSCO DE CONVIVENCIA</h2>
 	                  <p class="intro">
-											Ubicados a lo largo de la extensión de áreas verdes se contará con decks techados externos para momentos de convivencia y placer.
-										</p>
+							Ubicados a lo largo de la extensión de áreas verdes se contará con decks techados externos para momentos de convivencia y placer.
+						</p>
 	                </div>
                 </div>
             </div>
@@ -1433,12 +1389,12 @@ body{
             </div>
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
-									<div class="conttxtAmeni">
-										<h2 class="tittle">PLAZA COMERCIAL</h2>
-										<p class="intro">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										</p>
-								</div>
+					<div class="conttxtAmeni">
+						<h2 class="tittle">PLAZA COMERCIAL</h2>
+						<p class="intro">
+							Además de contar con espacios recreativos y de convivencia, Escenika piensa en tu comodidad, teniendo a tu alcance una zona comercial, con negocios de conveniencia
+						</p>
+					</div>
                 </div>
             </div>
         </div>
@@ -1466,12 +1422,12 @@ body{
             </div>
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
-									<div class="conttxtAmeni">
-										<h2 class="tittle">GIMNACIO</h2>
-										<p class="intro">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										</p>
-								</div>
+						<div class="conttxtAmeni">
+							<h2 class="tittle">GIMNACIO AL AIRE LIBRE</h2>
+							<p class="intro">
+								Que mejor forma de empezar tu día, ejercitándote al aire libre con un entrenamiento aeróbico y anaeróbico; cuida de ti, en tu espacio de acondicionamiento físico.
+							</p>
+					</div>
                 </div>
             </div>
         </div>
@@ -1499,12 +1455,12 @@ body{
             </div>
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
-									<div class="conttxtAmeni">
-										<h2 class="tittle">8</h2>
-										<p class="intro">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										</p>
-								</div>
+						<div class="conttxtAmeni">
+							<h2 class="tittle">PARQUE DE MASCOTAS</h2>
+							<p class="intro">
+								Sabemos lo importante que tu mascota es para ti, en este espacio tu perro podrá desarrollarse, divertirse y ejercitarse de forma libre y saludable.
+							</p>
+					</div>
                 </div>
             </div>
         </div>
@@ -1532,12 +1488,12 @@ body{
             </div>
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
-									<div class="conttxtAmeni">
-										<h2 class="tittle">9</h2>
-										<p class="intro">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										</p>
-								</div>
+					<div class="conttxtAmeni">
+						<h2 class="tittle">ESPACIO ZEN</h2>
+						<p class="intro">
+							Vive en modo Escenika, tu espacio para lograr armonía y equilibrio todos los días de tu vida, poniendo en calma la mente y en paz el corazón, un momento de relajación
+						</p>
+					</div>
                 </div>
             </div>
         </div>
@@ -1596,10 +1552,10 @@ body{
 																	<div class="txtContactoAgente">
 																		<div class="nameAgente">
 																			'.$salesman[$j][1].' <br>
-																			'.$salesman[$j][2].' <br>
+																			'.$salesman[$j][2].' <br><hr class="lineaBandera">
 																			'.$salesman[$j][3].'
 																		</div>
-																		<hr class="lineaBandera">';
+																		';
 																		/*
 																			<p class="txtDesc txtBoxFormat">
 																				'.$salesman[$j][2].' <br>
@@ -1608,7 +1564,7 @@ body{
 																			*/
 																			$mailSend = $salesman[$j][3];
 																			echo '
-																			<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(&quot; '.$salesman[$j][1].' '.$salesman[$j][2].'&quot;)">CONTACTAR</a>
+																			<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente btnAsesores" onclick="someFun(&quot; '.$salesman[$j][1].' '.$salesman[$j][2].'&quot;)">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
@@ -1632,10 +1588,10 @@ body{
 																	<div class="txtContactoAgente">
 																		<div class="nameAgente">
 																		'.$salesman[$j][1].' <br>
-																		'.$salesman[$j][2].' <br>
+																		'.$salesman[$j][2].' <br><hr class="lineaBandera">
 																		'.$salesman[$j][3].'
 																		</div>
-																		<hr class="lineaBandera">';
+																		';
 																		/*
 																			<p class="txtDesc txtBoxFormat">
 																				'.$salesman[$j][2].' <br>
@@ -1644,7 +1600,7 @@ body{
 																			*/
 																			$mailSend = $salesman[$j][3];
 																			echo '
-																			<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente" onclick="someFun(&quot; '.$salesman[$j][1].' '.$salesman[$j][2].'&quot;)">CONTACTAR</a>
+																			<a id="btn'.$contadosVendedor.'" value="'.$salesman[$j][2].'" href="#salesman" class="boton bTri btn1 btnContactAgente btnAsesores" onclick="someFun(&quot; '.$salesman[$j][1].' '.$salesman[$j][2].'&quot;)">CONTACTAR</a>
 																	</div>
 																</div>
 															</div>
@@ -1746,6 +1702,7 @@ body{
 					<p class="txtContactElectronic">
 						<span class="CONTACTO">CONTACTO</span><br>
 						<span class="TELEFONO">5886 0762</span><br>
+						<span class="TELEFONO">55 6915 7177</span><br>
 						<span class="CORREO">contacto@escenika.com.mx <br></span>
 					</p>
 				</div>
