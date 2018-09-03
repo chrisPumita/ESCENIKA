@@ -587,7 +587,7 @@ body{
 <!-- EJERCICIO DIVS CON GRIDS-->
 <div class="containerCuentas">
           <div class="area-g0">
-          	
+
           </div>
           <div class="area-g1">
 
@@ -596,7 +596,7 @@ body{
 
           </div>
           <div class="area-g3">
-          	
+
           </div>
           <!--
           <div class='area-g4'> <img class="imgCuenta" src="images/cuentas/c5.png" alt=""> </div>
@@ -711,7 +711,7 @@ body{
 							<div class="boxDescPlano">
 								<div class="listPlano">
 									<ul class="ultxt">
-										<li>MODELO 1 - 66m<sup>2</sup></li>
+										<li>TAMAÑO 66m<sup>2</sup></li>
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -772,7 +772,7 @@ body{
 							<div class="boxDescPlano">
 								<div class="listPlano">
 									<ul class="ultxt">
-										<li>MODELO 2 - 65.19m<sup>2</sup></li>
+										<li>TAMAÑO 65.19m<sup>2</sup></li>
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -837,7 +837,7 @@ body{
 								<div class="boxDescPlano">
 									<div class="listPlano">
 										<ul class="ultxt">
-											<li>MODELO 3 - 62.77m<sup>2</sup></li>
+											<li>TAMAÑO 62.77m<sup>2</sup></li>
 											<li>Recámara principal con baño y vestidor</li>
 											<li>Piso de tecnología tipo madera y porcelanato</li>
 											<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -897,7 +897,7 @@ body{
 							<div class="boxDescPlano">
 								<div class="listPlano">
 									<ul class="ultxt">
-										<li>MODELO 4 - 98m<sup>2</sup></li>
+										<li>TAMAÑO 98m<sup>2</sup></li>
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
@@ -962,7 +962,7 @@ body{
 							<div class="boxDescPlano">
 								<div class="listPlano">
 									<ul class="ultxt">
-										<li>MODELO 5 PENTHOUSE 98m<sup>2</sup></li>
+										<li> TAMAÑO PENTHOUSE 98m<sup>2</sup></li>
 										<li>Recámara principal con baño y vestidor</li>
 										<li>Piso de tecnología tipo madera y porcelanato</li>
 										<li>Cocina tipo isla de granito con barra desayunador</li>
