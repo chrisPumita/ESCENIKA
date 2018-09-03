@@ -1702,7 +1702,7 @@ body{
 					<p class="txtContactElectronic">
 						<span class="CONTACTO">CONTACTO</span><br>
 						<span class="TELEFONO">5886 0762</span><br>
-						<span class="TELEFONO">55 6915 7177</span><br>
+						<span class="TELEFONO">55 6916 7177</span><br>
 						<span class="CORREO">contacto@escenika.com.mx <br></span>
 					</p>
 				</div>
