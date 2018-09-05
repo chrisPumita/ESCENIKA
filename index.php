@@ -1133,7 +1133,7 @@ body{
 								<div class="contPinBoxes7">
 										<img class="imgPin checkPoint" src="icons/pin.png">
 										<div class="boxPin">
-												GIMNACIO
+												GIMNASIO
 										</div>
 								</div>
 						</a>
@@ -1423,7 +1423,7 @@ body{
             <div class="boxAmenidad">
                 <div class="boxImageAmenidad contAmenidades">
 						<div class="conttxtAmeni">
-							<h2 class="tittle">GIMNACIO AL AIRE LIBRE</h2>
+							<h2 class="tittle">GIMNASIO AL AIRE LIBRE</h2>
 							<p class="intro">
 								Que mejor forma de empezar tu día, ejercitándote al aire libre con un entrenamiento aeróbico y anaeróbico; cuida de ti, en tu espacio de acondicionamiento físico.
 							</p>
